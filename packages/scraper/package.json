@@ -1,0 +1,20 @@
+{
+    "name": "scraper",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "clean": "rm -rf storage/",
+        "scrape": "ts-node src/index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "apify": "^3.2.5",
+        "crawlee": "^3.11.3",
+        "playwright": "^1.47.1",
+        "typescript": "^5.5.3"
+    }
+}

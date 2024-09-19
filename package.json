@@ -1,10 +1,12 @@
 {
-  "name": "OMSCS-Review-Analyzer",
+  "name": "omscs-review-analyzer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "site": "pnpm --filter site",
+    "scraper": "pnpm --filter scraper",
     "prepare": "husky"
   },
   "keywords": [],
@@ -13,6 +15,7 @@
   "devDependencies": {
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2"
   }
 }
