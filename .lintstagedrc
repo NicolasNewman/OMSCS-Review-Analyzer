@@ -1,5 +1,5 @@
 {
-  "*.(md|js|yaml|html)": "prettier --write",
-  "site/*.ts": ["pnpm --filter site eslint --fix", "prettier --write"],
-  "!(site/)*.ts": ["prettier --write"]
+    "*.(md|js|yaml|html)": "prettier --write",
+    "site/*.ts": ["pnpm --filter site eslint --fix", "prettier --write"],
+    "!(site/)*.ts": ["prettier --write"]
 }

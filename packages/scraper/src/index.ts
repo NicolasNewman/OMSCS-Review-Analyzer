@@ -122,7 +122,7 @@ const crawler = new PlaywrightCrawler({
         }
     }
     await fs.writeFile(
-        '../data/src/index.ts',
+        '../data/src/catalog.ts',
         `export default ${JSON.stringify(courses)}`,
     );
 
