@@ -45,7 +45,7 @@ const crawler = new PlaywrightCrawler({
             headless: true,
         },
     },
-    maxRequestsPerCrawl: 50,
+    maxConcurrency: 3,
     async requestHandler({ request, page, enqueueLinks }) {
         console.log(`Processing: ${request.url}...`);
         const store = await Actor.openKeyValueStore('courses');
@@ -107,10 +107,12 @@ const crawler = new PlaywrightCrawler({
         return url;
     });
 
+    // ===== Run crawler =====
     await Actor.init();
     await Actor.setValue('index', courses);
     await crawler.run(urls);
 
+    // ===== Write each courses metadata =====
     const store = await Actor.openKeyValueStore('courses');
     for (const slug of slugs) {
         const data = (await store.getValue(slug)) as string;
@@ -121,9 +123,37 @@ const crawler = new PlaywrightCrawler({
             );
         }
     }
+
+    // ===== Write catalog.ts =====
     await fs.writeFile(
         '../data/src/catalog.ts',
         `export default ${JSON.stringify(courses)}`,
+    );
+
+    // ===== Write loader.ts =====
+    await fs.writeFile(
+        '../data/src/loader.ts',
+        `import { CourseKeys } from './';
+const _courses = {
+    ${slugs
+        .map(
+            slug =>
+                `'${slug}': async () => (await import('./courses/${slug}')).default,`,
+        )
+        .join('\n')}
+}
+
+type CourseType<T extends CourseKeys> = Awaited<
+    ReturnType<(typeof _courses)[T]>
+>;
+
+const getCourse = async <T extends CourseKeys>(
+    courseName: T,
+): Promise<CourseType<T>> => {
+    const t = (await _courses[courseName]()) as CourseType<T>;
+    return t;
+};
+export default getCourse`,
     );
 
     await Actor.exit();

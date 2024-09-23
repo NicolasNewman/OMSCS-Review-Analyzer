@@ -1,4 +1,7 @@
 import catalog from './catalog';
+import getCourse from './loader';
+
+type CourseKeys = keyof typeof catalog;
 
 type Course = {
     creditHours: number;
@@ -12,8 +15,8 @@ type Course = {
     codes: string[];
     reviewCount: number;
     isFoundational: boolean;
-    [key: string]: any;
     reviews?: Review[];
+    [key: string]: any;
 };
 
 type Review = {
@@ -26,5 +29,5 @@ type Review = {
     workload: number;
 };
 
-export { catalog };
-export type { Course, Review };
+export { catalog, getCourse };
+export type { Course, Review, CourseKeys };
