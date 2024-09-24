@@ -3,13 +3,26 @@ import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
 import { ConfigProvider, theme } from 'antd';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import CoursePage from './pages/CoursePage.tsx';
 
 const { darkAlgorithm } = theme;
+
+const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <App />,
+    },
+    {
+        path: '/course/:slug',
+        element: <CoursePage />,
+    },
+]);
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
         <ConfigProvider theme={{ algorithm: darkAlgorithm }}>
-            <App />
+            <RouterProvider router={router} />
         </ConfigProvider>
     </StrictMode>,
 );
