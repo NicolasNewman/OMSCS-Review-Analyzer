@@ -72,8 +72,10 @@ type CatalogEntry = {
     workload?: number;
 };
 
+type Catalog = Record<CourseKeys, CatalogEntry>;
+
 // @ts-ignore
-const catalog: Record<CourseKeys, CatalogEntry> = _catalog;
+const catalog: Catalog = _catalog;
 
 export { catalog, getCourse };
-export type { Course, Review, CourseKeys };
+export type { Course, Review, CourseKeys, CatalogEntry, Catalog };
