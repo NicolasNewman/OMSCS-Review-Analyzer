@@ -34,7 +34,7 @@ type CatalogEntry = {
     _updatedAt: string;
     isFoundational: boolean;
     isDeprecated: boolean;
-    slug: string;
+    slug: CourseKeys;
     _createdAt: string;
     _id: string;
     programs: {
