@@ -1,14 +1,17 @@
 {
     "name": "data",
-    "version": "1.0.2",
+    "version": "1.0.5",
     "description": "",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "type": "module",
+    "main": "./lib/cjs/index.js",
+    "module": "./lib/esm/index.js",
+    "types": "./lib/cjs/index.d.ts",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "tsc"
+        "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json"
     },
+    "files": [
+        "lib/"
+    ],
     "keywords": [],
     "author": "",
     "license": "ISC",

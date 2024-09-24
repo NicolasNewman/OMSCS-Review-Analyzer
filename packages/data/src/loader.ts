@@ -1,4 +1,4 @@
-import { CourseKeys } from './';
+import { CourseKeys } from './index';
 const _courses = {
     'special-topics-applied-natural-language-processing': async () =>
         (
