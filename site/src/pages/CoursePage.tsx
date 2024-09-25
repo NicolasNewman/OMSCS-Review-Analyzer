@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { Course, getCourse, CourseKeys } from 'data';
 import Line from '../components/charts/Line';
 import { HomeOutlined } from '@ant-design/icons';
+// import Timeline from '../components/charts/Timeline';
 
 interface Params {
     slug: CourseKeys;
@@ -22,6 +23,8 @@ function CoursePage() {
     if (course) {
         return (
             <div className="w-[1280px] h-[100vh]">
+                <div className="text-2xl mb-4">{course.name}</div>
+                <div>{course.description}</div>
                 <div
                     className="absolute top-5 left-5 cursor-pointer hover:text-blue-400 text-2xl"
                     onClick={() =>
