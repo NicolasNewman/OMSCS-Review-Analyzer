@@ -34,13 +34,38 @@ const sortFunc: Record<
             : (a.workload ?? 0) - (b.workload ?? 0),
 };
 
+const courseSearchFields = [
+    ...Object.entries(catalog).reduce(
+        (arr, [slug, { codes, reviewCount, isDeprecated }]) => {
+            if (reviewCount > 0 && !isDeprecated) {
+                arr.push({ label: slug.replace(/\-/g, ' '), value: slug });
+                arr.push({ label: codes[0], value: codes[0] });
+            }
+            return arr;
+        },
+        [] as { value: string; label: string }[],
+    ),
+];
+
 function App() {
     const [sortBy, setSortBy] = useState<SortType>('reviews');
     const [orderBy, setOrderBy] = useState<OrderType>('asc');
+    const [searchFilter, setSearchFilter] = useState<string[]>([]);
     return (
-        <>
+        <div className="min-h-screen">
             <div className="text-4xl">OMSCS Course Reviews</div>
             <div className="mt-12">
+                <div className="mb-4">
+                    <Select
+                        mode="multiple"
+                        showSearch
+                        optionFilterProp="label"
+                        placeholder={'Search by name / code'}
+                        options={courseSearchFields}
+                        onChange={setSearchFilter}
+                        style={{ width: 500 }}
+                    />
+                </div>
                 <span className="mr-2">Sort by:</span>
                 <Select<SortType>
                     defaultValue={sortBy}
@@ -67,6 +92,12 @@ function App() {
             <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                 {Object.values(catalog)
                     .filter(data => !data.isDeprecated && data.reviewCount > 0)
+                    .filter(data =>
+                        searchFilter.length > 0
+                            ? searchFilter.includes(data.slug) ||
+                              searchFilter.includes(data.codes[0])
+                            : true,
+                    )
                     .sort((a, b) => sortFunc[sortBy](a, b, orderBy))
                     .map(data => {
                         console.log(data);
@@ -87,7 +118,7 @@ function App() {
                 <div>Source code</div>
                 <div>Last updated: TODO</div>
             </div>
-        </>
+        </div>
     );
 }
 
