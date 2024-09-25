@@ -71,10 +71,10 @@ function Line({ course }: IProps) {
     ];
     console.log(data);
     return (
-        <div className="w-[1280px] h-[90vh] relative">
-            <div className="w-[1280px] h-[90vh] absolute top-0">
+        <div className="w-[1280px] h-[600px] relative">
+            <div className="w-[1280px] h-[600px] absolute top-0 z-10">
                 <ResponsiveLine
-                    isInteractive={false}
+                    enableSlices="x"
                     data={data.filter(d => d.id !== 'workload')}
                     theme={theme}
                     colors={['#2bb34f', '#9e0e0e']}
@@ -84,7 +84,6 @@ function Line({ course }: IProps) {
                         type: 'linear',
                         min: 0,
                         max: 5,
-                        // stacked: true,
                         reverse: false,
                     }}
                     axisTop={null}
@@ -145,7 +144,7 @@ function Line({ course }: IProps) {
                     ]}
                 />
             </div>
-            <div className="w-[1280px] h-[90vh] absolute top-0">
+            <div className="w-[1280px] h-[600px] absolute top-0 z-0">
                 <ResponsiveLine
                     isInteractive={false}
                     data={data.filter(d => d.id === 'workload')}
@@ -156,7 +155,6 @@ function Line({ course }: IProps) {
                         type: 'linear',
                         min: 0,
                         max: 'auto',
-                        // stacked: true,
                         reverse: false,
                     }}
                     colors={['#00c9bf']}
