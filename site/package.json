@@ -11,6 +11,8 @@
     },
     "dependencies": {
         "@ant-design/icons": "^5.5.1",
+        "@nivo/boxplot": "^0.87.0",
+        "@nivo/line": "^0.87.0",
         "antd": "^5.21.0",
         "data": "workspace:*",
         "react": "^18.3.1",
