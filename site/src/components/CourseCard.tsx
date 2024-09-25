@@ -17,7 +17,6 @@ function CourseCard({ data }: IProps) {
         <div key={data.slug}>
             <Card
                 onClick={() => {
-                    console.log('aa');
                     navigate(`/course/${data.slug}`, { replace: true });
                 }}
                 hoverable
