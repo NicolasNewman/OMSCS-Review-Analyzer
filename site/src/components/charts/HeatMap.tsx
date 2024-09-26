@@ -118,6 +118,15 @@ function HeatMap({ course }: IProps) {
                         format: year =>
                             `${year} (${yearCount[year.toString()]})`,
                     }}
+                    axisBottom={{
+                        tickSize: 5,
+                        tickPadding: 5,
+                        legend: '',
+                        legendOffset: 46,
+                        truncateTickAt: 0,
+                        format: year =>
+                            `${year} (${yearCount[year.toString()]})`,
+                    }}
                     axisRight={{
                         tickSize: 5,
                         tickPadding: 5,
@@ -146,24 +155,6 @@ function HeatMap({ course }: IProps) {
                         }
                     }}
                     emptyColor="#555555"
-                    legends={[
-                        {
-                            anchor: 'bottom',
-                            translateX: 0,
-                            translateY: 30,
-                            length: 400,
-                            thickness: 8,
-                            direction: 'row',
-                            tickPosition: 'after',
-                            tickSize: 3,
-                            tickSpacing: 4,
-                            tickOverlap: false,
-                            tickFormat: '>-.2s',
-                            title: 'Value →',
-                            titleAlign: 'start',
-                            titleOffset: 4,
-                        },
-                    ]}
                 />
             </div>
         </div>
