@@ -22,6 +22,7 @@ function Line({ course }: IProps) {
         course.reviews?.reduce(
             (dict, { reviewDate, difficulty, rating, workload }) => {
                 const yr = new Date(reviewDate).getFullYear().toString();
+                if (yr === '2015') return dict;
                 yearCount[yr] ??= 1;
                 yearCount[yr] += 1;
                 dict['difficulty'][yr] ??= [];
