@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { Course, getCourse, CourseKeys } from 'data';
 import Line from '../components/charts/Line';
 import { HomeOutlined } from '@ant-design/icons';
+import HeatMap from '../components/charts/HeatMap';
 // import Timeline from '../components/charts/Timeline';
 
 interface Params {
@@ -36,6 +37,7 @@ function CoursePage() {
                     <HomeOutlined />
                 </div>
                 <Line course={course} />
+                <HeatMap course={course} />
             </div>
         );
     }
