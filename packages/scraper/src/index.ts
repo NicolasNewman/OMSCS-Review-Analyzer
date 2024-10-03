@@ -13,6 +13,7 @@ type Course = {
     tags: string[];
     reviewCount: number;
     isFoundational: boolean;
+    reviews?: Review[];
     [key: string]: any;
 };
 
