@@ -4,6 +4,7 @@ import { catalog } from 'data';
 import { Select } from 'antd';
 import { useState } from 'react';
 import CourseCard from './components/CourseCard';
+import Footer from './components/Footer';
 
 type SortType = 'reviews' | 'workload' | 'rating' | 'difficulty';
 type OrderType = 'asc' | 'dsc';
@@ -104,20 +105,7 @@ function App() {
                         return <CourseCard data={data} />;
                     })}
             </div>
-            <div className="mt-8">
-                <div>
-                    Website created by{' '}
-                    <a href="https://github.com/NicolasNewman">
-                        @NicolasNewman
-                    </a>
-                </div>
-                <div>
-                    Data provided by{' '}
-                    <a href="https://www.omscentral.com/">OMSCSCentral.com</a>
-                </div>
-                <div>Source code</div>
-                <div>Last updated: TODO</div>
-            </div>
+            <Footer />
         </div>
     );
 }

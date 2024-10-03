@@ -5,6 +5,7 @@ import Line from '../components/charts/Line';
 import { HomeOutlined } from '@ant-design/icons';
 import HeatMap from '../components/charts/HeatMap';
 import Timeline from '../components/charts/Timeline';
+import Footer from '../components/Footer';
 // import Timeline from '../components/charts/Timeline';
 
 interface Params {
@@ -45,6 +46,7 @@ function CoursePage() {
                     }
                 />
                 <Timeline course={course} filter={filter} />
+                <Footer />
             </div>
         );
     }
