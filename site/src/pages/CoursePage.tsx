@@ -4,6 +4,7 @@ import { Course, getCourse, CourseKeys } from 'data';
 import Line from '../components/charts/Line';
 import { HomeOutlined } from '@ant-design/icons';
 import HeatMap from '../components/charts/HeatMap';
+import Timeline from '../components/charts/Timeline';
 // import Timeline from '../components/charts/Timeline';
 
 interface Params {
@@ -14,13 +15,13 @@ function CoursePage() {
     const navigate = useNavigate();
     const { slug } = useParams() as unknown as Params;
     const [course, setCourse] = useState<Course | null>(null);
+    const [filter, setFilter] = useState<number | null>(null);
     useEffect(() => {
         async function fetch() {
             setCourse((await getCourse(slug)) as Course);
         }
         fetch();
     }, [slug]);
-
     if (course) {
         return (
             <div className="w-[1280px] h-[100vh]">
@@ -37,7 +38,13 @@ function CoursePage() {
                     <HomeOutlined />
                 </div>
                 <Line course={course} />
-                <HeatMap course={course} />
+                <HeatMap
+                    course={course}
+                    cb={data =>
+                        setFilter(parseInt(data.data.x.toString()) ?? 0)
+                    }
+                />
+                <Timeline course={course} filter={filter} />
             </div>
         );
     }

@@ -1,11 +1,17 @@
 import { Course } from 'data';
-import { HeatMapDatum, HeatMapSerie, ResponsiveHeatMap } from '@nivo/heatmap';
+import {
+    ComputedCell,
+    HeatMapDatum,
+    HeatMapSerie,
+    ResponsiveHeatMap,
+} from '@nivo/heatmap';
 import { Serie, Datum } from '@nivo/line';
 import theme from './theme';
 import * as d3 from 'd3';
 
 interface IProps {
     course: Course;
+    cb?: (data: ComputedCell<HeatMapDatum>) => void;
 }
 
 const reviewScale = d3.scaleLinear(
@@ -17,21 +23,11 @@ const difficultyScale = d3.scaleLinear(
     [d3.rgb(0, 255, 0), 'yellow', d3.rgb(255, 0, 0)],
 );
 
-// .domain([0, 5])
-// .range([d3.rgb(255, 0, 0), d3.rgb(0,255,0)]);
-
 type StatKey = 'review' | 'workload' | 'difficulty';
 type YearlyRecord = Record<string, number[]>;
 
-function HeatMap({ course }: IProps) {
+function HeatMap({ course, cb }: IProps) {
     const yearCount: Record<string, number> = {};
-    // TODO: a lot of -1 values (invalid?)
-    // console.log(
-    //     course.reviews?.filter(
-    //         review =>
-    //             new Date(review.reviewDate).getFullYear().toString() === '2015',
-    //     ),
-    // );
     let maxWorkload = 0;
     const { difficulty, review, workload } = Object.entries(
         course.reviews?.reduce(
@@ -95,17 +91,16 @@ function HeatMap({ course }: IProps) {
             data: workload,
         },
     ];
-    console.log(maxWorkload);
     const workloadScale = d3.scaleLinear(
         [0, maxWorkload],
         ['white', 'turquoise'],
     );
-    console.log(data);
     return (
         <div className="w-[1280px] h-[600px] relative">
             <div className="w-[1280px] h-[600px] absolute top-0 z-10">
                 <ResponsiveHeatMap
                     data={data}
+                    onClick={cell => cb?.(cell)}
                     theme={theme}
                     margin={{ top: 60, right: 90, bottom: 60, left: 90 }}
                     valueFormat=">-.2s"
