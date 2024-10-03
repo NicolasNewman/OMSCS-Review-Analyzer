@@ -54,4 +54,10 @@ export default {
             workload: 3,
         },
     ],
+    reviewSummaries: {
+        'spring 2023':
+            'The course offers a balanced experience, especially for students seeking a lighter semester in the OMSCS program. Many found it enjoyable and interesting, with straightforward assignments and relevant projects that enhance learning. The lack of tests and the reasonable timeline for tasks contribute to a relaxed atmosphere. While some lectures may be long and dry, they provide valuable insights that require a genuine understanding rather than rote memorization. However, students noted that without strong programming skills or a competent group, certain projects, particularly the phishing campaign, could pose challenges. Overall, the absence of unnecessary busywork and the focus on practicality were highly appreciated, making it a worthwhile choice for many.',
+        'fall 2019':
+            'The course offers engaging lectures and interesting readings, making it manageable for students. While the two group projects enhance collaborative skills, they can become challenging if group members are unresponsive, hindering progress. Starting early with project work is crucial to avoid last-minute stress, but difficulty arises when coordinating schedules with teammates. Despite these potential hurdles, the course is well-suited for balancing with more challenging subjects, making it a favorable option for students seeking to lighten their workload.',
+    },
 };

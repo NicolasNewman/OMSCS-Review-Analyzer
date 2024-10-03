@@ -20,4 +20,5 @@ export default {
     creditHours: 1,
     reviewCount: 0,
     reviews: [],
+    reviewSummaries: {},
 };

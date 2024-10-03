@@ -62,4 +62,8 @@ export default {
             workload: 8,
         },
     ],
+    reviewSummaries: {
+        'spring 2022':
+            'The course shows promise by allowing students to work on meaningful projects for non-profit organizations, but significant issues hinder its effectiveness. The project matching process is disorganized, often disregarding student skills and interests, which leads to frustrating team dynamics. Students reported delays between frontend and backend development, affecting client demos, a problem exacerbated by limited group flexibility. Additionally, assignments, including busywork that distracts from actual project work, are often poorly timed, with many deadlines falling on Fridays. While the course aims to facilitate impactful experiences, the lack of adaptability for part-time students and resource shortcomings further diminish its potential. Overall, while it has good intentions, the structure and execution leave much to be desired.',
+    },
 };

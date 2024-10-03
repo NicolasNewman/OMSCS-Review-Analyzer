@@ -56,4 +56,10 @@ export default {
             workload: 10,
         },
     ],
+    reviewSummaries: {
+        'fall 2022':
+            "The course covers an interesting subject, and the projects are both doable and engaging, with high-quality recorded materials. However, there are significant drawbacks, including instructors' limited availability, as office hours are scheduled during work hours and are not recorded. Student inquiries on Ed are often ignored unless addressed during office hours, and emails to professors typically go unanswered. Additionally, grading is sluggish, with an average return time of 21 days for a small class size. Overall, students feel that instructors appear more inconvenienced by teaching than genuinely invested in the course.",
+        'spring 2021':
+            'The course received positive feedback for introducing students to new and interesting attack channels, with participants expressing satisfaction with the materials provided. Many appreciated the reasonable workload, which was consistent with other classes in their program, and found the project-based structure engaging, with a mix of easy and challenging assignments that made learning enjoyable. However, some reviews suggest that students may have expected more emphasis on coding skills, as the intent of the course was not focused on coding proficiency. Overall, the practical nature of the projects and supportive framework contributed to a positive learning experience, despite some minor concerns about the depth of coding instruction.',
+    },
 };

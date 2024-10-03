@@ -23,4 +23,5 @@ export default {
     tags: [],
     reviewCount: 0,
     reviews: [],
+    reviewSummaries: {},
 };

@@ -97,4 +97,12 @@ export default {
             workload: 10,
         },
     ],
+    reviewSummaries: {
+        'summer 2023':
+            'The course covers a broad range of cybersecurity topics through seven projects, which many found engaging and educational. However, students reported significant frustrations with the clarity of project instructions and lengthy TA response times, especially during the condensed summer semester. While TAs showed commitment by adjusting deadlines and grading, their limited numbers impacted support efficiency. Projects often lacked essential details, making them confusing, particularly in areas like malware analysis and the machine learning project, which experienced severe technical issues. Some projects, although not overly complex, suffered from poor integration and outdated methodologies. In summary, while the course offers valuable knowledge, its execution leaves much to be desired, suggesting a need for better organization and additional TA support.',
+        'summer 2020':
+            'The course is notably challenging and categorized as a "lab" course, which means the content lacks depth and necessitates extensive external reading and learning to complete projects effectively. While some students appreciated the grading curve applied during the Summer 2020 semester, opinions varied about its reliability, as it appears to depend on class averages rather than a fixed standard. Overall, students felt the demanding nature of the course was a double-edged sword, providing valuable learning opportunities while also causing frustration due to its rigorous expectations.',
+        'spring 2020':
+            'The course received mixed reviews from students, reflecting both its challenging nature and areas for improvement. On the positive side, many appreciated the rigorous projects, which they found educational and engaging, particularly in practical applications like malware analysis and intrusion detection. However, several students criticized the unclear project requirements and lack of refined guidance, leading to frustration. The workload was described as excessive, with some projects requiring significantly more time than expected. Furthermore, the lectures were criticized for being recycled content, and the grading criteria felt inconsistent. While students learned valuable skills, they expressed hopes for better project clarity and structure in future iterations of the course. Overall, the course has potential but needs refinement based on initial feedback.',
+    },
 };

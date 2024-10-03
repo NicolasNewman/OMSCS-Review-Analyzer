@@ -36,4 +36,8 @@ export default {
             workload: 15,
         },
     ],
+    reviewSummaries: {
+        'fall 2021':
+            'The course had issues with organization, leading to frustration among students, particularly due to extra materials being provided late, often two weeks after project initiation. However, the teaching assistant and professor were commended for their dedication, spending considerable time in office hours to assist students with their questions. Despite the stress caused by the disorganization, the assessment approach was seen as supportive; students could earn partial credit by demonstrating effort and showing their work, rather than needing to achieve perfect answers. Overall, while the course structure needs improvement, the support from the instructors was a positive highlight.',
+    },
 };

@@ -20,4 +20,5 @@ export default {
     codes: ['CS-8001-OWN'],
     reviewCount: 0,
     reviews: [],
+    reviewSummaries: {},
 };

@@ -99,4 +99,12 @@ export default {
             workload: 5,
         },
     ],
+    reviewSummaries: {
+        'summer 2024':
+            'The course offers a fresh and engaging approach, avoiding outdated content typical of other OMSCS programs. Positive aspects include the extensive course material and the innovative teaching style of the professor, especially in the first half. However, the sheer volume of content can be overwhelming, with limited testing on the material and tricky quizzes that require careful attention. While homework assignments are the core focus, making up 70% of the grade, they can be burdensome as they grow increasingly complex. The take-home exams are manageable but time-consuming. Criticism arises regarding the second half of the course, as many find the Meta AI videos dry and less effective. Overall, the course shows great potential despite some drawbacks.',
+        'spring 2024':
+            "The course presents a steep learning curve due to its heavy emphasis on math and coding, particularly for newcomers to deep learning or AI. While some students appreciate the relevance of NLP in today’s landscape, particularly amidst GPT advancements, others feel the course lacks rigor. Students praised Professor Riedl’s teaching as exceptional, yet the assignments were criticized for being too easy and not reflective of the material's complexity. While quizzes and exams are open book, many found the overall time commitment low, leading to a lack of deep understanding. Reviewers suggest that the course should be redesigned to align more closely with the rigor of other advanced data science courses.",
+        'fall 2023':
+            "The course received mixed reviews, with many praising Prof. Reidl's engaging and detailed lectures that clarify complex NLP concepts, such as Transformers and attention mechanisms. However, students criticized the guest lectures from Meta for being ineffective. Homework assignments were generally viewed as too easy and not well-aligned with lecture content, leading to frustration. The project, focused on implementing an older attention mechanism, was also seen as lacking in relevance and rigor. While the midterm exam was considered poorly structured, the final was appreciated for its open format, though students doubted its alignment with course topics. Overall, the course is seen as suitable for students with a foundational understanding of ML, but improvements in assignments and course logistics are needed.",
+    },
 };

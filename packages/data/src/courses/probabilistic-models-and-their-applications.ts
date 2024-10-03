@@ -126,4 +126,12 @@ export default {
             workload: 5,
         },
     ],
+    reviewSummaries: {
+        'fall 2023':
+            "The course on applied probability has elicited mixed reviews from students. Many praised its challenging nature and the thoroughness of the professor and TAs, highlighting their accessibility and the effective online discussion boards. Students appreciated the valuable course materials provided, especially the professor's PDF book. However, several common concerns emerged, particularly the significant gap between lecture content and homework, leading to frustration and low exam scores—often averaging below 60. The first midterm was criticized for being too short and difficult, resulting in many students feeling unprepared. Additionally, the inflexible requirement to submit scratch work and the time-consuming nature of weekly assignments have been sources of stress. Overall, while the course content is engaging, many felt that better alignment between lectures and assessments is needed.",
+        'fall 2022':
+            "The course received high praise for the professor's teaching style, emphasizing clarity and thoroughness in explanations without relying on slides. Students appreciated the use of the whiteboard, which facilitated understanding of complex derivations and example problems. The structured approach to the workload, including two midterms, a final exam, and weekly homework, contributed to a smooth learning experience despite the challenging content. However, some may find the rigorous workload demanding, as the course requires consistent effort to keep up with the material. Overall, the course is seen as a rewarding but challenging academic endeavor.",
+        'summer 2020':
+            "Overall, the course received mixed reviews. Many students with a statistics background found the material straightforward and easy to grasp, appreciating the clarity of explanations and practical examples. However, those with limited experience in the subject felt overwhelmed, indicating a steep learning curve for beginners. Some reviewers noted that the pacing could be too fast, making it challenging to keep up without prior knowledge. Despite these concerns, several participants praised the instructor's support and responsiveness to questions, contributing to a generally positive learning environment. In summary, this course is ideal for those with some familiarity in statistics, though it may pose difficulties for complete novices.",
+    },
 };

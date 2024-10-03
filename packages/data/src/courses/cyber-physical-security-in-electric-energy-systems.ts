@@ -22,4 +22,5 @@ export default {
     id: '5cbd1444-ec69-4092-82b0-2d9ccf39ec6c',
     reviewCount: 0,
     reviews: [],
+    reviewSummaries: {},
 };

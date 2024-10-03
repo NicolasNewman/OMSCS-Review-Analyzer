@@ -20,4 +20,5 @@ export default {
     isFoundational: false,
     reviewCount: 0,
     reviews: [],
+    reviewSummaries: {},
 };

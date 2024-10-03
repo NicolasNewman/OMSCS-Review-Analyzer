@@ -20,4 +20,5 @@ export default {
     name: 'Special Topics: Digital Public Policy',
     reviewCount: 0,
     reviews: [],
+    reviewSummaries: {},
 };
