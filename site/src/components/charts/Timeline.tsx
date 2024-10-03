@@ -106,12 +106,14 @@ function Timeline({ course, filter }: IProps) {
         .filter(obj => !filter || obj.yearInt === filter);
 
     return (
-        <div className="flex gap-4 w-full overflow-y-scroll mb-8">
+        <div
+            className={`flex gap-4 w-full overflow-x-auto mb-8 ${data.length === 1 ? 'justify-center' : ''}`}
+        >
             {data.map(
                 ({ semester, difficulty, n, rating, summary, workload }) => (
                     <Card
                         title={semester}
-                        style={{ minWidth: 700 }}
+                        style={{ minWidth: 700, maxWidth: 800 }}
                         hoverable
                         onClick={e => {
                             setModalContent(semesterStats[semester].reviews);
