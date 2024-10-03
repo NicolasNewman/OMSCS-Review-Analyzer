@@ -26,9 +26,10 @@ const difficultyScale = d3.scaleLinear(
 type StatKey = 'review' | 'workload' | 'difficulty';
 type YearlyRecord = Record<string, number[]>;
 
-function HeatMap({ course, cb }: IProps) {
+const processData = (course: IProps['course']) => {
     const yearCount: Record<string, number> = {};
     let maxWorkload = 0;
+
     const { difficulty, review, workload } = Object.entries(
         course.reviews?.reduce(
             (dict, { reviewDate, difficulty, rating, workload }) => {
@@ -91,6 +92,13 @@ function HeatMap({ course, cb }: IProps) {
             data: workload,
         },
     ];
+
+    return { data, maxWorkload, yearCount };
+};
+
+function HeatMap({ course, cb }: IProps) {
+    const { data, maxWorkload, yearCount } = processData(course);
+
     const workloadScale = d3.scaleLinear(
         [0, maxWorkload],
         ['white', 'turquoise'],

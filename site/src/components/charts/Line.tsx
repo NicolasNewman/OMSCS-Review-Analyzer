@@ -9,15 +9,8 @@ interface IProps {
 type StatKey = 'review' | 'workload' | 'difficulty';
 type YearlyRecord = Record<string, number[]>;
 
-function Line({ course }: IProps) {
+const processData = (course: IProps['course']) => {
     const yearCount: Record<string, number> = {};
-    // TODO: a lot of -1 values (invalid?)
-    // console.log(
-    //     course.reviews?.filter(
-    //         review =>
-    //             new Date(review.reviewDate).getFullYear().toString() === '2015',
-    //     ),
-    // );
     const { difficulty, review, workload } = Object.entries(
         course.reviews?.reduce(
             (dict, { reviewDate, difficulty, rating, workload }) => {
@@ -70,7 +63,12 @@ function Line({ course }: IProps) {
             data: difficulty,
         },
     ];
-    console.log(data);
+
+    return { data, yearCount };
+};
+
+function Line({ course }: IProps) {
+    const { data, yearCount } = processData(course);
     return (
         <div className="w-[1280px] h-[600px] relative">
             <div className="w-[1280px] h-[600px] absolute top-0 z-10">

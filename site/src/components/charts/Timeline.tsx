@@ -43,9 +43,7 @@ const cols: TableProps<TableData>['columns'] = [
 const mean = (list: number[]) =>
     (list.reduce((prev, cur) => prev + cur, 0) / list.length).toFixed(1);
 
-function Timeline({ course, filter }: IProps) {
-    const [modalContent, setModalContent] = useState<Review[]>([]);
-
+const processData = ({ course, filter }: IProps) => {
     const semesterStats =
         course.reviews?.reduce(
             (dict, review) => {
@@ -88,6 +86,7 @@ function Timeline({ course, filter }: IProps) {
         const yearInt = parseInt(year) ?? 0;
         return [seasonId, yearInt];
     };
+
     const data = Object.entries(semesterStats)
         .map(([semester, obj]) => ({
             semester,
@@ -104,6 +103,13 @@ function Timeline({ course, filter }: IProps) {
             return a.seasonInt - b.seasonInt;
         })
         .filter(obj => !filter || obj.yearInt === filter);
+    return { semesterStats, data };
+};
+
+function Timeline({ course, filter }: IProps) {
+    const [modalContent, setModalContent] = useState<Review[]>([]);
+
+    const { data, semesterStats } = processData({ course, filter });
 
     return (
         <div
