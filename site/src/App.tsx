@@ -5,6 +5,7 @@ import { Select } from 'antd';
 import { useState } from 'react';
 import CourseCard from './components/CourseCard';
 import Footer from './components/Footer';
+import { useNavigate } from 'react-router-dom';
 
 type SortType = 'reviews' | 'workload' | 'rating' | 'difficulty';
 type OrderType = 'asc' | 'dsc';
@@ -49,21 +50,32 @@ const courseSearchFields = [
 ];
 
 function App() {
+    const navigate = useNavigate();
     const [sortBy, setSortBy] = useState<SortType>('reviews');
     const [orderBy, setOrderBy] = useState<OrderType>('asc');
-    const [searchFilter, setSearchFilter] = useState<string[]>([]);
+    const [searchFilter, setSearchFilter] = useState<string>('');
     return (
         <div className="min-h-screen">
             <div className="text-4xl">OMSCS Course Reviews</div>
             <div className="mt-12">
                 <div className="mb-4">
                     <Select
-                        mode="multiple"
                         showSearch
                         optionFilterProp="label"
+                        searchValue={searchFilter}
                         placeholder={'Search by name / code'}
                         options={courseSearchFields}
-                        onChange={setSearchFilter}
+                        onSelect={e =>
+                            navigate(`/course/${e}`, { replace: true })
+                        }
+                        onSearch={e => {
+                            // TODO track last keypress instead (del / click)
+                            if (e.length === 0 && searchFilter.length > 1)
+                                return;
+                            setSearchFilter(
+                                e.toLowerCase().replace(/[^A-z0-9 ]/g, ''),
+                            );
+                        }}
                         style={{ width: 500 }}
                     />
                 </div>
@@ -95,13 +107,16 @@ function App() {
                     .filter(data => !data.isDeprecated && data.reviewCount > 0)
                     .filter(data =>
                         searchFilter.length > 0
-                            ? searchFilter.includes(data.slug) ||
-                              searchFilter.includes(data.codes[0])
+                            ? data.slug
+                                  .toLowerCase()
+                                  .replace(/-/g, ' ')
+                                  .replace(/[^A-z0-9 ]/g, '')
+                                  .includes(searchFilter) ||
+                              data.codes[0].includes(searchFilter)
                             : true,
                     )
                     .sort((a, b) => sortFunc[sortBy](a, b, orderBy))
                     .map(data => {
-                        console.log(data);
                         return <CourseCard data={data} />;
                     })}
             </div>
