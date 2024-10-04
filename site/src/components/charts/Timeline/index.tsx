@@ -1,44 +1,12 @@
-import { Card, Modal, Table, TableProps } from 'antd';
+import { Card } from 'antd';
 import { Course, Review } from 'data';
 import { useState } from 'react';
+import ReviewModal from './ReviewModal';
 
 interface IProps {
     course: Course;
     filter: number | null;
 }
-
-type TableData = Review;
-const cols: TableProps<TableData>['columns'] = [
-    {
-        title: 'Rating',
-        dataIndex: 'rating',
-        key: 'rating',
-        width: 80,
-    },
-    {
-        title: 'Difficulty',
-        dataIndex: 'difficulty',
-        key: 'difficulty',
-        width: 100,
-    },
-    {
-        title: 'Workload',
-        dataIndex: 'workload',
-        key: 'workload',
-        width: 100,
-    },
-    {
-        title: 'Date',
-        dataIndex: 'reviewDate',
-        key: 'reviewDate',
-        width: 100,
-    },
-    {
-        title: 'Review',
-        dataIndex: 'review',
-        key: 'review',
-    },
-];
 
 const mean = (list: number[]) =>
     (list.reduce((prev, cur) => prev + cur, 0) / list.length).toFixed(1);
@@ -107,53 +75,65 @@ const processData = ({ course, filter }: IProps) => {
 };
 
 function Timeline({ course, filter }: IProps) {
-    const [modalContent, setModalContent] = useState<Review[]>([]);
+    const [modalContent, setModalContent] = useState<{
+        reviews: Review[];
+        semester: string;
+    }>({ reviews: [], semester: '' });
 
     const { data, semesterStats } = processData({ course, filter });
 
     return (
-        <div
-            className={`flex gap-4 w-full overflow-x-auto mb-8 ${data.length === 1 ? 'justify-center' : ''}`}
-        >
-            {data.map(
-                ({ semester, difficulty, n, rating, summary, workload }) => (
-                    <Card
-                        title={semester}
-                        style={{ minWidth: 700, maxWidth: 800 }}
-                        hoverable
-                        onClick={e => {
-                            setModalContent(semesterStats[semester].reviews);
-                        }}
-                    >
-                        <div className="flex gap-4 justify-center mb-4">
-                            <div className="">Reviews: {n}</div>
-                            <div className="">Workload: {workload}</div>
-                            <div className="">Rating: {rating}</div>
-                            <div className="">Difficulty: {difficulty}</div>
-                        </div>
-                        <div>{summary}</div>
-                    </Card>
-                ),
-            )}
-            <Modal
-                title="Reviews"
-                open={modalContent.length > 0}
-                onOk={() => {
-                    setModalContent([]);
-                }}
-                centered
-                width={1200}
-                cancelButtonProps={{ hidden: true }}
-                closable={false}
-                okText="Close"
+        <div>
+            <div className="text-2xl mb-2">Review summary by semester</div>
+            <div className="mb-2">
+                <strong>Disclaimer</strong>: the following summaries were
+                created using gpt-4o-mini and may not accurately reflect the
+                original data
+            </div>
+            <div>
+                Usage: <br />
+                (1) click a column on the HeatMap to filter the semesters by
+                year <br /> (2) click on a semester to directly view the reviews
+            </div>
+            <div
+                className={`flex gap-4 w-full overflow-x-auto mb-8 mt-4 ${data.length === 1 ? 'justify-center' : ''}`}
             >
-                <Table<TableData>
-                    columns={cols}
-                    dataSource={modalContent}
-                    scroll={{ y: '500px' }}
-                    pagination={false}
+                {data.map(
+                    ({
+                        semester,
+                        difficulty,
+                        n,
+                        rating,
+                        summary,
+                        workload,
+                    }) => (
+                        <Card
+                            title={semester}
+                            style={{ minWidth: 700, maxWidth: 800 }}
+                            hoverable
+                            onClick={e => {
+                                setModalContent({
+                                    reviews: semesterStats[semester].reviews,
+                                    semester,
+                                });
+                            }}
+                        >
+                            <div className="flex gap-4 justify-center mb-4">
+                                <div className="">Reviews: {n}</div>
+                                <div className="">Workload: {workload}</div>
+                                <div className="">Rating: {rating}</div>
+                                <div className="">Difficulty: {difficulty}</div>
+                            </div>
+                            <div>{summary}</div>
+                        </Card>
+                    ),
+                )}
+                <ReviewModal
+                    reviews={modalContent.reviews}
+                    semester={modalContent.semester}
+                    setModalContent={setModalContent}
                 />
-            </Modal>
+            </div>
         </div>
     );
 }
