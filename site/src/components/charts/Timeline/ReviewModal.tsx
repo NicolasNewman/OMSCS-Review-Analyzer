@@ -18,7 +18,7 @@ type TableData = Review;
 
 function ReviewModal({ reviews, semester, setModalContent }: IProps) {
     const searchInput = useRef<InputRef>(null);
-    const [searchText, setSearchText] = useState('');
+    const [_searchText, setSearchText] = useState('');
 
     const handleSearch = (
         selectedKeys: string[],

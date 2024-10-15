@@ -111,7 +111,7 @@ function Timeline({ course, filter }: IProps) {
                             title={semester}
                             style={{ minWidth: 700, maxWidth: 800 }}
                             hoverable
-                            onClick={e => {
+                            onClick={() => {
                                 setModalContent({
                                     reviews: semesterStats[semester].reviews,
                                     semester,

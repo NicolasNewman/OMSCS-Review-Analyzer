@@ -5,7 +5,7 @@ import {
     HeatMapSerie,
     ResponsiveHeatMap,
 } from '@nivo/heatmap';
-import { Serie, Datum } from '@nivo/line';
+import { Serie } from '@nivo/line';
 import theme from './theme';
 import * as d3 from 'd3';
 
