@@ -1,6 +1,8 @@
 import { Actor, Dataset, KeyValueStore } from 'apify';
 import { PlaywrightCrawler } from 'crawlee';
 import * as fs from 'fs/promises';
+import { existsSync } from 'fs';
+import * as path from 'path';
 
 type Course = {
     creditHours: number;
@@ -116,12 +118,28 @@ const crawler = new PlaywrightCrawler({
     // ===== Write each courses metadata =====
     const store = await Actor.openKeyValueStore('courses');
     for (const slug of slugs) {
-        const data = (await store.getValue(slug)) as string;
+        const data = (await store.getValue(slug)) as Course;
         if (data) {
-            await fs.writeFile(
-                `../data/src/courses/${slug}.ts`,
-                `export default ${JSON.stringify(data)}`,
-            );
+            const module = `../data/src/courses/${slug}.ts`;
+            if (existsSync(module)) {
+                // Preverse reviewSummaries if the course file already exists
+                const oldData = (
+                    await import(`../../data/src/courses/${slug}.ts`)
+                ).default as Course;
+
+                if (oldData.reviewSummaries) {
+                    data.reviewSummaries = oldData.reviewSummaries;
+                }
+                await fs.writeFile(
+                    module,
+                    `export default ${JSON.stringify(data)}`,
+                );
+            } else {
+                await fs.writeFile(
+                    module,
+                    `export default ${JSON.stringify(data)}`,
+                );
+            }
         }
     }
 

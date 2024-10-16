@@ -10,6 +10,7 @@
         "scraper": "pnpm --filter scraper",
         "data": "pnpm --filter data",
         "format": "prettier --write .",
+        "format:data": "prettier --write packages/data/",
         "build": "pnpm data build && pnpm site build",
         "prepare": "husky"
     },
