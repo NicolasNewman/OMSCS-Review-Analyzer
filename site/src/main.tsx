@@ -6,6 +6,7 @@ import { ConfigProvider, theme } from 'antd';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import CoursePage from './pages/CoursePage.tsx';
 
+const isProd = import.meta.env.PROD;
 const { darkAlgorithm } = theme;
 
 const router = createBrowserRouter(
@@ -20,7 +21,7 @@ const router = createBrowserRouter(
         },
     ],
     {
-        basename: '/OMSCS-Review-Analyzer',
+        basename: isProd ? '/OMSCS-Review-Analyzer' : '/',
     },
 );
 

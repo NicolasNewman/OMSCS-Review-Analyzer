@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "repository": {
+        "url": "https://github.com/NicolasNewman"
+    },
     "homepage": "https://nicolasnewman.github.io/OMSCS-Review-Analyzer/",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,11 +13,12 @@
         "scraper": "pnpm --filter scraper",
         "data": "pnpm --filter data",
         "format": "prettier --write .",
+        "format:data": "prettier --write packages/data/",
         "build": "pnpm data build && pnpm site build",
         "prepare": "husky"
     },
     "keywords": [],
-    "author": "",
+    "author": "NicolasNewman",
     "license": "ISC",
     "devDependencies": {
         "husky": "^9.1.6",
