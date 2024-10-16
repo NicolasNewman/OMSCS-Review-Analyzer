@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "repository": {
+        "url": "https://github.com/NicolasNewman"
+    },
     "homepage": "https://nicolasnewman.github.io/OMSCS-Review-Analyzer/",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +18,7 @@
         "prepare": "husky"
     },
     "keywords": [],
-    "author": "",
+    "author": "NicolasNewman",
     "license": "ISC",
     "devDependencies": {
         "husky": "^9.1.6",
