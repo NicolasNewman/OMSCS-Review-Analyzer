@@ -9,6 +9,7 @@
         "scraper": "pnpm --filter scraper",
         "data": "pnpm --filter data",
         "format": "prettier --write .",
+        "build": "pnpm data build && pnpm site build",
         "prepare": "husky"
     },
     "keywords": [],
