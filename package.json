@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "homepage": "https://nicolasnewman.github.io/OMSCS-Review-Analyzer/",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "site": "pnpm --filter site",

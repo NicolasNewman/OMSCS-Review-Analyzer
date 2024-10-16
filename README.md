@@ -1,4 +1,4 @@
-# OMSCS-Review-Analyzer
+# [OMSCS-Review-Analyzer](https://nicolasnewman.github.io/OMSCS-Review-Analyzer/)
 
 Interactive website for analyzing Georgia Tech's OMSCS course reviews, sourced from [OMSCentral.com](https://www.omscentral.com/).
 

@@ -8,16 +8,21 @@ import CoursePage from './pages/CoursePage.tsx';
 
 const { darkAlgorithm } = theme;
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+    [
+        {
+            path: '/',
+            element: <App />,
+        },
+        {
+            path: '/course/:slug',
+            element: <CoursePage />,
+        },
+    ],
     {
-        path: '/',
-        element: <App />,
+        basename: '/OMSCS-Review-Analyzer',
     },
-    {
-        path: '/course/:slug',
-        element: <CoursePage />,
-    },
-]);
+);
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
