@@ -1,3 +1,5 @@
+const last_updated = import.meta.env.VITE_LAST_UPDATED ?? 'unknown';
+
 function Footer() {
     return (
         <div className="mt-8 mb-2">
@@ -12,7 +14,7 @@ function Footer() {
             <a href="https://github.com/NicolasNewman/OMSCS-Review-Analyzer">
                 Source code
             </a>
-            <div>Last updated: TODO</div>
+            <div>Last updated: {last_updated}</div>
         </div>
     );
 }

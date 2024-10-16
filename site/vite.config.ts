@@ -7,5 +7,8 @@ export default defineConfig(({ mode }) => {
     return {
         plugins: [react()],
         base: env.NODE_ENV === 'development' ? '/' : '/OMSCS-Review-Analyzer/',
+        defines: {
+            'process.env': env,
+        },
     };
 });
