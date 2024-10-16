@@ -134,7 +134,7 @@ const crawler = new PlaywrightCrawler({
     // ===== Write loader.ts =====
     await fs.writeFile(
         '../data/src/loader.ts',
-        `import { CourseKeys } from './';
+        `import { CourseKeys } from './index';
 const _courses = {
     ${slugs
         .map(
