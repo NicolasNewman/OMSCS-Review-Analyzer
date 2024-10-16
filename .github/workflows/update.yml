@@ -1,12 +1,8 @@
-name: GitHub Pages
-
+name: Fetch New Reviews
 on:
-    push:
-        branches:
-            - main # Set a branch name to trigger deployment
-
+    workflow_dispatch:
 jobs:
-    deploy:
+    scrapper:
         runs-on: ubuntu-22.04
         permissions:
             contents: write
@@ -44,15 +40,7 @@ jobs:
             - name: Install dependencies
               run: pnpm install
 
-            - name: Build site
-              run: pnpm build
-
-            - name: Deploy
-              uses: peaceiris/actions-gh-pages@v3
-              # If you're changing the branch from main,
-              # also change the `main` in `refs/heads/main`
-              # below accordingly.
-              if: github.ref == 'refs/heads/main'
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  publish_dir: ./site/dist
+            - name: Update
+              run: |
+                  pnpm scrapper scrape
+                  pnpm format:data
