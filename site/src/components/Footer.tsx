@@ -9,7 +9,9 @@ function Footer() {
                 Data provided by{' '}
                 <a href="https://www.omscentral.com/">OMSCSCentral.com</a>
             </div>
-            <div>Source code</div>
+            <a href="https://github.com/NicolasNewman/OMSCS-Review-Analyzer">
+                Source code
+            </a>
             <div>Last updated: TODO</div>
         </div>
     );
