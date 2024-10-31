@@ -184,19 +184,33 @@ export default {
         },
     ],
     reviewSummaries: {
-        'summer 2024':
-            'The course received heavy criticism from students, particularly engineers, who found it to be a poor use of their time. Many were frustrated by inconsistent grading practices that prioritized formulaic responses over original, concise ideas, leading to a reliance on tools like ChatGPT for assignments. The excessive peer review requirement was also a major point of contention, with calls to limit it to once a week instead of three times. Additionally, students expressed disdain for the "P" assignments, labeling them as irrelevant and a distraction from more meaningful tasks like system design. Overall, many students felt disheartened and regretted their decision to enroll in the course.',
-        'spring 2023':
-            "The Spring 2024 course provided a solid foundation in web development for students with minimal experience, particularly benefiting those like the reviewer, who had a professional background but lacked academic exposure. Many appreciated the informative structure and pacing, alongside the convenience of all assignments being released at the semester's start, and open-book exams. However, the dry delivery and opaque grading process raised concerns. Despite achieving a comfortable A, the reviewer noted a lack of clarity in the grading rubrics, which seemed inconsistent based on the TA, and felt unprepared for open-ended design tasks due to insufficient guidance. Overall, the course is effective for beginners but may not engage those with prior knowledge.",
-        'fall 2023':
-            'The course requires extensive writing, with weekly 6-8 page essays, which may deter those uncomfortable with writing. Students find grading lenient, often receiving 80+ on poorly written submissions. Peer reviews vary in quality, with some seeming AI-generated, while a few provide valuable feedback. TAs responded positively to student input about expanding their brief reviews. Exams are open book with no proctoring, but the workload is consistently demanding. Although the topics are engaging, lectures are sometimes confusing or contain errors, leading to concerns about comprehension, particularly of Data Warehousing concepts, due to the tight schedule around the final project and exam.',
-        'summer 2023':
-            'The course is primarily focused on writing, making it unsuitable for those averse to it. While the syllabus suggests a system design emphasis for preparing for FAANG interviews, many students feel it lacks educational value and is filled with busy work, including frequent 6-8 page papers and peer reviews. Grading is lenient, allowing for easy high scores if effort is shown. Topics covered are interesting and relevant, but lectures are described as unengaging. Some find it comparable to a high school English class, and the overall execution disappoints. However, motivated students may still derive value from it, while those seeking a less stressful experience may find it a suitable option.',
-        'summer 2022':
-            'Reviews for the course highlight a generally positive experience, particularly noting its HCI-like structure and effective balance of workload during the summer session. Students appreciate the opportunity to engage with advanced topics like blockchain and system architecture, enhancing their professional conversations and skills. However, some found aspects of the assignments, especially the P assignments, confusing at times. While the tests were challenging and significant in impacting final grades, the lectures were well-received. Writing assignments required substantial effort and time, so students are advised to plan ahead. Overall, while some opinions caution against the course, most participants valued the learning experience and felt it significantly contributed to their understanding of the subject matter.',
-        'fall 2022':
-            'The course content is interesting and engaging, but lacks adequate interaction from the professor and teaching assistants. Participation in discussions is minimal, leading to unanswered questions on the discussion board. Students primarily watch lectures and submit a weekly six-page document, which emphasizes demonstrating understanding rather than problem-solving skills. Overall, while the material is compelling, the lack of engagement from TAs and limited discussion opportunities detracts from the overall learning experience.',
-        'spring 2022':
-            "The course, heavily based on HCI principles, requires substantial writing, with an 8-page paper due weekly for 14 weeks, which many find overwhelming. While it lacks coding elements—a point of contention—it offers responsive faculty and consistent grading schedules. Although grading is lenient, students noted vague assignment prompts and insufficient TA feedback, leading to inconsistent paper quality among peers. Exams are open-book and manageable, but some questions are poorly worded. Some appreciate the exposure to diverse technologies; others feel the course works more as busywork without substantial learning. Opinions diverge: while some enjoyed the course's structure and challenges, others recommend avoiding it due to its demands and superficial content.",
+        'summer 2024': {
+            pro: 'N/A',
+            con: 'The course is criticized for being a waste of time for engineers, inconsistent grading that prioritizes strict rubric adherence over creativity, excessive peer reviews, and ineffective assignments that promote the use of AI tools like ChatGPT.',
+        },
+        'spring 2023': {
+            pro: 'Informative class structure for beginners, well-organized pacing, open-book exams, and early release of assignments.',
+            con: 'Opaque grading process and lack of guidance for assignments, especially for students without prior system design background.',
+        },
+        'fall 2023': {
+            pro: 'The course is lenient in marking, and peer reviews provide interesting insights. TAs are receptive to feedback and improve their review quality. The exams are open book, and the topics covered are interesting.',
+            con: 'The course requires extensive writing, which may not suit everyone. Lectures contained errors and were confusing, impacting understanding of some topics. Time constraints affected the final project and exam preparation.',
+        },
+        'summer 2023': {
+            pro: 'Many topics are fascinating and relevant to modern software systems; lenient grading allows for easier passing.',
+            con: 'Heavy emphasis on writing assignments; course execution is poor with unengaging lectures and busy work.',
+        },
+        'summer 2022': {
+            pro: 'The class is well-structured, with a balance of work, helpful for real-world applications, and the lectures are well done. The professor and TAs are active in providing support.',
+            con: 'Some assignments were confusing, and the tests were challenging, comprising a significant portion of the final grade. Writing assignments are time-consuming.',
+        },
+        'fall 2022': {
+            pro: 'Interesting content.',
+            con: 'Poor participation from professor and TA, silent discussion board, unanswered questions, limited interaction.',
+        },
+        'spring 2022': {
+            pro: 'The course offers consistent grading schedules, responsive instructors, and the opportunity to explore various technologies through writing assignments and a final project.',
+            con: 'The course has a heavy weekly workload with extensive writing requirements, vague assignment prompts, and a risk of lenient grading that may not reflect true learning.',
+        },
     },
 };

@@ -500,25 +500,45 @@ export default {
         },
     ],
     reviewSummaries: {
-        'spring 2024':
-            'The course provides a solid foundation in cryptography, emphasizing intuition over detailed implementation, making it practical for future use of cryptographic libraries. The homework consists of six assignments that primarily focus on theoretical analysis, which can be managed individually, even with varying schedules. While the exams are challenging yet fair, the quizzes are frustrating due to tricky questions that can lead to second-guessing. The grading curve is generous, offering a good chance for high marks. Despite a close call on achieving an A, the instructor is recommended for those who enjoy intellectual challenges and brainteasers. Overall, the course effectively builds understanding while some elements, like quizzes, may detract from the experience.',
-        'fall 2023':
-            'The course has received overwhelmingly negative feedback, particularly from OMSCS students. Reviewers describe the class as a "joke," with lessons and modules deemed unhelpful, suggesting that students would benefit more from self-study using a previous student\'s notes. The teaching assistants and professor have been criticized for their lack of support and fairness, notably in their grading practices. Many feel it is unjust that only some students receive grade curving. Overall, the course is considered an inadequate requirement for OMSCS students, leading to frustration and disappointment among those enrolled.',
-        'spring 2023':
-            "The course received mixed reviews, highlighting significant challenges and some positive learning experiences. Many students found the lack of a grading curve and stringent cutoffs frustrating, with quizzes often deemed tricky and requiring precise answers. While some praised the emphasis on understanding cryptographic libraries and security concepts, others criticized the course for being too math-heavy and lacking real-world applicability. The instructor's teaching methods, including unintelligible lectures and incomplete slide information, were common complaints. Despite these issues, a few students found value in personal study and resources, suggesting that preparing effectively could lead to success. However, the overall sentiment leaned towards disappointment, especially regarding the teaching quality and course relevance.",
-        'fall 2022':
-            'The course on cryptography has a mixed reception among students. Positively, many appreciate the knowledgeable professor and helpful TAs, noting that the lectures and practice problems were crucial for understanding. Students emphasize the importance of preparation, particularly in discrete math, to tackle the challenging theoretical aspects of the course. However, several reviewers express frustration with the heavy workload, lengthy assignments, and numerous confusing quizzes. Some found the material abstract and difficult to grasp, especially without a prior background in relevant mathematical concepts. Overall, while diligent students can succeed and learn a lot, the course is deemed rigorous and may not be suitable for those taking it alongside other commitments.',
-        'spring 2022':
-            'The course presents a mixed experience for students, heavily focused on mathematical proofs, making up 80% of the workload, with only 20% dedicated to applied tasks. Many find the class challenging but appreciate supportive TAs whose office hours aid preparation. However, some students question its relevance, particularly in fields like Cybersecurity, where they feel little benefit was gained. On the positive side, the lectures are praised for their depth, and students value the supplemental notes that assist with learning and exams. The format encourages mastery through repetition, though pacing issues exist in video content. Overall, despite its challenges and perceived irrelevance, effective grading curves help most students achieve decent grades.',
-        'spring 2021':
-            "The reviews for the Applied Cryptography course highlight a mix of positive and negative experiences. Many students praised the instructor’s deep knowledge, hands-on coding assignments, and the relevance of homework tasks, which they found engaging and educational. However, concerns were raised regarding the course's high level of difficulty and the opaque grading system, which left students uncertain about their standings. Some felt the course relied too heavily on theoretical concepts without sufficient practical examples, making it challenging for those less familiar with the material. Additionally, the lack of timely responses on Piazza and unapproachable instructor demeanor added to frustrations. Overall, while many found the course valuable and enriching, others felt it required excessive external research and was not well-structured for all learners.",
-        'fall 2021':
-            'The course on applied cryptography garnered mixed reviews, highlighting both strengths and weaknesses. Positively, many students appreciated the structured learning environment, helpful teaching assistants, and comprehensive materials, even recommending the engaging course textbook. However, they noted the heavy mathematical focus and pronounced theory, with some lectures being perceived as dry or outdated. Grading was frequently described as slow and sometimes frustrating due to lack of transparency in rubrics and quiz questions. While some found the rigorous homework and quizzes beneficial for deep learning, others struggled without ample practical problems for practice. Overall, it appears well-suited for students with a strong interest in cryptography, but less favorable for those seeking an easier course or casual engagement.',
-        'summer 2021':
-            'The course has received overwhelmingly negative feedback, with many students describing it as poorly taught and suggesting it should be renamed to reflect its lack of practical application. Lectures are deemed unhelpful, and homework assignments are extremely time-consuming, prompting some students to rely on online solutions to achieve good grades. Additionally, the course requires extensive reading, with five books totaling around 1,000 pages, making it challenging for students to grasp key concepts. Overall, the reviewers do not recommend this course due to its demanding nature and ineffective teaching methods.',
-        'fall 2020':
-            'The course on cryptography elicits mixed reviews from students. Positively, many appreciate the theoretical depth and structured approach, noting that it enhances understanding of symmetric and asymmetric encryption through challenging assignments and engaging community interaction. The pacing and availability of resources, including helpful TAs, contribute to a collaborative learning environment. However, critics point out communication issues from the professor, with some feeling the lectures lack clarity and intuition—making the material difficult to grasp. Assessment methods, including quizzes and exams, are described as tricky and stressful, with some students expressing dissatisfaction with slow grading feedback. Despite its complexity, the course is deemed rewarding for those with a strong mathematical background and an interest in cryptography.',
-        'spring 2020':
-            "The course on cryptography received mixed reviews from students. Many found the material engaging and praised the professor and TAs for their knowledge, helpfulness, and availability during office hours. Homework assignments were considered appropriately challenging, reinforcing lecture concepts, while the overall course workload was manageable. However, some students noted issues with the course's organization, including technical problems with the media player, unclear assignment dates, and a lack of interactivity in lectures. Critics described the course as heavily theoretical, arguing it fell short of their expectations for an applied approach. Additional feedback highlighted quizzing challenges and a demanding grading scale, leading to a divisive experience among students. Future improvements were anticipated given its inaugural offering.",
+        'spring 2024': {
+            pro: 'The course effectively covers the foundations of cryptography, building intuition about insecurity and misuse of tools without delving into complex implementations. The workload is manageable, and the exams are challenging yet fair with a generous grading curve.',
+            con: 'Quizzes can be frustrating due to misleading questions, leading to self-doubt, although they have a light weighting in grading.',
+        },
+        'fall 2023': {
+            pro: 'N/A',
+            con: 'The course is not suitable for students on the OMSCS track, with poor instructional quality, unhelpful lessons, unfriendly TAs and professor, and unfair grading practices.',
+        },
+        'spring 2023': {
+            pro: "Some reviewers found value in understanding cryptographic libraries and emphasized the course's focus on security principles rather than algorithmic coding.",
+            con: "Many reviewers criticized the class for trick quiz questions, unclear grading standards, poor instructor communication, and an overall negative experience, describing it as the worst class they've taken.",
+        },
+        'fall 2022': {
+            pro: "The course helps students learn about cryptographic security proofs and the attacker's perspective. Great TAs and knowledgeable professor. Helpful lectures and crypto-notes for those who are diligent.",
+            con: 'The course is difficult, requiring strong mathematical skills and background knowledge. It includes significant workload with long homeworks and tricky quizzes. Some students found the material unclear and expressed dissatisfaction with the grading process.',
+        },
+        'spring 2022': {
+            pro: 'The course is well-structured with great lectures, helpful TAs, and valuable resources like extended notes and unofficial materials. Students reported a significant learning experience, especially in mathematical proofs and finite number theory.',
+            con: 'The course consists mainly of mathematical proofs and lacks relevance for some students in their current fields. Some found the content dense, and the pacing of the lectures slow.',
+        },
+        'spring 2021': {
+            pro: 'Many students felt that the course was valuable for learning cryptography principles, with engaging content, knowledgeable instructors, and helpful homework assignments that deepened understanding. The accessibility of office hours and resources contributed positively to the learning experience.',
+            con: 'Several students expressed frustration with the grading system, finding it opaque and difficult to assess their standing in the course. Issues with unanswered questions on Piazza, inconsistent communication from instructors, and the expectation for external research were also noted as drawbacks.',
+        },
+        'fall 2021': {
+            pro: 'Students appreciated the depth of learning, effective teaching staff, and the alignment of course structure with breaks. The hands-on homework reinforced the material, and many found the content engaging despite its difficulty.',
+            con: 'There were complaints about the outdated lecture material, slow grading, and inconsistency between lecture content and assessments. Some found the quizzes unnecessarily tricky, and many students expressed frustration with grading rubrics and the overall heavy theoretical focus.',
+        },
+        'summer 2021': {
+            pro: 'N/A',
+            con: 'Course is badly taught with unhelpful lectures, very time-consuming homework, and requires extensive reading of multiple books to understand concepts.',
+        },
+        'fall 2020': {
+            pro: 'The course covers interesting mathematical concepts in cryptography, has a supportive community, and offers helpful resources like lecture videos and notes. Many students found the content intellectually stimulating and appreciated the depth of material.',
+            con: 'The course is challenging and some students felt the teaching was lacking in clarity. Exams and quizzes were often seen as difficult or poorly structured, and there were complaints about grading delays and TA support.',
+        },
+        'spring 2020': {
+            pro: 'The course material was interesting and engaging, with challenging homework assignments that reinforced the concepts. The professor and TAs were active and responsive, and the overall workload was manageable without being overwhelming.',
+            con: 'The course had issues with the media player not saving preferences, non-interactive pre-recorded lectures, minor hiccups with assignment scheduling on Canvas, and some perceived defensiveness from the instructors. Additionally, the course was largely theoretical with limited practical applications.',
+        },
     },
 };

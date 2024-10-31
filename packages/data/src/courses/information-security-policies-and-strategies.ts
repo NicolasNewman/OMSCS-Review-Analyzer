@@ -233,25 +233,45 @@ export default {
         },
     ],
     reviewSummaries: {
-        'spring 2024':
-            'The course has garnered mixed reviews primarily due to inconsistent grading practices by TAs. Many students feel that the grading lacks fairness, as different TAs interpret the rubric variably, affecting assignment scores significantly. Some found assignments worthwhile but criticized the vague instructions, leaving them confused and unsure of expectations. The group projects seemed to be undervalued in grading, which heightened concerns about GPA outcomes being out of students’ control. Despite efforts to appeal grades, students noted that regrading requests often felt subjective and unfair, leading to frustration. Overall, students express that their experience hinges largely on the TA assigned, suggesting that without this imbalance, the course might be more enjoyable. Many agree it wouldn’t be recommended unless required.',
-        'spring 2023':
-            'The course has received mixed reviews, highlighting significant issues with the teaching assistants (TAs) and grading criteria. Some students report frustration over vague expectations that result in substantial point deductions, leading to a negative overall experience. There are calls for the TAs and management to be replaced due to dissatisfaction. Conversely, the course is praised for its relevance to training future prompt engineers, with the potential to utilize AI for assignments. However, students still face penalties for minor mistakes like file formatting and grammar, suggesting a need for clearer guidelines and a more supportive grading approach.',
-        'fall 2022':
-            "The course received mixed reviews, with some students highlighting a lack of professionalism among teammates as a significant issue. One student had a particularly negative experience, feeling unfairly graded based on a teammate's biased feedback despite their substantial contributions to assignments. They criticized the excessive weight given to individual feedback, noting that minimal effort could result in undue rewards, which affected overall grades. However, the reviewer maintained professionalism by providing a fair assessment despite personal grievances. There were mentions of recurring issues with similar personalities in group work, suggesting a broader concern within the Georgia Tech online MS courses that may hinder the learning experience. Overall, while some appreciated the course structure, teamwork dynamics detracted from the experience for others.",
-        'fall 2021':
-            'The course presents an interesting overview of cybersecurity, but many students found it lacking in depth and practical application. The instructor, while knowledgeable, tended to approach topics superficially, resulting in brief lecture videos and a sense of insufficient content. Group projects posed challenges with uneven contributions from team members, which some preferred to avoid altogether. Concerns arose regarding the ethical implications of the Go Phish project, with a lack of clear guidelines raising legal issues. Grading was inconsistent, often with unclear criteria leading to frustration among students, despite some eventually achieving good grades. Overall, while the course had its shortcomings, particularly in content and group dynamics, it was deemed worthy of recommendation.',
-        'spring 2021':
-            'The reviews highlight a mixed experience with the course. Many students appreciate the introductory nature of the class, noting a well-balanced workload and supportive professor with regular office hours. The first two group projects are considered time-consuming yet enjoyable with the right group members, leading to high grades if rubrics are followed. However, some students feel that the course lacks engagement, allowing for quiz answers to be found in readings rather than lectures. There are concerns about inconsistent time commitments and unclear expectations for deliverables, notably in group projects. Positive feedback is given for the TAs and the high-quality lectures, but some express frustration with grading practices, specifically the lack of rounding for grades, which affects overall satisfaction.',
-        'spring 2020':
-            'The course received mixed reviews from students. Many found it an easy introduction, beneficial for grades, with well-organized lectures providing a decent overview of the material. However, frustrations arose around the outdated curriculum, lack of engaging content, and unproductive discussion boards. The professor and TAs were criticized for being inexperienced, with some students noting a disconnect between lecture content and project requirements, leading to confusion. Group projects were particularly contentious, relying on luck with group dynamics. While some appreciated moments of student-led interaction and the chance to debate current topics, others felt that overall, the course failed to inspire or adequately prepare them for real-world applications. Despite its shortcomings, it served its purpose for those focused on grades.',
-        'summer 2020':
-            'The course on cybersecurity and policy garnered mixed reviews from students. Many found the material interesting and the workload manageable, even if group projects posed coordination challenges in a remote environment. However, some described the course structure as “bizarre” and “barren,” particularly noting the lack of depth and interactivity in lectures, which relied heavily on PowerPoint presentations. While the assignments, which included group projects and open-book quizzes, were straightforward, students expressed a desire for more engaging content and a gradual progression of difficulty. Despite the friendly and responsive instructor staff, the overall sentiment was that the course needs a comprehensive overhaul to enhance its rigor and engagement.',
-        'fall 2020':
-            'The course features a mix of group and individual assignments, contributing 85% and 15% to the final grade, respectively. Many students appreciate the collaborative nature of the first two group projects, noting that compatible team members can lead to efficient workloads and manageable weekly commitments. However, the last two assignments, which demand extensive research and writing, can pose challenges, especially for non-native English speakers. While the grading system allows for higher scores by diluting scrutiny among a large cohort, the lack of clarity in expectations for nondeterministic deliverables can create stress. On the positive side, the quizzes are straightforward, being open book and timed, thereby allowing students to perform well if they engage with the course material effectively.',
-        'fall 2019':
-            'The course received positive feedback for its engaging lectures, well-organized materials, and manageable workload, making it suitable for both Cybersecurity majors and non-specialists. Students appreciated the supportive instructors and the informative group projects, which offered practical applications of security policies. However, some expressed concerns about the challenges of group work, particularly in managing group dynamics and time commitments. Despite the projects requiring creativity and thoroughness, many found them enjoyable and the learning experience rewarding. Overall, the course is regarded as a solid choice that balances academic rigor with accessibility.',
-        'spring 2019':
-            "The course on information security has received mixed reviews from students. Positive feedback highlights the engaging lectures, hands-on activities, and the collaboration with an Atlanta-based company, which provides practical experience in analyzing real-world security events. Students appreciate the multi-disciplinary approach and the opportunity to develop relevant skills for various organizational roles. However, some negative aspects include the course's heavy workload, particularly concerning project demands, which may overwhelm students. Additionally, the lectures can become intense, leaving some participants feeling lost amidst the depth of discussions. Overall, while the course is informative and builds essential competencies, students suggest improvements to balance workload and enhance clarity in complex topics.",
+        'spring 2024': {
+            pro: 'The assignments are generally considered good and engaging.',
+            con: 'Grading lacks consistency among TAs, causing frustration and unfairness, with vague instructions leading to confusion.',
+        },
+        'spring 2023': {
+            pro: 'The course is beneficial for those looking to train as prompt engineers and allows for the use of AI in assignments.',
+            con: 'TAs have unclear grading criteria and impose large deductions for minor issues, leading to a negative experience.',
+        },
+        'fall 2022': {
+            pro: 'The course allows for teamwork and collaboration, which can provide valuable experience in working with diverse personalities in a professional setting.',
+            con: 'There is a recurring issue with teammates not contributing equitably, leading to unfair grading experiences and frustrations with the feedback system.',
+        },
+        'fall 2021': {
+            pro: 'The course content was interesting, and the quizzes provided a challenging experience, requiring some mastery of the topics. The instructor showed a high level of accuracy in terms of cybersecurity policy.',
+            con: 'The course lacked substance and depth, with many topics presented at a superficial level. Group work was also problematic due to uneven contributions, and grading was inconsistent and unclear. Ethical concerns were raised regarding project guidelines, and TA responses in Piazza were often unhelpful.',
+        },
+        'spring 2021': {
+            pro: 'The course offers a well-balanced workload, a supportive professor, and helpful TAs. It provides fun team projects and high-quality, relevant lectures.',
+            con: 'The course is criticized for being too easy with minimal engagement, unclear project expectations, and a lack of structure in assignments leading to frustration.',
+        },
+        'spring 2020': {
+            pro: 'The course provides a good overview of the material, and some students found the lectures organized and enjoyable. The open book exams were also seen as a reasonable assessment method.',
+            con: "The grading system is viewed as unfair, and many aspects of the course were criticized, including the professor's engagement, the inexperience of TAs, outdated curriculum, and poorly managed group projects.",
+        },
+        'summer 2020': {
+            pro: 'The course is easy to manage and the material is interesting, especially for those interested in cybersecurity and policy. The instructor staff is friendly and responsive.',
+            con: 'The course structure is lacking in depth and interactivity, making it feel barren with minimal content. Group projects can be challenging to coordinate remotely, and there is an expectation for more discussion despite straightforward assignments.',
+        },
+        'fall 2020': {
+            pro: 'Group projects foster collaboration and provide support, and the grading system allows for easier high marks due to diluted scrutiny.',
+            con: 'Significant reading, research, analysis, and writing needed for assignments may be challenging, especially for non-native English speakers; unclear expectations can add stress.',
+        },
+        'fall 2019': {
+            pro: 'The course is well-organized, offers a solid overview of security policy, and is manageable alongside other responsibilities. Many students enjoyed the material, lectures, and projects, with a light workload overall.',
+            con: 'Group projects can be a headache and time-consuming, and there is a suggestion that projects require thoroughness and creativity, which may add pressure.',
+        },
+        'spring 2019': {
+            pro: 'The course offers a multi-disciplinary approach, combining legal, technical, and policy aspects of information security, with ample opportunities for active participation and real-world application through projects and collaboration with industry.',
+            con: 'The course structure may be challenging for some students due to the extensive projects and the emphasis on policy debates that require a strong engagement with complex topics.',
+        },
     },
 };

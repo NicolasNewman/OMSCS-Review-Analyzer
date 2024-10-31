@@ -154,19 +154,33 @@ export default {
         },
     ],
     reviewSummaries: {
-        'spring 2024':
-            'The course received positive feedback for its practical relevance to corporate management, engaging lecture videos, and interactive professors. Many students appreciated the accessible, current articles and found the TAs to be fair and constructive. The workload was described as manageable, though some reported dedicating significant time, around 20 hours, preparing for exams, particularly for memorizing complex details related to privacy laws. However, the level of detail required for exam success was noted as a downside, with some students feeling overwhelmed by the depth of knowledge needed. Overall, participants considered it a worthwhile class, despite its rigorous exam demands.',
-        'spring 2023':
-            'The course receives mixed reviews from students, with some finding weekly essays enjoyable and accessible, while others express disappointment in the overall content, deeming it uninteresting and overly focused on memorization of outdated legal specifics. Many criticize the brutal exams, noting that high success requires extensive memorization from various materials without clear guidance on study strategies. While some appreciate the exploration of law interactions, others believe a one-page reference during exams could enhance their relevance to professional scenarios. The grading process is noted as efficient, and students commend the professors and TAs for their involvement and support, highlighting their dedication despite the course’s shortcomings. Overall, the class appears misaligned with student expectations of a diverse and engaging curriculum.',
-        'summer 2022':
-            "The course received mixed reviews, highlighting both strengths and weaknesses. Students found the class material engaging and relevant, particularly appreciating how the content connected to their professional needs, especially for those preparing for the CIPP/US exam. However, the homework was deemed easy, while the exams were described as brutal and no longer benefitting from generous curving as in previous terms. Most students indicated that achieving an easy A would be challenging due to the exam weight on grades. Additionally, some noted that scenario-based questions on the exams reflected the state of the law at the semester's start, which could be frustrating given the rapid developments in US privacy laws. Overall, the course is suitable for serious learners but not for those seeking an easy grade.",
-        'summer 2021':
-            'The course is described as easy and interesting, with a light workload and good professors. Weekly assignments contribute significantly to the grade, providing a "gimme" 100%. However, the grading structure for midterms and finals is criticized for its lack of guidance and obscure multiple-choice questions, leading to confusion and frustration. Although students appreciate the alignment with IAPP CIPP certification material and the potential for an easy A, many express dissatisfaction with the exam format and the vast scope of content covered at a superficial level. The overall impression is that while the class is an easy path to a decent grade, its poor structure and unclear assessments detract from the learning experience.',
-        'spring 2021':
-            'The course receives high praise for its engaging content and knowledgeable instructor, with many students finding the weekly writing assignments and lectures manageable within a few hours each week. Positive feedback highlights the relevance of the material, especially for those in tech, and the fair grading of assignments and exams. However, students caution that the exams are challenging and require substantial study time—often 20-30 hours over the semester for an A, especially for situational questions. While the workload is generally viewed as lighter compared to other courses, mastering the content demands dedicated effort, particularly around midterms and finals. Overall, students highly recommend the course for its interesting topics and supportive teaching staff.',
-        'summer 2020':
-            'The course content is well-organized and effectively delivered through lecture slides, making it easy to follow. Students appreciate the generous grading curve on the multiple-choice exams, though these exams can be challenging with situational questions and a wide range of answer options. While the course is not overly demanding, students who are not interested in privacy topics may find the fact-based material tedious. Weekly essays contribute a small percentage to the overall grade, which some found manageable. However, the lack of post-exam solutions left many students unclear about their mistakes, which could hinder learning. Overall, the course seems suitable for those in relevant fields but may bore others.',
-        'spring 2020':
-            'The course received positive feedback for its interesting and well-aligned material, with a textbook authored by the professors serving as a valuable reference. Weekly readings and lectures required about 2-3 hours, and initial struggles with the 15 short-form essays became manageable once the grading criteria were understood. However, students found the mid-term and final exams challenging, requiring thorough review due to their tricky, multi-paragraph questions that felt subjective at times. While some questions were straightforward, many left students confused and overwhelmed, resulting in a mix of frustration and eventual success after grading curves. Overall, the course had a solid structure but demanded considerable effort for exam preparation.',
+        'spring 2024': {
+            pro: 'The course material was practical and interesting, with positive interactions with professors and fair TAs. The weekly workload was low.',
+            con: 'The level of detail required to perform well on the exams was challenging.',
+        },
+        'spring 2023': {
+            pro: 'The weekly essays were enjoyable and easy to score well on. The grading was prompt, and the course instructors and TAs were highly regarded for their involvement and support.',
+            con: 'The content was perceived as uninteresting and not mentally stimulating, with heavy memorization required for exams. There was confusion due to the combination of different materials, and a lack of guidance on exam preparation was noted. Some ethical concerns were raised about textbook requirements.',
+        },
+        'summer 2022': {
+            pro: "The course material was interesting and directly relevant to work, with clear presentations and useful resources like the IAPP's website.",
+            con: 'Exams were described as brutal, and the grading curve has become less generous compared to previous years.',
+        },
+        'summer 2021': {
+            pro: 'The course is easy with good professors and interesting material, and it provides a solid foundation for the IAPP CIPP certification; homework assignments are light and straightforward.',
+            con: 'Grading and exam structures are poorly designed with vague guidance, leading to confusion; exams are confusing and unrefined, and the course may feel like a money grab due to its lack of depth.',
+        },
+        'spring 2021': {
+            pro: 'Students appreciate the interesting content, qualified lecturers, and generous grading curves on exams. Many found the course applicable to their daily work and reported positive feedback on the support from TAs and professors.',
+            con: 'The exams are challenging and require significant studying, with some students noting they needed to invest additional hours beyond regular assignments to achieve high grades.',
+        },
+        'summer 2020': {
+            pro: 'Content is well presented and relevant for those interested in privacy; exams are generously curved.',
+            con: 'Exams are challenging with limited practice materials, and there is no feedback on incorrect answers.',
+        },
+        'spring 2020': {
+            pro: 'Class material was interesting, well-presented, and closely aligned with the textbook. The professors authored the textbook, making it a valuable reference.',
+            con: 'The mid-term and final exams were challenging, requiring serious review, with some questions being subjective and complex.',
+        },
     },
 };

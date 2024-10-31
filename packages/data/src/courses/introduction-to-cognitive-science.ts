@@ -163,15 +163,25 @@ export default {
         },
     ],
     reviewSummaries: {
-        'summer 2024':
-            'The course offers a straightforward pathway to boost GPA, featuring open-book quizzes, short essays, and a term project focused on essays and theory. While the ease of the course appeals to some, its lack of coding and practical applications can be disappointing for those seeking valuable coding skills. Students appreciate the flexibility in choosing topics for projects, allowing exploration of diverse fields like AI and neuroscience, with the potential for challenging technical work. Positive feedback highlights the support from experienced TAs and the engaging content. Overall, this course is well-suited for those looking for a manageable yet interesting summer study option, though it may not fulfill the needs of those desiring hands-on coding experience.',
-        'spring 2023':
-            "The Spring 2024 course is generally seen as enjoyable and flexible, appealing to those with decent writing skills. Many students appreciate the easy workload, notable for its simple quizzes and manageable assignments, making it a good choice to pair with more intense classes. The option to choose between individual and group projects adds to the course's appeal. However, criticism arises from the lackluster TA feedback on assignments and a perceived disconnect from technical Computer Science content, leaning more towards psychology. Some assignments feel insubstantial, resembling diary entries rather than rigorous academic work. Despite these flaws, overall sentiment remains positive, especially regarding topic selection and the straightforward nature of quizzes.",
-        'fall 2022':
-            "The course received positive feedback for being interesting, easy to follow, and enlightening about the mind, with one student calling it the best they've taken. The TAs were praised for their responsiveness and helpfulness, enhancing the overall experience. Many appreciated the flexibility to choose projects and the focus on writing rather than coding. However, some found the readings dense and felt that the course lacked rigor, relying heavily on self-motivation. While quizzes were seen as trivial if lectures were attended, it was noted that thorough engagement could make them more challenging. Overall, the course offers valuable insights but requires an invested effort to maximize learning outcomes.",
-        'summer 2022':
-            "This course has received high praise for its focus on student learning and its unique emphasis on philosophical aspects of cognitive science rather than traditional exams or programming. Most coursework involves extensive reading, culminating in a demanding but enjoyable individual project. While the class offers valuable insights for those interested in AI, it's not suitable for students heavily invested in machine learning, as it critiques the limitations of ML methods in understanding intelligent behavior. However, criticism has arisen regarding the perceived atheistic bias in the course materials and lectures, which some feel undermines a broader academic perspective. Overall, despite its shortcomings, many recommend the course for its enriching content and approach.",
-        'spring 2022':
-            'The course has received mixed feedback from students. On the positive side, many enjoyed the emphasis on the human aspect of cognition, likening it to HCI, and appreciated the extensive reading and writing opportunities. The structure includes individual exercises, group projects, and an open-ended term project where effort scales with group size, allowing for minimal coding. Weekly quizzes are open book and stress-free. Conversely, some students expressed disappointment with the heavy reliance on group projects, citing challenges in coordinating with peers who have varying schedules and commitments. Some felt this group focus hindered self-directed learning. Overall, while the material is engaging, the implementation of group projects has raised concerns about practical learning experiences.',
+        'summer 2024': {
+            pro: 'The course is easy, good for GPA, offers flexibility in choosing project topics, and has helpful TAs providing detailed feedback. It covers interesting areas and allows exploration of various subjects, including programming-related content.',
+            con: 'The course is more focused on essays and theory rather than practical coding skills, which may not suit those looking for valuable coding experience.',
+        },
+        'spring 2023': {
+            pro: 'The course is enjoyable, flexible, and well-suited for those with basic writing skills. Weekly quizzes are easy, and students can choose their own project topics, which enhances engagement.',
+            con: 'TA feedback was poor and delayed, with minimal constructive comments. The course material is perceived as non-technical, and individual assignments may feel unchallenging or superficial.',
+        },
+        'fall 2022': {
+            pro: 'Students found the course interesting and enlightening, with helpful TAs and a flexible structure that allows for personal input in projects. Lectures were enjoyable and informative, and quizzes were considered easy if students engaged with the material.',
+            con: 'Some students noted that the course is not rigorous and involves a significant amount of writing with minimal coding. The readings were described as dense, and some students felt it was possible to omit many of them, which could make quizzes more challenging.',
+        },
+        'summer 2022': {
+            pro: 'The course prioritizes student learning over exams and assignments, emphasizes philosophy, and offers a fun and challenging individual project focusing on cognitive science and AI.',
+            con: 'May not appeal to those focused on machine learning, and contains a perceived bias towards atheistic and materialistic views.',
+        },
+        'spring 2022': {
+            pro: 'Students enjoyed the course material, especially its focus on the human side of cognitive science. The course was described as manageable with no exams and an emphasis on weekly quizzes, and the teaching staff was receptive to feedback.',
+            con: 'Some students were disappointed with the reliance on group projects, which added coordination challenges due to varied time commitments and limited opportunities for self-directed work. Concerns were raised about the size of groups relative to project scope and the impact on learning.',
+        },
     },
 };

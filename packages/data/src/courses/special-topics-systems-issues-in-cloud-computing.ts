@@ -175,19 +175,33 @@ export default {
         },
     ],
     reviewSummaries: {
-        'spring 2024':
-            'The course is highly praised as one of the best in the OMSCS program, likened to a coding bootcamp with a hands-on focus. Many students appreciated the practical coding experience, which was enriching yet demanding. However, the workload is intense; students often found themselves dedicating entire weekends to projects and taking time off work. This commitment led to a significant loss of free time and social life, suggesting that while the course is rewarding for coding enthusiasts, it requires substantial time and effort.',
-        'spring 2023':
-            "The course is a mixed bag, offering insightful content and practical applications in cloud infrastructure, making it beneficial for those already familiar with systems programming. Professor Kishore's enthusiasm and a collaborative environment are notable positives, along with rigorous projects that enhance learning. However, a significant percentage of students withdrew, highlighting the challenging nature of the workload. Critics pointed to vague project specifications, inconvenient mandatory sessions for diverse time zones, and repetitive project topics like MapReduce. The scheduling of workshops and grading has been criticized for being disorganized, with limited TA availability and responsiveness. Students are advised against pairing this course with others unless they possess prior knowledge and ample time to dedicate.",
-        'fall 2023':
-            "The course offers a hands-on approach, emphasizing project-based learning over traditional lectures, papers, or exams. Reviews highlight a steep increase in project complexity, particularly in the SDN and NFV modules, which require a solid understanding of networking concepts, though prior coursework isn't strictly necessary. While some appreciate the challenge and fulfilling nature of the assignments, others find the lack of structured guidance overwhelming. The Systems module is noted for better workload distribution, leading to a smoother project experience, while the final Apps module allows for creative freedom. Overall, the course is described as demanding but rewarding, appealing mainly to those with a software engineering background.",
-        'fall 2022':
-            "The course received mixed reviews from students. On the positive side, many appreciated the engaging lectures and the instructor's ability to make complex topics accessible. Students highlighted the practical assignments and real-world applications that enhanced their learning experience. However, some reviewers expressed frustration with the course workload, citing it as excessive and overwhelming at times. A few also mentioned difficulties in getting timely feedback on assignments and suggested improvements in communication from the teaching staff. Overall, while there were commendable elements in the course structure, the balancing of workload and support could use refinement.",
-        'spring 2022':
-            "The course received mixed reviews, highlighting both its immense value and significant workload. Many students praised the practical skills gained, particularly in programming languages like Python and C++, as well as tools like Kubernetes and Apache Kafka. However, the course's programming demands were a major pain point, with students noting that most of the difficulty stemmed from learning new libraries rather than complex concepts. Project workload varied significantly, especially for the challenging MapReduce project, leading to disparities in team contributions. Students emphasized the importance of teamwork, as uneven participation could result in an overwhelming workload of up to 60 hours a week. Overall, while many regarded it as one of the best courses in the program, they cautioned potential students about its intensity.",
-        'fall 2021':
-            'The course received overwhelmingly positive reviews for its engaging content, challenging projects, and practical relevance to modern cloud systems and applications. Students appreciated the hands-on learning experience, collaborative group work, and lack of exams, with some expressing that it was the best class in the program. However, several reviews highlighted the intense time commitment, especially for the first project, with around 30 hours required over consecutive weeks. The strict attendance policy and lack of "hand-holding" made some students anxious, but most agreed that the small class size fostered a supportive environment. Overall, the course is considered demanding but rewarding, leaving many students feeling accomplished and well-prepared for real-world applications.',
-        'spring 2021':
-            'The course is highly regarded for its in-depth focus on cloud computing, though it is recognized as extremely demanding, often requiring between 10 and 50 hours per week depending on the deliverables. There are no exams, just weekly quizzes and project presentations, which add to the workload. Students recommend having taken CS 6210 and possessing programming experience in C++, Python, or scripting before enrolling, as the material builds on foundational knowledge. While the projects are challenging and require significant time investment, many appreciate the hands-on learning experience and feel they gain substantial knowledge. However, balancing this course with others is generally not advised due to its intensity and workload.',
+        'spring 2024': {
+            pro: 'The course provides a hands-on coding experience and is highly regarded by students with a background in software development.',
+            con: "The course demands significant time commitment, affecting students' free time and social life.",
+        },
+        'spring 2023': {
+            pro: 'The course covers interesting and relevant topics, with enthusiastic instruction from Prof Kishore. The projects are rigorous and encourage collaboration, offering valuable learning opportunities.',
+            con: 'The course has vague project specifications, mandatory weekly sessions that are inconvenient for some, a lack of variety in project topics, and insufficient TA support and responsiveness.',
+        },
+        'fall 2023': {
+            pro: 'The course is fulfilling and projects are substantial, providing a hands-on experience that feels relevant to software engineering.',
+            con: 'The course may be challenging, especially with significant project requirements and a steep learning curve, particularly in the SDN and NFV modules.',
+        },
+        'fall 2022': {
+            pro: 'N/A',
+            con: 'The course review mentions issues with the editing functionality on the new site.',
+        },
+        'spring 2022': {
+            pro: 'The course offers a deep and practical understanding of relevant topics in cloud computing, with strong support from the professor and TAs. It provides valuable hands-on experience with tools and frameworks that are in high demand, and completing the course can significantly enhance job prospects.',
+            con: 'The workload is intense and can feel like a second job, with students reporting hours ranging from 25 to 60 per week depending on their background and team dynamics. There is a steep learning curve, particularly for programming tasks, and team-based projects can lead to unequal workload distribution.',
+        },
+        'fall 2021': {
+            pro: 'The course is highly rewarding, with relevant and challenging projects that help students learn modern cloud systems and applications. It encourages teamwork and offers valuable feedback during meetings. Students report gaining a deep understanding of useful technologies, particularly if they have prior experience in related fields.',
+            con: 'The course demands a significant time commitment, especially for the first project, making it tough for those working full-time or taking multiple classes. Additionally, it is noted to be very challenging, which may deter some students.',
+        },
+        'spring 2021': {
+            pro: 'The course is well taught and provides a substantial learning experience in cloud computing through its project-based approach. It covers important topics like Software Defined Networking and Network Function Virtualization, and offers quizzes with infinite retakes.',
+            con: 'The course is highly demanding with a significant workload that varies greatly, sometimes requiring up to 50 hours in a week. It is not advisable to take this course alongside others and prior knowledge from CS 6210 is heavily emphasized.',
+        },
     },
 };

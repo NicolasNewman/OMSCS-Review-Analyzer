@@ -37,7 +37,9 @@ export default {
         },
     ],
     reviewSummaries: {
-        'summer 2019':
-            "The course offers a thought-provoking experience, albeit reliant on outdated journalistic tools such as quills and typewriters, which some found frustrating. While students reported learning a decent amount, they struggled with the unconventional methods and the final exam's unique requirement to design a paperweight using mathematical principles. Despite this, those who enjoy creative writing may find the course entertaining, while others might feel more challenged. With the backdrop of a personal journey, including a recent marriage and young children, the reviewer highlights a solid foundation in writing and math but suggests a disconnect between the course content and modern journalistic practices. Overall, it may suit scribblers but could disappoint those seeking contemporary approaches.",
+        'summer 2019': {
+            pro: 'The course is thought-provoking and enjoyable for those who like writing. It offers a decent amount of learning.',
+            con: 'Uses outdated journalistic tools, causing initial frustration. The final exam may seem unusual or challenging.',
+        },
     },
 };

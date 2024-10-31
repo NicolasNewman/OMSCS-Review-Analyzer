@@ -34,7 +34,9 @@ export default {
         },
     ],
     reviewSummaries: {
-        'fall 2023':
-            'The course received positive reviews for its engaging blend of International Relations and Cybersecurity, particularly appealing to those interested in geopolitics or political theory. Students found the material relevant to their professions, especially in the defense industry, and described the course as manageable, with writing-focused assignments instead of quizzes or tests. However, notable drawbacks included the requirement to read lengthy, often dry readings through Perusall, hindering offline access. Group projects were highlighted for their collaborative nature, but outcomes varied based on team dynamics. Overall, the course is recommended for those curious about policy but may not suit students prioritizing technical coursework.',
+        'fall 2023': {
+            pro: 'The course offers interesting material that merges International Relations and Cybersecurity, making it ideal for those interested in geopolitics or political theory. It is manageable in terms of difficulty, with no quizzes or tests, and emphasizes writing assignments over technical aspects.',
+            con: 'The readings assigned are lengthy and often dry, focusing on government and strategy rather than technical content. The requirement to use Perusall for readings can be inconvenient as it prevents offline access.',
+        },
     },
 };

@@ -170,25 +170,45 @@ export default {
         },
     ],
     reviewSummaries: {
-        'summer 2024':
-            'Overall, the course received positive feedback for its relaxed atmosphere and practical tools for operating lean, making it a good complement to more intensive classes. Many students appreciated the additional green belt certification offered, viewing it as a valuable addition to their qualifications. However, there may be some concerns about the class being too easy for those seeking more challenging coursework.',
-        'fall 2023':
-            'Reviewers express deep dissatisfaction with the revamped Fall 2023 course, citing poorly designed assignments and a lack of clear guidance. Students report contradictions between TA and professor instructions, leading to confusion about measurable outcomes. Grading delays exacerbate the issue, as many await feedback on past assignments necessary for future work. The major class project is criticized for its minimal direction, with concerns that insufficient feedback could result in significant setbacks. Additionally, the timing of office hours limits access to crucial information needed for assignments due shortly afterward. Overall, students express frustration, feeling that the course does not provide valuable learning beyond existing literature, leading to calls for compensation and a strong recommendation against enrollment until improvements are made.',
-        'spring 2022':
-            'The course is viewed by some as lacking depth, often labeled a "fluff" class; however, it effectively combines mechanical and analytic techniques with practical business applications, making it valuable for beginners in deep analytics. While students won\'t acquire technical skills, the course provides essential tools for designing projects, advocating for funding, and demonstrating responsibility. Additionally, participants gain a Six Sigma Yellow Belt certification, which adds to its appeal. Overall, while some may find it superficial, others appreciate its practical focus and foundational knowledge for a career in analytics.',
-        'fall 2021':
-            'The course received positive feedback for being easy, fun, and informative, with an emphasis on practical application to real-life scenarios. Many participants enjoyed the free certifications in Six Sigma Yellow Belt and Minitab Quality Trainer, which enhanced their resumes. The Minitab course was particularly appreciated as a solid introduction and refresher on basic statistics. Additionally, students valued the small class size and consistent feedback from the same teaching assistant. However, some found it challenging to create relevant data or scenarios, especially since Six Sigma is often centered around manufacturing and call center environments. Overall, while the course was accessible, it required creative thinking to apply its concepts.',
-        'summer 2021':
-            'Reviews for the DACI course highlight a challenging workload that many feel is misrepresented, with students estimating it to be 4 to 6 hours weekly rather than the stated 1 hour. While some students found the class enjoyable, they expressed regret over choosing DACI, wishing they had selected a different course like Digital Marketing, which they initially found unappealing. The professor and teaching assistants received high marks for their effectiveness, but overall sentiment suggests that the material covered felt irrelevant and not worth the time invested. Many students felt they could have utilized those hours more productively elsewhere.',
-        'spring 2021':
-            'The course offers valuable insights into lean six sigma concepts, emphasizing a practical problem-solving mindset useful for data scientists and analysts. Many students appreciate the framework it provides for identifying and addressing real-world problems, highlighting a balance between theory and real applications. However, some reviews indicate that the course lacks analytical rigor and depth, with a desire for more experience using real datasets instead of relying on simplified assignments. Grading is a point of contention, as some find it harsh despite clear rubrics, while others commend the instructor’s detailed feedback. Despite its easiness, the course’s effectiveness hinges on student effort, making it a low-stress option that can yield tangible improvements in personal projects.',
-        'fall 2020':
-            'The course received mixed reviews, highlighting both ease and shortcomings. Many students appreciated its light workload, with a commitment of about five hours weekly, making it a suitable complement to more challenging subjects. The instructor and TAs were praised for their responsiveness and professionalism. However, criticism centered on vague assignments, outdated material, and a lack of engaging content, leading some to label it a waste of time and money. Concerns were raised about future course quality due to a change in instructors, and while it may be seen as an easy A, many were hesitant to recommend it based on the overall unexciting experience.',
-        'summer 2020':
-            'Lee Campe\'s course on lean six sigma concepts is well-received for its approachable teaching style, emphasizing practical learning over rote memorization. Many students find the class an easy pathway within the business curriculum, highlighting its immediate applicability and relevance to their practicum projects. However, some reviews mention the weekly assignments feel like busywork, despite being manageable. The incorporation of reading "Moneyball" adds an engaging element, and the final project allows for real-world application with opportunities for grade improvement through feedback. Overall, Campe is praised as an engaging instructor who effectively shares his consulting experiences, making the learning experience valuable, especially for those in the BA track.',
-        'spring 2020':
-            'The course is praised for its easy workload and relevance, making it a favorite among students in the OMSA program. Participants appreciate the practical skills gained, such as transforming problems into measurable tasks, which can be immediately applied in real-life scenarios. The opportunity to earn a Six Sigma yellow belt and potentially a green belt through extra credit adds value. However, some assignments, particularly writing posts on the book "Moneyball," may seem simplistic. Instructors are supportive, providing feedback that allows for revisions, which can enhance the learning experience. Overall, it is recommended, especially for those in the business track, and some believe it should be a required course.',
-        'summer 2019':
-            "The course received mixed reviews, with many students finding it easy to achieve high grades, suggesting that the grading may not be very rigorous. Those new to Six Sigma appreciated the straightforward nature of the material, while students with prior experience, like Green Belts, felt it didn't provide enough depth, particularly in areas like statistical process control. The professor was described as decent and the lectures engaging, contributing to an overall enjoyable experience. However, some felt they didn't gain as much from the course as expected, especially if they had prior knowledge. Overall, it's recommended for beginners seeking a lighter class amidst more challenging courses in the OMSA program.",
+        'summer 2024': {
+            pro: 'The class is enjoyable, offers useful tools and techniques for lean operations, and pairs well with more demanding courses.',
+            con: 'N/A',
+        },
+        'fall 2023': {
+            pro: 'N/A',
+            con: 'Assignments are poorly designed and often contradictory, grading is delayed, minimal guidance on projects, limited feedback opportunities, and lack of valuable learning beyond readings.',
+        },
+        'spring 2022': {
+            pro: 'The course effectively blends mechanical and analytic techniques with business practice, providing valuable tools for project design and advocacy.',
+            con: "Described as a 'fluff' course with no technical learning involved.",
+        },
+        'fall 2021': {
+            pro: 'The course is fun, informative, and allows for application to personal and work-related problems. The free certifications and small class size are beneficial.',
+            con: 'Some difficulty in finding relevant data/scenarios for application of concepts.',
+        },
+        'summer 2021': {
+            pro: 'The professor and TAs were very good.',
+            con: 'The average workload is much higher than advertised, and the material covered is not considered useful.',
+        },
+        'spring 2021': {
+            pro: 'The course provides practical frameworks for problem identification and analysis, emphasizes a continuous improvement mindset, and offers opportunities for real-life application of concepts learned. Many students appreciated the detailed feedback on assignments and found the coursework enjoyable and flexible based on personal effort.',
+            con: 'The course was noted as not being very challenging, with some students wishing for deeper technical content and the use of real-world datasets. Grading was seen as harsh by some, and there were complaints about the variability in weekly workload.',
+        },
+        'fall 2020': {
+            pro: 'The course is easy with manageable workload, responsive instructors and TAs, and can be useful for pairing with more difficult subjects.',
+            con: 'The course material is vague and outdated, with poorly produced videos and unclear assignments; some reviewers found it a waste of time and money.',
+        },
+        'summer 2020': {
+            pro: 'Lee Campe is an engaging and effective instructor, making complex concepts simple and applicable. The course is practical and offers a solid foundation for real-world applications.',
+            con: 'Weekly assignments may feel like busywork, though they are not difficult. Some students noted that the course contributes to a stereotype of being an easier pathway to a degree.',
+        },
+        'spring 2020': {
+            pro: 'The course is easy and not time-consuming, providing useful and applicable knowledge that can be implemented in daily life. It offers valuable certifications, like the Six Sigma yellow and green belts, and is highly recommended for those in the business track.',
+            con: 'N/A',
+        },
+        'summer 2019': {
+            pro: 'Easy to understand and achieve a good grade; interesting lectures and enjoyable projects.',
+            con: 'May not be challenging enough for those already familiar with Six Sigma concepts.',
+        },
     },
 };

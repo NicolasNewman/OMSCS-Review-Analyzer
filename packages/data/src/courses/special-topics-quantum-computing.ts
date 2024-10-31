@@ -225,17 +225,29 @@ export default {
         },
     ],
     reviewSummaries: {
-        'summer 2024':
-            "The course has received mixed reviews, highlighting its challenges and some positive aspects. Many students found the course difficult, citing unclear assignment instructions and significant discrepancies between assignments and exams, leading to confusion. Some expressed frustration with the exam weight distribution, noting that even high scores on assignments couldn't offset poor exam performance. However, on the positive side, students appreciated the engaging topics and the encouragement to delve deeper into quantum circuits and tensor networks. The availability of practice exams for bonus points was also seen as helpful, despite concerns over overall exam weight. Success in the course demands a strong grasp of foundational mathematical concepts, but those who invest the necessary time may find the material worthwhile.",
-        'summer 2023':
-            "The Summer '24 quantum computing course receives mixed reviews, with several positive aspects highlighted alongside notable critiques. Reviewers appreciated the well-organized structure, high video quality, and engaging material, noting that labs are manageable but require independent problem-solving. However, many expressed concerns over the brevity and lack of depth in lecture videos, insufficient exam preparation and guidelines, and a lack of prompt TA responses, particularly on weekends. Students felt additional readings were necessary to complement the lectures, and some wished for more comprehensive support during assignments. While the course offers a solid introduction to quantum computing, participants emphasized that it demands significant commitment, making it less suitable to pair with other classes.",
-        'spring 2024':
-            'The course on quantum computing received mixed reviews. Several reviewers praised it as a great introduction to quantum computing, with one noting it as their favorite course. However, others criticized the fast pace, vague instructions, and lack of sufficient coding examples, suggesting the need for prior knowledge. Recommendations for taking an introductory course beforehand were mentioned. Additionally, some reviewers pointed out areas that could have been explained more clearly and shared resources, including personal blog posts and GitHub links, to help clarify concepts and cover essential Qiskit content. Overall, while appreciated for its breadth, the course could benefit from clearer communication and more practical examples.',
-        'spring 2023':
-            "The course on Quantum Computing offers a comprehensive introduction to quantum concepts, with well-structured labs and a fair exam setup, providing a solid foundation for students. Positive reviews highlight the tight connection between assignments and course materials, as well as the helpful nature of TAs. However, several critiques emerge: lectures are overly brief, requiring students to rely heavily on the textbook and external resources for deeper understanding. Many noted vague instructions on assignments and a lack of timely communication from instructors. Additionally, some felt that the course's pace and organization could be improved. Overall, while the content is engaging and beneficial for those interested in the subject, improvements in communication and clarity are needed for a better learning experience.",
-        'fall 2023':
-            'The course on Quantum Computing received mixed reviews from students. Many appreciated the informative lectures and the hands-on labs using Qiskit, which reinforced theoretical concepts. However, numerous participants felt that the lectures were overly theoretical and did not align well with the practical assignments, leading to confusion and frustration. Students noted a lack of guidance on coursework, with some assignments poorly written and exams covering unaddressed material. Additionally, while some found the course manageable with good support from TAs, others criticized the grading and feedback processes. Overall, while the course offers valuable content and insight into quantum computing, it may not be suitable for everyone, especially those unfamiliar with advanced mathematics.',
-        'fall 2022':
-            'The course offers an exceptional introduction to Quantum Computing, ideal for those curious about the interdisciplinary nature of the topic. Students appreciate the well-crafted lectures and engaging assignments, noting that no prior knowledge of quantum mechanics is required. The content is accessible, with concise lectures and helpful quizzes aiding understanding. Reviewers found the workload modest and the course difficulty on the easier side, leading to high overall grades. However, some mentioned the need for additional readings to fully grasp the materials. This course provides valuable insights into research in graduate school, making it a unique offering compared to traditional coding-intensive courses within the OMSCS curriculum. Overall, it receives high recommendations from those interested in the field.',
+        'summer 2024': {
+            pro: 'The course covers interesting topics and encourages extra study beyond the curriculum. It has an easy grading system for quizzes and paper reviews, and offers bonus points for practice exams.',
+            con: 'The course is challenging with unclear assignment instructions, high exam weight impacting overall grades, and a disconnect between assignments and exam content. Students may struggle if they are not strong test takers.',
+        },
+        'summer 2023': {
+            pro: 'The course content is well organized, with top-notch video and audio quality. Labs are straightforward, and the TAs are accessible and helpful. The course is a good introduction to quantum computing and offers hands-on experiments.',
+            con: 'Lecture videos are considered too short and lacking depth. There is a lack of detailed feedback from TAs, and exam preparation is seen as stressful due to high stakes without a curve. Some found the lectures dry and not deep enough, necessitating external reading.',
+        },
+        'spring 2024': {
+            pro: 'Great introduction to quantum computing.',
+            con: 'Vague instructions, almost no coding examples, and extremely fast-paced with a lot of information to digest.',
+        },
+        'spring 2023': {
+            pro: 'Good coverage of quantum computing topics, well-connected labs and problems, fair and challenging exams, and responsive TAs.',
+            con: 'Concise lectures requiring extensive textbook reading, unhelpful TAs for course material, unclear assignment instructions, and inconsistent communication.',
+        },
+        'fall 2023': {
+            pro: 'The course provides a good introduction to quantum computing, particularly from a computer science perspective. Lectures are informative, and the labs are enjoyable and closely related to the material, with helpful resources for learning Qiskit. The course covers recent advancements in quantum computing and offers interesting research papers for review.',
+            con: 'Lectures are heavily theoretical and do not align well with the practical assignments, leading to confusion. Many reviews point to a chaotic structure, poor clarity in assignments, lack of guidance, and vague exam questions. Some students found the TAs and instructor engagement to be insufficient, with inconsistent support.',
+        },
+        'fall 2022': {
+            pro: 'Excellent course with carefully prepared lectures, interesting assignments, and a well-structured content that is accessible to a wide range of audiences. Provides insights into research in Quantum Computing.',
+            con: 'Extra readings may be needed to fully comprehend materials and complete assignments.',
+        },
     },
 };

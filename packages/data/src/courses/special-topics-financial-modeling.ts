@@ -242,27 +242,49 @@ export default {
         },
     ],
     reviewSummaries: {
-        'summer 2024':
-            "The course on financial statements has garnered mixed reviews. Some students find it challenging and time-consuming, noting that it took them over five hours to grasp the content, although they acknowledge Dr. Garner's dedication during office hours. Conversely, others appreciate Garner's step-by-step teaching style, arguing that the course effectively develops a different way of thinking about financial data, despite its dry subject matter. While some criticize the course for not being hands-on like programming classes, others value it as a helpful tool for future careers. Additionally, some view it as a lighter option amidst more demanding coursework, making it a welcome break from intensive studies.",
-        'spring 2024':
-            'The course received mixed reviews from students. While some criticized it for being overly simplistic and frustratingly tedious, labeling it as "the dumbest course" they\'ve taken, others found the content on discounted cash flow analysis, stock, and bond valuation to be highly valuable. The professor was praised for her clear presentation in the videos, though some felt that merely following along wasn’t sufficient for deep understanding. Despite some minor technical issues and a perception of dryness, many acknowledged it as a useful course for practical financial skills needed in both careers and everyday life. The collaborative aspect was appreciated by those who had supportive group mates, contributing to a more positive experience.',
-        'fall 2023':
-            "The course has garnered mixed reviews, primarily highlighting its simplicity and lack of depth. Many students find it exceptionally easy, likening it to a class for beginners, with one reviewer even achieving a 99.55% grade with minimal effort. While the material is described as interesting and potentially compatible with other courses, criticism is directed toward the teaching methods, particularly the repetitive and error-ridden videos that stifle creativity. Reviewers express frustration with strict grading policies, suggesting a need for more nuanced assessment due to the course's overall lack of challenge. Additionally, discontent is evident regarding the course's relevance within the OMSCS program, with calls for a rebranding to better reflect its focus on financial modeling for insurance agents.",
-        'fall 2021':
-            "The course receives mixed reviews, with many students finding it too simplistic and lacking in critical thinking. It is characterized as low-effort and low-commitment, demanding only that students follow step-by-step instructions to achieve high grades, which some feel diminishes the rigor expected at the Master's level. Critics argue that this approach hinders genuine learning, as deviations from the prescribed methods lead to lower grades, even when results are correct. While the instructor and TAs are noted for their professionalism and responsiveness, the overall course design seems to stifle engagement, leaving students unmotivated. Suggestions for improvement include incorporating more challenging assignments that encourage critical thinking and active participation.",
-        'summer 2021':
-            "The course is characterized as easy, with homework primarily involving filling in Excel sheets where formulas often mirror those from demonstrations, making it simple to copy and paste. While the project expands on homework assignments, it remains straightforward but can be cumbersome due to manual calculations involved in balance sheets and forecasts. Many students appreciate its role as an easy option alongside more challenging courses, noting some useful lessons in financial statements. However, criticisms include a lack of depth and engagement, with some reviewers describing it as repetitive and overly simplistic, suggesting that it caters more to GPA padding than substantial learning. Overall, the experience varies greatly depending on students' prior knowledge and interest in the material.",
-        'spring 2021':
-            "The course offers a structured introduction to financial modeling, making it accessible even for beginners, with many students enjoying the step-by-step approach and earning good grades easily. The teaching team is highly praised for their responsiveness and engagement, providing well-organized lectures and insightful assignments that contribute to learning Excel techniques. However, several reviewers express disappointment regarding the course's lack of challenge, as it often feels like mimicking the instructor rather than fostering independent problem-solving skills or curiosity. Some students sought a more investment-focused curriculum but found the content to be more aligned with financial statements, which some found tedious and unengaging. Overall, the course is recommended for those interested in finance but may not meet the needs of students seeking deeper analytical challenges.",
-        'fall 2020':
-            'Overall, the course is perceived as easy, with many students noting that achieving an A is quite attainable, especially with minimal effort. Homework and case studies align closely with lecture materials, making them straightforward. However, some students warn that this ease may come at the cost of learning, advising that engagement is crucial for those wanting deeper understanding. Professor Garner receives praise for her kindness, responsiveness, and clear explanations. While this class can be a less time-consuming option alongside tougher courses, those seeking to genuinely learn are encouraged to participate actively and utilize office hours to maximize their experience.',
-        'spring 2020':
-            "The course offers a mix of ease and valuable learning, particularly for those seeking to enhance their Excel skills and financial modeling abilities. Reviews commend the professor's knowledge and support, with engaging office hours and personalized interaction due to the small class size. However, many felt the instruction was overly simplistic, often providing step-by-step guidance that limited independent exploration. While practical skills in Excel and financial analysis were gained, some assignments relied on outdated methods, and grading was rigidly macro-based. Students appreciated the low-stress environment and the absence of exams, though they noted that the content could feel tedious with lengthy videos and repetitive tasks. Overall, it's deemed suitable for business track students but not rigorous enough for those seeking advanced analytics training.",
-        'summer 2020':
-            'The course offers an easy learning experience that reinforces concepts from introductory business classes, allowing students to complete homework while watching videos. However, many reviews criticize the lecture videos as tedious and lacking depth, often requiring students to merely replicate formulas in Excel without engaging with the material. While the numerical solutions for case studies provide a way to verify answers, the overall feedback indicates a desire for more critical thinking and discussion in the curriculum. Despite the criticism, some learners appreciate the increased familiarity with accounting statements gained from the course.',
-        'spring 2019':
-            "The course offers a straightforward introduction to financial statements and Excel skills, making it accessible and manageable for students. Positive aspects include a kind and accommodating instructor, easy-to-follow lectures, and useful tools like loan amortization tables. However, many students feel misled, as the course lacks the in-depth financial modeling and investment analysis they expected. Assignments are simple and can often be completed by closely following lecture instructions, leading to a perception of minimal challenge. While it may serve those looking to enhance their understanding of basic finance concepts, it disappoints those seeking rigorous training in investment forecasting or complex financial analysis. Overall, it's suitable for GPA padding but may not meet the needs of serious finance students.",
-        'fall 2019':
-            "The course offers a strong foundation in finance, focusing heavily on Excel and financial modeling, which many students found manageable, even those with little finance experience. The professor's support and guidance were praised, making the content accessible. However, the length of video lectures was noted as a drawback, and team projects were unpopular among students, often leading to uneven participation. The portfolio optimization segment intrigued students, but they expressed a desire for more depth in this area. Overall, while the course demands some effort, it is perceived as less intensive compared to other electives in the business analytics track.",
+        'summer 2024': {
+            pro: 'Dr. Garner is dedicated and provides thorough explanations during office hours; the course offers a helpful understanding of financial statements.',
+            con: 'The course may be challenging for some students and the material is considered dry.',
+        },
+        'spring 2024': {
+            pro: "The course contains a lot of useful content on finance topics like discounted cash flow analysis and stock/bond valuation, with clear lecture videos from a knowledgeable professor. It's considered beneficial for career and life applications.",
+            con: 'Some find the course overly simplistic and tedious, with a dry presentation style. There are complaints about the lack of engagement and the course feeling like a basic copy-paste exercise.',
+        },
+        'fall 2023': {
+            pro: 'The course is easy, with interesting material and high passing rates, making it accessible to students.',
+            con: "The course relies heavily on repetitive video content, has numerous video errors, and grading can be overly strict despite the course's simplicity.",
+        },
+        'fall 2021': {
+            pro: 'The instructor and TAs are professional and responsive.',
+            con: 'The course lacks critical thinking and encourages blind following of instructions, resulting in little learning. Assignments do not challenge students, and the discussion forums are inactive.',
+        },
+        'summer 2021': {
+            pro: 'The course is considered easy and suitable for pairing with more difficult courses, providing a straightforward way to earn a good grade.',
+            con: "Many reviewers express dissatisfaction with the course's lack of depth and meaningful engagement, describing it as overly simplistic and not conducive to real learning.",
+        },
+        'spring 2021': {
+            pro: 'Well-designed course with a superb teaching team, great introduction to financial modeling, and knowledgeable professor who is very responsive.',
+            con: 'Content is too easy, lacks opportunities for curiosity and problem-solving, and assignments can be tedious; course feels like an undergrad accounting class for some.',
+        },
+        'fall 2020': {
+            pro: 'Easy to achieve a high grade with supportive and clear instruction from Professor Garner.',
+            con: 'Limited learning if minimal effort is put in; may not be challenging for those seeking depth.',
+        },
+        'spring 2020': {
+            pro: 'The course is easy and low stress, offering valuable insights into Excel, financial modeling, and company valuation. The professor is knowledgeable and supportive, and the smaller class size allows for personal interaction. Office hours are enjoyable and beneficial.',
+            con: 'The content is often spoon-fed, making it less challenging for advanced learners. Assignments can feel tedious and the approach lacks emphasis on understanding the underlying concepts rather than just the mechanics of using Excel.',
+        },
+        'summer 2020': {
+            pro: 'The course is easy and reinforces concepts from an intro business class. The provision of numbers-only solutions for cases helps verify correct answers.',
+            con: 'The lecture videos are tedious, lacking depth and critical thinking, with a focus on copying formulas rather than engaging discussion.',
+        },
+        'spring 2019': {
+            pro: 'The instructor is kind and accommodating, and the course is easy to follow with valuable Excel skills and practical applications like building a loan amortization table.',
+            con: 'The course does not cover financial modeling as expected, is overly simplistic, and primarily focuses on reviewing financial statements rather than in-depth investment analysis.',
+        },
+        'fall 2019': {
+            pro: 'The course is interesting and accessible, with a supportive professor who effectively guides students through material, especially for those with limited finance experience. Excel usage is prominent and practical applications like portfolio optimization are engaging.',
+            con: 'The videos are longer than average, and there is a team project that some students dislike, leading to minimal collaboration among team members.',
+        },
     },
 };

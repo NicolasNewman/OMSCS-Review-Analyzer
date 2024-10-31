@@ -127,13 +127,21 @@ export default {
         },
     ],
     reviewSummaries: {
-        'fall 2023':
-            'The Global Entrepreneurship Course offers engaging lectures and practical experience beneficial for aspiring entrepreneurs, but its execution has significant shortcomings. While some students praise the well-structured content and collaborative learning environment fostered by Professor McGreggor, others find the course lacking in clarity and support. The semester-long group project, central to the course, is frustrating due to vague requirements and inconsistent grading from TAs, leading to confusion and differing feedback. Many students report unresponsive TAs and repetitive deliverables that detract from the learning experience. Those uninterested in entrepreneurship may struggle, as teamwork dynamics can heavily impact grades. Overall, while the course has great potential, it requires improved organization and instructional support to enhance its effectiveness for all students.',
-        'spring 2024':
-            'The course has received significant criticism for its incorrect and poor-quality materials, along with a lack of knowledgeable staff who dismiss student inquiries. Grading is inconsistent, with no feedback provided on submissions and the absence of a rubric makes improvement difficult. While customer discovery is highlighted as a valuable element, many believe it can be accomplished independently at a lower cost. Overall, many reviewers recommend avoiding the class if possible due to these shortcomings.',
-        'spring 2023':
-            'The course offers a mix of engaging and frustrating experiences. Students praised Professor McGreggor’s lecture videos for their valuable insights on creating engaging presentations, changing their approach to PowerPoints. However, there is inconsistency between the course requirements and the instructional content, particularly in the strict and often dull presentation format imposed for weekly summaries. Weekly quizzes can be trivial yet confusing due to obscure wording. Many students expressed concerns over the inconsistency in grading by TAs, where longstanding issues in presentations only received attention later in the course. Despite these challenges and vague requirements, students find achieving a high grade, often above 100, relatively easy if they invest some effort. Overall, the course has notable flaws but is manageable for dedicated students.',
-        'fall 2022':
-            'The course offers valuable insights into customer discovery and startup fundamentals, making it enjoyable and accessible for students with technical backgrounds. The lectures are engaging and provide a solid foundation in entrepreneurship, while easy quizzes reward attentive participation. However, the course is heavily focused on customer discovery, lacking essential topics like company setup and funding, leaving students feeling stagnant. Assignments often feel mundane, and peer feedback can feel unfairly weighted, with little engagement from TAs or meaningful participation opportunities. The course might work well for those seeking a light introduction to startups, but dedicated learners could find it lacking in rigor and depth, ultimately leading to a less fulfilling educational experience.',
+        'fall 2023': {
+            pro: "The course is engaging, well-structured, and informative, with a focus on practical applications and collaborative learning. Professor McGreggor's teaching style is particularly praised for fostering a positive learning environment.",
+            con: 'The course has vague and repetitive requirements, leading to inconsistent grading. Some students struggled with unresponsive TAs and the project-heavy aspect, which could be challenging if teammates are disengaged.',
+        },
+        'spring 2024': {
+            pro: 'The customer discovery is a highlight.',
+            con: 'Course materials are often incorrect and poor; staff are unknowledgeable and dismissive; inconsistent grading with no feedback or rubric.',
+        },
+        'spring 2023': {
+            pro: 'The lecture videos are engaging and the instructor teaches effective presentation skills, making it easy to earn a high grade with modest effort.',
+            con: 'Course requirements often contradict lecture lessons, leading to stress, ambiguous grading criteria, and inconsistent feedback from TAs.',
+        },
+        'fall 2022': {
+            pro: 'Course introduces new concepts for those with a technical background, offers engaging videos, and provides practice in customer discovery and concise communication about startups. Quizzes are easy if lectures are attended.',
+            con: 'Focus is heavily on customer discovery with little coverage of further entrepreneurship topics such as funding or company setup. Assignments are mundane, quizzes may be overly reliant on video details, and TAs and professors display inconsistent engagement and response times.',
+        },
     },
 };

@@ -15,7 +15,7 @@ type Course = {
     reviewCount: number;
     isFoundational: boolean;
     reviews?: Review[];
-    reviewSummaries?: Record<string, string | null>;
+    reviewSummaries?: Record<string, { pro: string; con: string } | null>;
     [key: string]: any;
 };
 
@@ -42,7 +42,7 @@ const reviewSummary = async () => {
         );
         const course = (await import(`../../data/src/courses/${file}`))
             .default as Course;
-        if (course.reviewSummaries) {
+        if (Object.values(course.reviewSummaries ?? {})?.[0]?.pro) {
             continue;
         }
 
@@ -64,11 +64,29 @@ const reviewSummary = async () => {
             Object.entries(reviewsBySemester ?? {}).map(
                 async ([semester, reviews]) => {
                     const reviewsAsString = reviews.join('\n\n\n');
-                    const prompt = `You are an unbiased journalist going through reviews for a course. 
-Provide a summary as paragraphs of all of the reviews, including both the positive and negative aspects. 
-Limit output to 1 paragraph and no more then 125 words. Use short and to the point language.
+                    const prompt = `You are an unbiased journalist going through reviews for a course. Provide a summary of all of the reviews using the json template delimitered by $$$
 
+$$$
+{
+    "pro": brief summary of positive aspects of the course, or "N/A" if there is not enough information,
+    "con": brief summary of negative aspects of the course, or "N/A" if there is not enough information
+}
+$$$
+
+
+Do not infer or assume peoples opinions if it is not directly stated in the reviews.
+
+Keep each summary short and concise .
+
+Do not include the $$$ delimiter in the output.
+
+The reviews are as followed, seperated by 3 line breaks:
 ${reviewsAsString}`;
+                    //                     const prompt = `You are an unbiased journalist going through reviews for a course.
+                    // Provide a summary as paragraphs of all of the reviews, including both the positive and negative aspects.
+                    // Limit output to 1 paragraph and no more then 125 words. Use short and to the point language.
+
+                    // ${reviewsAsString}`;
                     const response = await client.chat.completions.create({
                         messages: [
                             {
@@ -78,9 +96,20 @@ ${reviewsAsString}`;
                         ],
                         model: 'gpt-4o-mini',
                     });
+                    console.log(
+                        response.choices[0].message.content?.replace(
+                            /\$\$\$/g,
+                            '',
+                        ) ?? '{}',
+                    );
                     return {
                         semester,
-                        summary: response.choices[0].message.content,
+                        summary: JSON.parse(
+                            response.choices[0].message.content?.replace(
+                                /\$\$\$/g,
+                                '',
+                            ) ?? '{}',
+                        ),
                     };
                 },
             ),
@@ -90,7 +119,7 @@ ${reviewsAsString}`;
                 dict[semester] = summary;
                 return dict;
             },
-            {} as Record<string, string | null>,
+            {} as Record<string, { pro: string; con: string } | null>,
         );
 
         course['reviewSummaries'] = reviewSummaryBySemester;

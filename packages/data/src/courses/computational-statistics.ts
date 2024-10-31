@@ -37,7 +37,9 @@ export default {
         },
     ],
     reviewSummaries: {
-        'summer 2020':
-            "The course offers a fundamental overview of elementary machine learning methods, suitable for beginners unfamiliar with the field. Reviews highlight the hands-on coding experience, the clarity of proofs, and the structured project component as positive aspects. However, experienced learners find the content outdated and lacking in relevance to current practices like deep learning or gradient boosting. Some participants feel that the course doesn't advance their skills meaningfully if they already have a background in machine learning. Overall, it's well-received by novices but may disappoint those seeking advanced knowledge or proficiency.",
+        'summer 2020': {
+            pro: 'Recommended for beginners in machine learning as it provides a good survey of elementary methods.',
+            con: 'Not suitable for those with experience looking to learn current methodologies like deep learning.',
+        },
     },
 };

@@ -109,15 +109,25 @@ export default {
         },
     ],
     reviewSummaries: {
-        'fall 2023':
-            "Reviews of the course highlight significant variability in difficulty and time commitment, heavily influenced by the specific projects and whether students have a company or GT sponsor. Some participants found their projects, like multimodal generative models, to be engaging but demanding considerable effort. Deliverables were seen as straightforward, including a proposal, midterm presentation, and a final report, though many felt the lecture content lacked depth, resembling basic leadership material found on platforms like LinkedIn Learning. Overall, experiences varied widely depending on individual circumstances, leading to mixed feelings about the course's value.",
-        'spring 2023':
-            'The course offers flexibility and potential for skill development, particularly for those who take initiative, as evidenced by positive experiences like working on a Machine Learning Engineering project. Participants appreciated the opportunity to apply knowledge through real-world applications, leading to personal and professional growth. However, many reviews highlighted significant drawbacks, such as a lack of grading, minimal feedback, and scarce communication from instructors, making students feel isolated. Some expressed frustration over unrelated grading components, like company-sponsored videos. Despite these issues, several participants reported managing their workload effectively, finding it manageable alongside other commitments. Overall, the program is recommended for technically adept individuals seeking a career change, though improvements in support and communication could enhance the experience.',
-        'summer 2022':
-            'The reviews highlight significant dissatisfaction with the course structure and engagement. Students appreciated the flexibility in selecting projects related to their work but criticized the lack of feedback and interaction with faculty. Many felt disconnected, noting that lectures could be completed quickly without meaningful assessments. The absence of communication from staff and unresolved concerns about academic integrity were prominent issues. Moreover, the high cost of the course was questioned, especially given the perceived lack of support and learning outcomes. Overall, while the ability to tailor projects was a plus, the overwhelming sentiment was disappointment in the course’s execution and value.',
-        'summer 2021':
-            "The course offers flexibility and the opportunity to apply theoretical concepts to real-world problems, as many students have successfully implemented projects related to their jobs, earning high grades. However, students express frustration with the lack of feedback and vague expectations for deliverables, making it essential to define project scopes and create detailed schedules. Weekly video sessions are praised for their content, but the course's structure can be challenging, especially when juggling multiple classes or a shorter summer semester. Overall, perseverance and self-belief are emphasized as crucial for success, and the encouraging environment allows students to demonstrate their learning effectively, contributing to positive experiences despite some logistical hurdles.",
-        'spring 2021':
-            "The course offers an open-ended structure, allowing students to choose projects related to their employers or from third-party organizations, which is a major plus for those seeking practical experience. However, it lacks traditional assessments like quizzes or homework, making it feel less like a structured course and more like a self-directed project. Reviews indicate that while instructors may not provide detailed feedback or guidance, students can secure high grades if they fulfill basic requirements. Some express concerns about the declining quality of student work with increased enrollment rates, suggesting that fewer A's may be awarded in the future. Overall, the balance of effort versus grading varies widely depending on individual projects and engagement.",
+        'fall 2023': {
+            pro: 'The course allows for engaging, project-specific work, exemplified by an exciting project on multimodal generative models.',
+            con: 'There is a significant variance in difficulty and time commitment, and the actual deliverables may seem simple compared to the time required, with lecture content described as mostly common knowledge.',
+        },
+        'spring 2023': {
+            pro: 'The course offers flexibility to tailor challenges to individual needs, with diverse project options and great opportunities for skill development. Participants can benefit from applying practical projects and certifications to enhance their knowledge.',
+            con: 'There is a lack of grading, feedback, and communication throughout the course, leading to feelings of isolation and uncertainty about performance. Some aspects of the course structure, such as company-sponsored videos, seem confusing and potentially unhelpful.',
+        },
+        'summer 2022': {
+            pro: 'Flexibility to choose personal projects and complete lectures quickly.',
+            con: 'Lack of feedback from staff, high cost for minimal interaction or learning.',
+        },
+        'summer 2021': {
+            pro: 'Many students found the course flexible and beneficial for applying theoretical knowledge to real-world projects, resulting in positive reviews from business partners. Weekly video sessions were appreciated for their content.',
+            con: "Feedback on students' progress was lacking, and expectations for deliverables were described as vague, creating some challenges in project scope management.",
+        },
+        'spring 2021': {
+            pro: "Students appreciated the flexibility of the project work and noted that the grading may lean towards generous A's as long as requirements are met.",
+            con: 'The course lacks structured assessments like quizzes or homework, has minimal instructor feedback, and relies heavily on the quality of the chosen project and its evaluation by supervisors.',
+        },
     },
 };

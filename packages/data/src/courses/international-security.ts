@@ -109,11 +109,17 @@ export default {
         },
     ],
     reviewSummaries: {
-        'fall 2023':
-            'The course offers a comprehensive exploration of international relations, featuring substantial reading materials and written assignments like reflections and discussion posts. Students appreciate the insightful connections made between cyber issues and foreign policy topics, although those expecting a stronger cybersecurity focus may be disappointed. Time management is crucial, as the workload can quickly become overwhelming without adequate planning. Overall, the class is enjoyable and enriching for those interested in the subject, but potential students should be aware of the reading-heavy curriculum and the need for dedication to keep up with the pace.',
-        'summer 2023':
-            "The course has garnered mixed reviews from students, highlighting both its rigorous workload and its inadequate instructional quality. While some students struggle with the extensive reading requirements, others appear to navigate the workload with ease, suggesting varied levels of proficiency among participants. Critically, the course content is described as unengaging, with reliance on poorly structured slide presentations and unedited lecture scripts. Students express frustration over assignment scheduling and lack of timely responses to inquiries. Suggestions for improvement include the introduction of objective quizzes to balance the subjective assessment burden. Overall, prospective students are advised to gather insights from alumni before enrolling to better understand the course's challenges.",
-        'fall 2021':
-            'The course received mixed feedback from students, highlighting both its strengths and weaknesses. Positively, some found it enjoyable and relevant to cybersecurity, appreciating its focus on geopolitical contexts, which they felt enhanced their understanding of the field. The reading materials and films were seen as valuable tools for networking and critical thought by some participants. However, others criticized the course for lacking direct relevance to cybersecurity, arguing that the content resembled a political science class with minimal application to cyber issues. Assignments were deemed overly simplistic or disconnected, with some feeling overwhelmed by the reading load without gaining practical skills. Overall, students looking for depth in cybersecurity may feel dissatisfied, while those interested in a broader political perspective might find value in the course.',
+        'fall 2023': {
+            pro: 'The course is enjoyable and provides useful information, especially for those interested in international relations.',
+            con: 'There is a lot of reading material assigned, and the course has less focus on cybersecurity than expected.',
+        },
+        'summer 2023': {
+            pro: 'N/A',
+            con: 'Heavy reading workload of 100 pages per week, lack of development in course content, unproofread materials, poor assignment scheduling, unresponsive course team, and inconsistent grading.',
+        },
+        'fall 2021': {
+            pro: 'The course provides valuable insights into the geopolitical aspects of cybersecurity, enhancing vocabulary and understanding for practical applications in the field. Many students found it engaging and educational, especially when they invested effort into assignments and readings.',
+            con: 'Several reviewers felt that the course lacked direct relevance to cybersecurity, with overly broad political science content and insufficient application of theories to cyber issues. Some criticized the ease of the course and the lack of rigorous academic standards.',
+        },
     },
 };

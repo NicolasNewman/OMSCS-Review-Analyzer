@@ -120,15 +120,25 @@ export default {
         },
     ],
     reviewSummaries: {
-        'fall 2023':
-            'The course receives praise for its engaging teaching team and practical insights, particularly in digital marketing and AI ethics, which many students found valuable for their ventures. Some students recommend pairing it with another course for a more efficient experience during the summer. However, others noted a significant workload of around 10 hours per week, comparing it to more demanding classes, while also emphasizing its ease for native English speakers. Assignments, including quizzes and writing projects, were considered manageable with opportunities for extra credit. While some believe the course offers great learning for those interested in the subject, others caution that it may not be beneficial for a traditional software engineering career. Overall, students found it interesting and informative.',
-        'spring 2024':
-            'The course comes highly recommended for its efficiency, teaching substantial content with a minimal workload, making it particularly valuable for aspiring startup founders. Many reviewers appreciate the practical perspective the course offers, emphasizing its real-world application. The highest reported workload for a week was 6.5 hours, allowing for flexibility, as some weeks could be completely ignored. However, some may find the limited engagement means less in-depth learning opportunities. Overall, the course strikes a balance between manageable effort and valuable insights, although some participants might desire more comprehensive coverage of certain topics.',
-        'spring 2023':
-            'The reviews for the Spring 2024 course highlight both strengths and areas for improvement. Many students praised instructors Prof. Huffman and Prof. Omojokun for making the content engaging and manageable, leading to strong grades. The course structure, with weekly quizzes and projects, was considered fair and allowed for personal expression, although some quizzes were noted as tricky. However, students expressed concerns regarding unclear assignment expectations and the grading of outlines, which they felt should be more detailed and informative. Some students observed low-effort posts in discussions, indicating a need for stricter monitoring. Overall, the course received positive feedback but could benefit from clearer instructions and enhanced feedback on assignments, earning an average rating of 4/5.',
-        'summer 2023':
-            'The course offers easy yet engaging topics, making it approachable for students seeking a manageable workload. The teaching assistants are noted for being helpful, providing additional support to enhance the learning experience. Furthermore, extra credit opportunities are available, contributing to a more favorable grading outcome. However, this ease may not appeal to those looking for a challenging academic experience. Overall, the course comes highly recommended for students aiming for an easy A, while it may not satisfy those desiring a rigorous curriculum.',
-        'fall 2022':
-            "The course received mixed reviews from participants. Many found it interesting but noted that the content was superficial and lacked depth. The quizzes were described as extremely easy, suggesting that they did not effectively challenge students' understanding. Additionally, the projects were reported to be graded leniently, raising concerns about the overall rigor of the course. As a result, some participants questioned whether the course deserved to count for three credits towards a Master's degree, feeling it was more akin to an undergraduate elective.",
+        'fall 2023': {
+            pro: 'The course is praised for its fun teaching team and practical insights, particularly in Digital Marketing and AI Ethics, which are seen as valuable for business ventures. Students also appreciated the interesting content and generous extra credit opportunities.',
+            con: 'The course is considered very easy, with some reviews stating it may not be suitable for those seeking a challenge or looking to enhance a traditional software engineering career. Additionally, there are comments about the workload being similar to more demanding courses.',
+        },
+        'spring 2024': {
+            pro: 'Efficient teaching with minimal workload; particularly beneficial for future startup founders.',
+            con: 'N/A',
+        },
+        'spring 2023': {
+            pro: 'Instructors are engaging and accessible; course content is interesting and beneficial for those considering tech startups. The workload is manageable and the lectures are high quality. Quizzes and projects are fair and relevant to the course material.',
+            con: 'Some assignment expectations could be clearer, particularly regarding grading and required components. Discussions may not be rigorously monitored, and the absence of a rubric for assignments can make it challenging to gauge completeness.',
+        },
+        'summer 2023': {
+            pro: 'Very easy but interesting topics, helpful TAs, and opportunities for extra credit.',
+            con: 'N/A',
+        },
+        'fall 2022': {
+            pro: 'The course was interesting and had easy quizzes.',
+            con: 'The content was very surface level and grading was lenient, not deserving of 3 credits towards a Masters degree.',
+        },
     },
 };

@@ -320,27 +320,49 @@ export default {
         },
     ],
     reviewSummaries: {
-        'summer 2024':
-            "Overall, the course on creating video games in Unity is highly recommended, particularly for those with basic Java/C# knowledge. Positive feedback highlights the structured approach, with the first five assignments effectively guiding students through Unity’s key features before transitioning to a collaborative team project. The final outcome allows students to showcase their 3D games and trailers, with previous semesters' work serving as inspiring examples. However, the success of the project heavily relies on team effort and time commitment, which could pose a challenge for some students. While the course offers great potential for creativity and learning, the experience may vary based on the dedication of each team.",
-        'spring 2024':
-            'The course on using Unity to create a game is straightforward and features easy assignments, making it accessible for beginners. However, the final project significantly impacts the overall grade, accounting for 50% of the total marks, which adds pressure to students. Forming a strong group is crucial, as working with an uncooperative team can limit potential grades, with one review noting that a less effective group can only achieve a B. While the course structure is appreciated, the reliance on group dynamics for the final assessment is a point of concern for some students. Overall, the course offers valuable skills but emphasizes the importance of collaboration.',
-        'fall 2023':
-            'The course offers a solid introduction to Unity, blending technical tasks with creativity, making it enjoyable for gaming enthusiasts. Many students appreciate the easy workload, generous grading, and helpful tutorials, which lead to rewarding group projects. The emphasis on organization and collaboration is beneficial, though some find the lengthy lectures tangential and unhelpful for grading. Students highlight the importance of finding a good team, as collaboration greatly influences the course experience. Overall, while technical programming skills aren’t heavily tested, creativity and project management are essential, making it suitable for those seeking both fun and a learning opportunity in game development.',
-        'summer 2023':
-            'The course offers a solid introductory overview of 3-D game fundamentals, appealing to avid gamers. However, many students felt it lacked depth in understanding engine mechanics, with lectures that are long and often unnecessary for quiz success. The individual milestones, while time-consuming, felt disconnected from the main group project, which heavily relies on group dynamics and can lead to uneven workloads. Some found the restrictions on the final project frustrating, while others noted challenges with asset management unrelated to the class focus. Despite these issues, students appreciated the learning experience and acknowledged the importance of selecting committed group members for project success. Overall, the course has potential but needs improvements in engagement and project structure.',
-        'spring 2023':
-            "The course has garnered mixed reviews from students. Positives include engaging lectures, accessible instructors, and comprehensive material that supports achieving high grades, especially for those passionate about video games. Students appreciated the TAs' support and the manageable individual milestones, with many finding group projects rewarding when teamed with dedicated peers. However, there were significant critiques, particularly about the lengthy and sometimes tedious lectures. Some found the workload overwhelming, with numerous quizzes and project deadlines, which detracted from the experience. The success of the course heavily relies on team dynamics, leading to varied experiences. Those less interested in gaming were less satisfied, suggesting the course may be best suited for avid gamers.",
-        'fall 2022':
-            'The course received high praise for its comprehensive lectures and engaging instructor, Jeff, whose enthusiasm makes the learning process enjoyable, even if he speaks slowly. Students appreciated the wealth of information provided, making the lectures informative and fun, often watching them at accelerated speeds. However, the significant group project was criticized for its overwhelming nature, particularly since most essential topics are covered late in the course, hindering effective implementation. Many suggested a structure that incorporates solo projects to better build skills progressively. While the course is generally enjoyable and not overly difficult, students felt it could benefit from restructuring to enhance both learning and the overall project experience. Despite these issues, most found it one of the more enjoyable offerings in the program.',
-        'summer 2022':
-            'Overall, the course received positive feedback for its engaging content and supportive instructor and TAs. Many students appreciated the focus on a group project, with good teamwork enhancing their experience, though some faced challenges with less committed teammates. The individual assignments were deemed high in workload but were praised for their creative potential and "magical" feeling of accomplishment. However, the course has notable downsides, including limited instruction on Unity, which some found frustrating, as most learning came through assignments. The inclusion of game history was also criticized for overshadowing practical Unity tutorials. Despite these negatives, students felt they learned a lot and enjoyed the collaborative environment, making it a favorite in their OMSCS journey.',
-        'fall 2021':
-            "The course received mixed reviews from students, highlighting both enjoyable and challenging aspects. Positively, many appreciated the hands-on approach with individual projects in Unity and found the overall structure beneficial for understanding game development fundamentals. Group projects, while rewarding, were often described as a double-edged sword, with several students stressing that the quality of the experience depended heavily on team dynamics. Some faced significant difficulties due to uncooperative teammates or inconsistent contributions, leading to frustration. Additionally, students noted that the course's assessments were fair, with open-book exams and a manageable workload. However, communication regarding project requirements could be improved, particularly in reducing scope restrictions for game mechanics. Finding proactive teammates early on was emphasized as crucial for success.",
-        'spring 2021':
-            'The Video Game Design course is highly praised for its engaging lectures and supportive professor, Jeff, who is active on Piazza. Many students appreciated the minimal stress and flexibility, allowing for deep engagement in the group project, which comprises the bulk of the coursework. The milestones serve as helpful tutorials, although some wished for more rigorous assignments to enhance structured learning. The collaborative nature of the group project can lead to great experiences, provided teams are well-organized and chosen thoughtfully. While there is a strong emphasis on creativity, a few students felt a desire for more challenge in the curriculum. Overall, the course is lauded as rewarding and enjoyable, especially for those passionate about game development.',
-        'summer 2021':
-            'The course is described as enjoyable and engaging, yet it primarily covers Unity fundamentals, leaving students feeling unprepared for job opportunities in the field. Many found the content dull and the individual assignments tedious, albeit easy to score high on. While the quizzes presented significant challenges due to their tricky nature, requiring careful video reviews, the group project aspect was particularly frustrating for some. Students recommended working with familiar peers to avoid issues with unreliable team members who failed to contribute and altered projects last minute. Overall, the experience felt insufficient for building a strong resume despite some fun elements.',
-        'fall 2020':
-            "The course received generally positive feedback, highlighted by a passionate professor and practical assignments that help students grasp Unity and game development. Individual assignments, although time-consuming, were deemed straightforward, contributing 45% to the grade, while the group project dominated the course's workload, providing creative freedom and structured checkpoints. However, some students found the large group sizes challenging for mastering Unity's intricacies. Quizzes were labeled open-book but tricky, requiring diligent preparation. While front-loaded with assignments and project stages, the second half offered a more relaxed pace. Overall, students recommended this engaging course, especially as a change of pace alongside more demanding classes, despite noting initial concerns due to its newness in the curriculum.",
+        'summer 2024': {
+            pro: 'The course effectively teaches Unity game development through individual assignments and a collaborative team project, leading to impressive final outcomes.',
+            con: 'N/A',
+        },
+        'spring 2024': {
+            pro: 'The course is simple and teaches how to use Unity effectively. Assignments are easy to complete.',
+            con: 'The final project carries significant weight at 50%, and group selection is crucial for achieving a good grade.',
+        },
+        'fall 2023': {
+            pro: 'Students appreciated the creative outlet potential, easy workload, helpful tutorials, generous grading, and the engaging teaching style of the professor. Collaborating on projects was seen as a valuable learning experience.',
+            con: 'Long and often irrelevant lectures, reliance on teamwork which requires finding the right group, and some students felt the course focused more on project management than actual game development.',
+        },
+        'summer 2023': {
+            pro: 'The course provides a decent overview of core fundamentals for making 3-D games, and understanding concepts from personal gaming experience is valuable. Some students felt it was worth taking and appreciated the relevance of the content.',
+            con: 'The course lacks depth in engine functionality, with long and monotonous lectures. Group projects can be problematic due to varying levels of effort from members, and individual milestones seem disconnected from the main project, making them feel like distractions.',
+        },
+        'spring 2023': {
+            pro: 'The course has engaging lectures, supportive instructors, and fair grading, making it easy to succeed with proper effort. It provides a comprehensive introduction to Unity and promotes teamwork.',
+            con: 'Lectures are perceived as long and tedious, leading to a hefty workload and potential group dynamics issues. Interest in video games significantly influences enjoyment of the course.',
+        },
+        'fall 2022': {
+            pro: 'The course features well-structured lectures filled with valuable information, and the instructor, Jeff, is enthusiastic and engaging.',
+            con: 'The heavy reliance on a single, long group project limits hands-on learning, with key topics learned too late to be effectively applied.',
+        },
+        'summer 2022': {
+            pro: 'Students appreciate the engaging content, supportive professor and TAs, manageable individual assignments, and the enjoyable group project, which can lead to creative outcomes. The course is well-structured with helpful resources and a flexible workload.',
+            con: 'The course lacks adequate instruction on Unity within the materials, and some students experienced challenges with group dynamics and project management. Individual and group assignments can be high in workload, and finding time to meet as a group can be difficult.',
+        },
+        'fall 2021': {
+            pro: 'The course offers a comprehensive introduction to game development, with a strong focus on Unity and practical Object-Oriented Programming principles. The individual projects are well-received for their open-ended nature, and students appreciate the supportive grading approach. Many enjoyed the teamwork aspect, with successful collaborations leading to positive experiences and outcomes.',
+            con: 'A significant concern is the reliance on group dynamics for the team project, which can lead to negative experiences if a group falters. Some found the workload challenging, especially with the scope of game mechanics limited. Students noted organizational difficulties with submissions and issues with conflicting code when working within Unity.',
+        },
+        'spring 2021': {
+            pro: 'The course features high-quality lectures, a low-stress environment, and encourages creativity in game design. The group project is enjoyable and fosters collaboration, with active support from the professor.',
+            con: 'Some reviews express a desire for more structured learning or rigorous milestones to enhance the educational experience in Unity.',
+        },
+        'summer 2021': {
+            pro: 'The course is fun and teaches some fundamentals of Unity.',
+            con: 'It lacks depth for job readiness, includes boring assignments, difficult quizzes, and challenges with group projects due to unreliable team members.',
+        },
+        'fall 2020': {
+            pro: 'The course offers easy assignments that are beneficial for learning Unity, a well-structured group project with creative freedom, and supportive instructors. Many students found it enjoyable and a good change of pace from more challenging classes.',
+            con: 'The group sizes can be too large, making it harder for individuals to engage with all aspects of the project. Some quizzes are surprisingly tricky despite being open book, which can catch students off guard.',
+        },
     },
 };

@@ -455,19 +455,33 @@ export default {
         },
     ],
     reviewSummaries: {
-        'spring 2024':
-            'The course on distributed computing in OMSCS receives high praise for its engaging content and the foundational knowledge it provides, with many students finding it rewarding despite its challenges. While projects become increasingly difficult, especially in the later stages, those who invest significant time report beneficial learning outcomes and fair grading practices. Collaboration among students is encouraged, and TAs are noted for their helpfulness. However, some students criticize the lecture presentation style, suggesting it lacks the quality of similar courses. Overall, while the course demands considerable effort—often requiring 20-30 hours per week—it is recommended for those open to deepening their understanding of distributed systems.',
-        'spring 2023':
-            "The course on distributed systems is both highly regarded and extremely challenging. Many students appreciate the hands-on projects, especially how they build off one another, fostering practical skills. However, the final phases of the project are notorious for their difficulty, leading to burnout for some participants. A solid understanding of Java and the course's framework is crucial for success, and front-loading coursework can alleviate stress. Students often find the exams to be unfairly ambiguous, and some have suggested that project components need more balance, particularly regarding performance versus correctness. Despite these criticisms, many agree that the course provides invaluable insights into backend systems, making it worthwhile, especially for those aspiring to work in that area.",
-        'fall 2023':
-            'The reviews for the course reveal a significant divide in experiences. On one hand, students found the labs to be the most effective aspect of the course, providing hands-on learning despite their high difficulty and lack of coherence with lecture content. However, many criticized the lectures as disorganized and surface-level, making them hard to engage with and understand. The exams were widely regarded as unfair, with tricky wording that did not reflect actual knowledge. Some students felt overwhelmed by the course structure and the heavy workload, particularly with labs. Overall, while some appreciated the challenge, many recommended avoiding the course for a more cohesive learning experience in distributed systems.',
-        'fall 2022':
-            'The course has received overwhelmingly negative feedback from participants, with many describing it as a waste of time and resources. Critics highlight a lack of practical content and engagement, stating that the material was often irrelevant and poorly structured. Some participants felt the instructor did not adequately address questions or concerns, leaving them frustrated. On the rare occasion that positive comments surfaced, they were generally vague and lacked specific praise. Overall, the consensus indicates a strong discontent among students, making it clear that many believe the course fails to deliver any substantial value or learning experience.',
-        'spring 2022':
-            "The course on distributed systems is widely regarded as extremely demanding, with many reviewers expressing frustration over its disorganization and lack of adequate support. While some appreciate the depth of knowledge gained, they feel the time investment, often averaging 30 hours per week, is excessive for the learning outcomes. Many note the challenges in debugging complex projects, where even minor adjustments can lead to significant time losses. Students criticize the lack of structured office hours, unhelpful TAs, and a grading curve that adds to the stress. Despite the intriguing subject matter, many recommend avoiding the class, suggesting that self-study or different, better-supported courses would be more rewarding. Overall, the consensus is that the course's structure and support systems need substantial improvement.",
-        'fall 2021':
-            'The course has received mixed reviews, with many praising it as one of the most challenging and rewarding in the OMSCS program. Students appreciated the depth of learning and the thorough framework for distributed applications, noting its focus on complex problem-solving. However, several reviewers emphasized the need for a strong programming foundation, particularly in Java, and highlighted that without this background, the course could be overwhelming. The workload, especially for the final projects, is significant and requires a serious time commitment. Overall, while the course is highly recommended for those ready for rigorous intellectual challenges, it may not suit everyone, particularly those without prior experience in computing systems.',
-        'spring 2021':
-            "The reviews for this course present a stark contrast between students praising its depth and rigor and others lamenting its overwhelming demands and lack of support. Many students found the lecture content engaging and relevant, aligned with current practices in distributed systems. However, complaints about the extensive workload, especially for projects 4 and 5, were prevalent. Reviewers reported spending upwards of 75 hours a week without adequate assistance from professors or TAs, leading to mental health concerns and feelings of burnout. Furthermore, unclear project instructions left students grappling to understand expectations. While some appreciated the learning experience, many urged prospective students to reconsider, particularly those with less coding experience or other commitments, citing the class's intensity as a major drawback.",
+        'spring 2024': {
+            pro: 'The course provides a deep understanding of distributed computing, is rewarding, and encourages careful algorithm thinking. Grading is fair, and student collaboration is strong.',
+            con: 'The course is very challenging and requires significant time investment. Lectures could be improved in presentation quality, and some projects may be difficult to complete.',
+        },
+        'spring 2023': {
+            pro: 'The course is highly regarded for its comprehensive project-based learning approach, providing valuable insights into distributed systems. Many reviewers appreciated the challenging yet rewarding nature of the projects and the foundational knowledge gained for backend work.',
+            con: 'The course is extremely demanding, with significant workloads that can lead to student burnout, especially in the later phases. Some students found the exam format to be unfair and expressed concerns about the structure of lectures and the difficulty of certain projects.',
+        },
+        'fall 2023': {
+            pro: 'Some students found the labs enjoyable and educational, with one describing the course as great albeit very hard.',
+            con: 'Many reviews criticized the lectures as incoherent and unengaging, with exams deemed unfair and trick-based. The difficulty of the labs was noted, with some students feeling they were excessively challenging and disconnected from the lectures.',
+        },
+        'fall 2022': {
+            pro: 'N/A',
+            con: 'Course is considered useless and not worth the time.',
+        },
+        'spring 2022': {
+            pro: 'The course offers valuable knowledge about distributed systems and can provide a sense of achievement upon completion.',
+            con: 'The course is poorly organized, excessively demanding, lacks effective TA support, and relies on a grading curve that raises concerns about fairness.',
+        },
+        'fall 2021': {
+            pro: 'The course is highly regarded for its challenging nature, thorough learning experience, and the unique DSLabs framework that provides an effective environment for writing and testing distributed applications. Many students appreciated the opportunity to deeply engage with difficult problem-solving.',
+            con: 'The course has a steep learning curve and requires a solid programming background, specifically in debugging large codebases and potentially learning Java. Some students found the workload overwhelming, suggesting that time commitment for projects can be significant, and students may struggle if they are unable to dedicate adequate time.',
+        },
+        'spring 2021': {
+            pro: 'The course has an interesting content with a wide range of topics in distributed systems, and it is intellectually challenging, stimulating a deep understanding of critical concepts. Students appreciate the rigorous projects that enhance their learning experience, with some indicating that the course aligns well with career applications in the cloud industry.',
+            con: 'The course is heavily criticized for its excessive workload, particularly on projects that are described as ambiguous and poorly supported. Many students reported severe mental health impacts and inadequate communication from TAs and instructors, with a general sentiment that the class is more suited for experienced engineers rather than students. Additionally, pacing and clarity of instructions are major issues highlighted in the reviews.',
+        },
     },
 };

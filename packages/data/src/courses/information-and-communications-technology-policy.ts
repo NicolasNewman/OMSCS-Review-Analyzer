@@ -64,11 +64,17 @@ export default {
         },
     ],
     reviewSummaries: {
-        'fall 2022':
-            "The course is viewed as the easiest option within the program, making it an appealing choice for students on the Information Security track seeking a lighter workload. It features engaging material, four annotated reading assignments, four quizzes, and two straightforward projects. These elements contribute to a manageable course load, ideal for those wanting to pair it with a more demanding class. However, while the simplicity and flexibility are praised, some may find the minimal challenges less fulfilling if they seek a more rigorous academic experience. Overall, it's a solid choice for students wanting a break or to balance their course schedule.",
-        'summer 2021':
-            "The course on telecom policy is generally perceived as easy and straightforward, with a clear progression from historical context to current issues. Students appreciated the informative lecture videos by Dr. Mueller and the innovative use of the app Persuall for annotated readings, which fosters engagement, though quality of peer annotations varied widely. The assignments, including quizzes and reading tasks, are manageable but can be time-consuming, prompting advice to tackle them in chunks. While some found the distraction of low-quality annotations frustrating, others enjoyed the freedom to connect material to real-life experiences. Overall, it's recommended for those balancing heavier coursework, though students in specific tracks might find timing preferences worth considering.",
-        'fall 2020':
-            "The course is described as an easy and low-effort class, requiring only about 20 hours of work over the semester, with minimal assignments like quizzes and reading tasks. Students found the curriculum engaging, providing valuable insights into telecom policy issues, including historical context and contemporary topics like 5G. Professor Mueller received high praise for his accessibility and responsiveness, demonstrating a genuine passion for helping students. However, some may see the light workload as lacking rigor, which could impact the depth of learning for those seeking a more challenging experience. Overall, it's recommended for those looking for manageable coursework and an interest in telecom policy.",
+        'fall 2022': {
+            pro: 'Easiest course in the program with interesting material and a light workload.',
+            con: 'N/A',
+        },
+        'summer 2021': {
+            pro: "The course is considered easy and straightforward, with informative lectures and engaging assignments. The use of the app Persuall for annotations and discussions promotes in-depth learning and interaction. Dr. Mueller's teaching style was praised, and many found the course to be a good complement to more demanding classes.",
+            con: "Some reading assignments required extensive annotations which could be time-consuming, and students expressed frustration with the quality of their peers' annotations on Persuall. There was a suggestion that the relatively low workload might not suit everyone, especially for those in more intensive study tracks.",
+        },
+        'fall 2020': {
+            pro: 'The course is easy with minimal workload, teaches interesting content on telecom policy, and has a highly accessible and passionate professor.',
+            con: 'N/A',
+        },
     },
 };

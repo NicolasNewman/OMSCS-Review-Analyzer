@@ -410,33 +410,61 @@ export default {
         },
     ],
     reviewSummaries: {
-        'summer 2024':
-            'The course offers decent content with a significant amount of writing required. While one student expressed frustration over the exams playing a large role in the overall grade, they still achieved an A, largely due to high midterm scores despite poor finals performance. The lectures are considered adequate but are not enough on their own for students to excel. Overall, the course has a mix of positive elements like strong midterm assessments but also presents challenges with its exam-heavy grading structure.',
-        'spring 2024':
-            "The Summer 2024 Digital Marketing course received glowing reviews for its light workload and well-structured format, making it a suitable option for students, especially those transitioning from more demanding classes in the OMSCS program. Many found the lectures to be clear and informative, providing a good introduction to the subject matter with manageable mini and major case assignments. Students appreciated the ease of exams, which required minimal study time, contributing to high grades. However, some reviewers mentioned a $25 coursepack fee and a few noted that reliance on AI assistance like ChatGPT could undermine students' academic integrity. Overall, the course was praised for helping students de-stress while offering practical insights for those considering entrepreneurship.",
-        'fall 2023':
-            "The course has garnered mixed reviews, with many students labeling it as overly easy, comparable to a “degree mill.” While the workload is minimal, often requiring just 1-1.5 hours weekly, students noted that the course's simplicity allows for quick completion alongside other classes. Many expressed frustration over rampant cheating, particularly with ChatGPT, and criticized the lack of challenge in the assignments. Despite these criticisms, some found the course to be enjoyable and a refreshing change from their more rigorous studies, praising the engaging content and case studies. Overall, it seems the course appeals more to those seeking a light academic burden than to serious learners ready to engage deeply with the material.",
-        'spring 2023':
-            "The reviews for the DM course highlight its simplicity, with many students finding it among the easiest offered. Homework is quick to complete, and exams consist mainly of common sense questions, making it accessible even for younger students. Some appreciate the ease, especially during times of burnout, while others express concern that such courses contribute to the perception of OMS programs as degree mills. Additionally, the option to unenroll without penalty adds a layer of convenience for those struggling. However, there is a sense that reliance on rote memorization may not be sustainable if stricter evaluation methods are implemented in the future, potentially diminishing the course's appeal.",
-        'summer 2023':
-            "The course has received mixed reviews from students. Positively, many found the subject matter relevant and insightful, especially for those working in online fields, and appreciated the course's ease. However, critiques focus on the assignments, which some felt lacked depth and realism, favoring abstract discussions over hands-on campaign design. Additionally, concerns were raised regarding the TA's grading policy, with high stakes on individual questions impacting overall grades. A few students also warned of potential issues with grade reporting, advising caution in pursuing the course to avoid jeopardizing their degrees. Overall, while it offers a low-effort path to a passing grade, the course's structure and grading raised significant concerns.",
-        'fall 2022':
-            'The course on Digital Marketing received largely positive feedback, highlighting its practical tools and relevance, especially for small business owners. Reviewers appreciated the clear structure, engaging lectures, and well-designed assignments that enhance learning. Although the workload was initially underestimated, students found the effort rewarding, noting an average weekly commitment of around 5-10 hours. The fairness of exams and assignments was emphasized, with explicit expectations laid out, encouraging personal responsibility for grades. Some students praised the ability to frontload the coursework, facilitating a better balance with other challenging courses. Overall, it was deemed a highly recommended course within the OMSCS program, excelling in design and content delivery. However, the time commitment varies depending on prior knowledge and dedication.',
-        'spring 2022':
-            'The reviews highlight that the course is considered very easy, making it a suitable choice for students seeking a relaxed semester or balancing full-time work and family responsibilities. Many find it valuable for refreshing and expanding digital advertising knowledge, especially for those in related fields. However, some reviewers note its introductory nature and express a desire for more advanced analytics courses focused on practical models used in the industry. While the content is deemed interesting and the professor active, some critics suggest that it may not challenge students who are looking for deeper learning, labeling it as more of a "path of least resistance" option within the program.',
-        'fall 2021':
-            'The course on digital marketing receives mixed feedback from students. Positively, many found it engaging and valuable, citing its connection between computing and business, and its practical applications, like enhancing personal marketing efforts on platforms like Tinder. The workload is generally considered light, allowing for flexibility in learning. However, students warn about the significant weight of midterms and finals, which can drastically affect overall grades despite seeming straightforward. There are also cautions regarding plagiarism checks and the necessity of reviewing textbook material for exams. While the class is often described as “easy,” some felt that it required substantial memorization for tests. Overall, it’s recommended for its relevance and ease, but students are advised to take it seriously.',
-        'summer 2021':
-            'This digital marketing course has a solid reputation, praised for its engaging content and expert instructor. Students appreciate the comprehensive coverage of topics like SEO, paid ads, and social media, complemented by well-produced videos and a free textbook. The course structure includes five major and ten minor business case reviews, along with midterm and final exams, with a clear grading breakdown. While the workload varies, students recommend staying on schedule rather than rushing. However, some note that the course requires consistent study, even for those familiar with digital marketing. Overall, students found value in the learning experience, with many anticipating high grades upon completion.',
-        'spring 2021':
-            "The course offers a solid introduction to digital marketing, with weekly topics covering various digital channels like email and social media and including case studies for practical insight. Students commend the flexibility of having all materials available at once and appreciate the engaging instruction of Professor Michael Buchanan. The workload is manageable, making it suitable for those balancing work and family commitments. However, some feel the course lacks depth compared to more rigorous programs, describing it as an “easy A.” The textbook’s verbosity can be tiresome for those already familiar with digital marketing concepts. Overall, students find value in the course's content despite its perceived simplicity and feel it has practical applications in their professional lives.",
-        'summer 2020':
-            'The course on digital marketing offers a mix of experiences among students. Many found it easy, particularly if they have a background in marketing, with reports of achieving high exam scores without significant studying. The structured weekly content, including video lectures and case studies, is praised for its conciseness and engagement. However, some students noted it could be too simplistic, suggesting that the material could be self-taught in a shorter time. Beginners may find the vocabulary challenging. While the course is beneficial for those pursuing a career in digital marketing, it might be less valuable for those without interest in the field. Overall, Professor Buchanan received positive feedback for his approachability and helpfulness.',
-        'fall 2020':
-            'The course on Digital Marketing is praised for its broad overview, making it suitable for beginners and those seeking a lighter workload alongside tougher classes. Students appreciate the structure, which includes early access to assignments and exams, allowing them to stay ahead. However, some reviews express disappointment as the course lacks depth in technical analytics, falling short of expectations for more focused, applied marketing techniques. While the lectures and case studies are deemed interesting, the exams are criticized for being too easy, requiring minimal effort for passing grades. Overall, it serves as a basic introduction but misses the opportunity for a more advanced exploration of digital marketing analytics.',
-        'spring 2020':
-            'The course received positive feedback for its engaging and concise lectures, which many students found informative and easy to understand. Participants appreciated the theoretical knowledge and terminology related to the digital advertising space, highlighting the clarity and simplicity of the assignments. However, while the reviews were mostly favorable, there was no mention of significant negative aspects, indicating a general satisfaction with the course overall.',
-        'spring 2019':
-            'The course received positive feedback for its accessibility and effective resources, particularly appealing to those pursuing a business analytics option. Reviewers appreciated the well-done, free text, which serves as a valuable introduction to digital marketing. The course covers essential topics like A/B testing and regression modeling, which are beneficial for marketing professionals. The enthusiastic teaching style of the professor was also highlighted. However, some participants noted that the course may be easier for those with prior marketing experience. The assessment format, featuring multiple-choice exams alongside creative case studies, received mixed reactions, suggesting a desire for more challenging evaluation methods. Overall, it offers a solid foundation in digital marketing with practical applications.',
+        'summer 2024': {
+            pro: 'Decent course overall with fair writing assignments and support from midterm grades.',
+            con: 'Heavy emphasis on exams in the overall grade and lectures may not be sufficient for good marks.',
+        },
+        'spring 2024': {
+            pro: 'The course is well-organized with clear lectures and a light workload. It provides a comprehensive introduction to digital marketing and includes easy-to-complete assignments and discussions.',
+            con: 'Some may consider it too easy and lacking in depth, especially if they are pursuing a more rigorous curriculum.',
+        },
+        'fall 2023': {
+            pro: 'The course is described as easy and accessible, making it enjoyable for students who appreciate a less strenuous workload. Many found the content interesting and feel that it provides a new perspective on the business side of software companies.',
+            con: "The course is criticized for being overly simplistic, with some students likening it to a 'degree mill.' Concerns were raised about academic integrity due to students using ChatGPT for assignments, and the overall lack of challenging content was noted.",
+        },
+        'spring 2023': {
+            pro: 'Course is considered very easy with minimal effort required for homework and exams.',
+            con: 'Concerns that the course contributes to OMS programs being perceived as degree mills.',
+        },
+        'summer 2023': {
+            pro: 'The course is considered easy and the subject matter is relevant for web-related work, providing valuable insights into ads and web financing.',
+            con: 'Assignments felt superficial and not meaningful, grading policy by TAs was criticized, and concerns were raised about grade integrity.',
+        },
+        'fall 2022': {
+            pro: 'The course offers practical knowledge in digital marketing tools such as SEO, with engaging and concise lectures, interesting case studies, and fair assessments. It is well-structured and allows flexibility in pacing, making it suitable for pairing with other courses.',
+            con: 'The time commitment may be higher than expected for those who choose to engage fully with the course materials, and students may need to allow around 10 hours per week to succeed if they read the textbook carefully.',
+        },
+        'spring 2022': {
+            pro: 'The course is easy, valuable, and practical, providing a good refresher for those in the Digital Advertising industry. The content is interesting and taught by an active professor, making it suitable for students looking for a relaxing semester.',
+            con: 'It is perceived as very easy and possibly lacking in depth, leading some to believe it may not effectively challenge those looking to learn more advanced topics in the field.',
+        },
+        'fall 2021': {
+            pro: 'The course is easy, highly relevant, and allows for hands-on experimentation in digital marketing, with a well-structured workload that accommodates learning and application in real life.',
+            con: 'Exams are heavily weighted, making it possible to significantly impact the final grade, and some students report that the textbook content may be necessary for understanding exam questions.',
+        },
+        'summer 2021': {
+            pro: 'The course has a good reputation and covers various aspects of digital marketing with engaging content and a passionate instructor. Well-structured with both major and minor case reviews, along with comprehensive video lectures.',
+            con: 'Some study is required, and the textbook is not highly rated, described as pretty good but not great.',
+        },
+        'spring 2021': {
+            pro: 'The course provides a comprehensive introduction to digital marketing with a flexible structure, allowing students to learn at their own pace. The instructor is engaging, and the content is relevant and applicable to real-world situations, making it enjoyable for students.',
+            con: 'The course may not meet the expectations of those seeking a rigorous graduate-level experience, as it is considered easy and lacks practical application in digital marketing analytics.',
+        },
+        'summer 2020': {
+            pro: 'Course is easy and interesting, with concise video lessons and supportive professor; suitable for checking a box for credit if you have marketing knowledge.',
+            con: 'Content is too easy and may not provide in-depth knowledge; minimal learning for those not self-motivated.',
+        },
+        'fall 2020': {
+            pro: 'The course provides a fantastic overview of all Digital Marketing topics and is good for those looking for an easier class to pair with a harder one. The lectures are engaging and the homework, including case studies, requires applied thought.',
+            con: 'The course is considered too basic, offering a broad overview rather than a more technical or applied focus on analytics in marketing, which some students found disappointing.',
+        },
+        'spring 2020': {
+            pro: 'Lectures were informative and concise; straightforward assignments; gained theoretical knowledge about digital advertising.',
+            con: 'N/A',
+        },
+        'spring 2019': {
+            pro: 'The course is easy and provides valuable resources, particularly for those with some prior experience in digital marketing. The instructor is enthusiastic, and the course covers foundational digital marketing knowledge alongside practical case studies.',
+            con: 'None explicitly mentioned.',
+        },
     },
 };

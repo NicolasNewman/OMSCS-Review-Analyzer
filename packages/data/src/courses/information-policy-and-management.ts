@@ -109,13 +109,21 @@ export default {
         },
     ],
     reviewSummaries: {
-        'summer 2023':
-            'The course has received mixed reviews, with several students expressing frustration over its unnecessary difficulty. Quizzes are proctored, open-ended, and tightly worded, which many found challenging. TAs are seen as overly strict in grading, often citing vague references to slides for point deductions. While the reading and writing assignments in discussions are appreciated, the grading system for quizzes raises concerns. Additionally, communication from TAs can be slow, leading to further dissatisfaction. The lack of recent reviews since 2021 may indicate a need for improvement, prompting the desire for constructive feedback from students to enhance the course.',
-        'spring 2021':
-            'The course received mixed reviews, with many students appreciating the engaging assignments and the straightforward grading system that makes earning an A achievable. However, some participants found the content boring, suggesting it may not meet their expectations for excitement in a university setting. It seems that those who struggled academically were more likely to voice dissatisfaction, implying that a mismatch in mindset could be contributing to negative perceptions. Overall, while the course offers valuable and manageable learning opportunities, it may not resonate with all students.',
-        'summer 2021':
-            'The course receives mixed reviews, with some students appreciating its manageable workload and group project component. Many find the quizzes easy, requiring only broad comprehension of the material rather than in-depth study. However, criticism centers on the dry content and ineffective PowerPoint presentations, making it difficult to grasp key concepts. While discussions are considered straightforward and easy to score well on, the need to memorize slide content for quizzes is seen as tedious. Some students suggest using study aids like flashcards or mnemonic devices to succeed. Overall, it offers a low-stress experience but lacks engaging material and effective instructional resources.',
-        'spring 2020':
-            'The course offers valuable insights into information flow within organizations, with Professor Rogers displaying impressive knowledge and enthusiasm. Many students find the material applicable to their jobs, but the demands are intense, requiring extensive memorization and weekly quizzes that some describe as rote and outdated. Group projects can be helpful if partnered with motivated peers, though experiences vary widely. Discussion forums often feel under-engaged, resembling mere checkbox exercises instead of meaningful exchanges. Overall, students report spending significant time on reading and quizzes, making it a challenging course—especially for those balancing full-time jobs or slower reading speeds. While promising, many believe the course would benefit from restructuring to enhance engagement and lessen the rote memorization.',
+        'summer 2023': {
+            pro: 'The emphasis on reading and writing is appreciated, as it promotes engagement with the material.',
+            con: 'The course has been made unnecessarily difficult, with tough quizzes and stringent grading from TAs, who also take a long time to respond to questions.',
+        },
+        'spring 2021': {
+            pro: 'Interesting homeworks and easy to achieve a good grade.',
+            con: 'Some students found the class boring.',
+        },
+        'summer 2021': {
+            pro: 'The course has a manageable workload with a clear structure, including a group project that helps integrate learning topics. Discussions are easy to score highly in.',
+            con: 'The materials, particularly the PowerPoints, are criticized as lacking depth, making it necessary to memorize information without much context, which some students found unhelpful.',
+        },
+        'spring 2020': {
+            pro: 'Professor Rogers is knowledgeable and the course covers useful material that can be applied in professional settings.',
+            con: 'The course involves excessive memorization, poorly structured quizzes, and potentially unproductive group projects. Students find the discussions unengaging and the reading requirements overwhelming.',
+        },
     },
 };

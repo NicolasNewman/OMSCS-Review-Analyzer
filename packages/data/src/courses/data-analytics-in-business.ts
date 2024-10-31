@@ -1126,47 +1126,89 @@ export default {
         },
     ],
     reviewSummaries: {
-        'spring 2024':
-            'The course has received significant criticism for its lack of depth and relevance, with many students questioning its necessity in the business analytics program. While some found the finance and supply chain sections well-taught, they noted that much of the material was repetitive or high-level, leaving little room for in-depth learning. The grading system was described as overly lenient, often allowing students to pass without fully engaging with the content. Several reviews highlighted the project as a major frustration, with issues arising from group dynamics and poorly written code. Conversely, some appreciated the lighter workload for balancing with other studies, but overall, there was a strong sentiment that this course should be optional rather than mandatory.',
-        'summer 2024':
-            "The course receives mixed reviews, with some highlighting the chaotic experience of balancing family responsibilities and online learning. However, a standout feature is the marketing section by Professor Frederic Bien, which is praised for its effectiveness in engaging students. Many appreciate the clarity and quality of his lectures, even noting that they can provide a calming effect, as experienced by one parent who managed to soothe their child to sleep during a session. Overall, while the course structure may present challenges, Professor Bien's teaching is a significant highlight that enhances the learning experience.",
-        'summer 2023':
-            'The course received mixed reviews, highlighting both strengths and weaknesses. Many students appreciated the in-depth focus on R programming, noting that it provided valuable coding skills and analytical techniques not covered in previous courses. The group project was also seen as beneficial, promoting collaboration and practical application of learned concepts. However, criticisms were directed at the outdated and shallow content, particularly in the Digital Marketing unit, which some felt was unworthy of enrollment. Additionally, concerns were raised about the teaching quality of several instructors, with calls for improvements in their delivery and engagement. Overall, while some found value in the course, others deemed it low quality and not worth the required commitment.',
-        'fall 2023':
-            "The course, structured around Regression, Investments, Marketing, and Operations Management, offers a solid group project that helps apply theories to real-world problems, making it a highlight for students. The workload can be light during non-exam weeks, with only about an hour of lectures or 4-6 hours for revisions during midterms. However, significant drawbacks include numerous errors in midterm and assignment materials that require student intervention and unclear communication during exams. The regression and marketing lectures lack engagement, often feeling repetitive and overly reliant on slide content. Additionally, students find the timing of the group project problematic, as only regression is taught beforehand, necessitating reliance on prior knowledge from other courses. Overall, the project is the course's main strength amidst its challenges.",
-        'summer 2022':
-            "Reviews of the course present a mixed bag of opinions, highlighting both strengths and significant weaknesses. On the positive side, many found the TA office hours helpful for homework and exams and noted that a well-paced project could facilitate learning. However, numerous reviewers criticized the course's organization, content depth, and the instructor’s teaching effectiveness. They described the assignments as poorly designed, often featuring lazy multiple-choice questions and confusing peer grading. The pacing was particularly overwhelming in the summer term, with assignments due back-to-back. Many felt the project was disconnected from the course content, creating frustration. Overall, the course is deemed poorly structured and in need of substantial redesign and improvement.",
-        'spring 2023':
-            'Reviews for the course highlight significant dissatisfaction with the organization and quality of the materials. Many students found the group project to be particularly counterproductive, citing a lack of clarity and guidance that led to wasted time and frustration. The late responses from instructors and unhelpful teaching assistants further contributed to the negative experience. Some praised the finance section as interesting, but overall, the digital marketing content received criticism for being outdated and poorly structured. Many students asserted that the course was a waste of time and money, advocating for the removal of the project and improvements in course management to enhance future learning experiences.',
-        'fall 2022':
-            "The course receives significant criticism for its disorganization and poor execution, particularly due to the collaborative efforts of multiple professors, which has led to confusing deadlines and overwhelmed staff. Technically, the content is overly introductory, making it feel redundant for those with prior experience. Despite this, grading remains a challenge due to poorly designed assignments and inconsistent evaluation by TAs, with one student's grade fluctuating by 45 points after a regrade. The extensive and inconsistent project guidelines add to the frustration, particularly with team dynamics that allow non-contributing members to evade accountability. Overall, many students feel that simple improvements could greatly enhance the course's effectiveness, raising doubts about the instructors' commitment to making necessary changes.",
-        'spring 2022':
-            "The reviews for the course overwhelmingly indicate a lack of organization and poor content quality. Many students feel that the course does not meet master's level expectations, particularly criticizing the vague project instructions and disorganized deliverables that contributed to a stressful experience. While some appreciated the group work and responsive TAs, others described the teaching staff as unhelpful and disengaged. The marketing module received significant criticism for being irrelevant and derivative, while the finance and operations sections had mixed reviews. Ultimately, students expressed frustration with the grading structure, particularly the last-minute emphasis on final assignments, questioning the overall value of the course and the competency of the faculty involved.",
-        'fall 2021':
-            'The course received mixed reviews from students. On the positive side, many found it helpful for reinforcing knowledge and appreciated the structured approach to topics, especially regression and finance, which were deemed useful and well-taught. The easy pace allowed for deeper exploration of materials. However, numerous students criticized its lack of depth and engagement, claiming it felt like a waste of time with redundant content, particularly in marketing, which was described as outdated and uninformative. The computational elements of exams were seen as tedious and unnecessarily time-consuming. While some valued the foundational R training, others felt the course lacked rigor and adequate challenges, suggesting improvements in content relevance and efficiency in module delivery.',
-        'summer 2021':
-            "The course received mixed reviews from students with both positive and negative feedback. On the positive side, many appreciated the engaging lectures by Professor Bien and found the content easy to understand, especially for those without a business background. Students noted the assessments were well-aligned with the course material, leading to high grades. However, criticisms emerged regarding the course's lack of depth, with several students finding it too basic and suggesting that it shouldn’t be a graduate-level class. Issues such as errors in lectures and assignments, low-quality TA support, and a disorganized structure also surfaced, leading some to feel it was a waste of time and resources. Overall, while some enjoyed the course's ease, others felt unchallenged and dissatisfied.",
-        'fall 2020':
-            'The course has generated mixed reviews, with many students criticizing its organization and delivery. While some found the finance section valuable and learned new concepts, others highlighted the dry teaching style, especially from the regression professor who simply reads slides. Many noted that the course lacks practical application and is filled with errors in materials, quizzes, and exams, leading to frustration. Some students managed to earn easy grades but felt that the class offered little depth, resulting in a lack of applicable knowledge after completion. Conversely, a few praised specific sections, particularly in operations management, citing excellent teaching and hands-on opportunities. Overall, the reputation for being unchallenging and poorly conceived has led to disappointment among students.',
-        'spring 2021':
-            "The course offers broad exposure to various topics like regression, finance, marketing, and operations, but participants report that the content remains surface-level, making it difficult to apply the knowledge practically. While some students appreciate the ease of assignments and lectures, others criticize the ambiguous wording of exam questions and the overly time-consuming homework, often requiring more than 10 hours weekly. The regression segment was deemed poorly executed, and the overall course structure lacked depth, leading to frustration among students. However, the teaching assistants and interactive components garnered positive feedback. The consensus suggests the course serves as an introductory, low-effort gateway rather than a comprehensive study, making it less representative of the OMSA program's rigor.",
-        'spring 2020':
-            "The course received mixed reviews, with some students appreciating the engaging finance and operations sections while criticizing the disorganized and lengthy marketing and regression modules. Many felt the content was a superficial overview lacking depth in analytics, making it unsuitable for a master's level class. Positive aspects included the practical application of R and relatively easy tests, but the lectures often suffered from poor structure and excessive length. Organization was frequently cited as a significant issue, with unclear syllabus changes and unhelpful TAs. Overall, while it has potential and covers relevant topics, the course design feels uneven, suggesting a need for significant improvements to meet the expectations of students pursuing an analytics degree.",
-        'summer 2020':
-            "The course received mixed reviews, highlighting both its strengths and weaknesses. Many students found it easy, with open-book exams and unlimited self-assessments leading to high grades with minimal effort. However, the course was criticized for its lack of depth and coherence, covering familiar topics without providing unique insights. The content, spanning regression, finance, marketing, and operations management, felt disjointed, with some modules described as rote and lacking practical application. Students noted issues with assignment clarity and inconsistent lecture quality. While some appreciated the support from TAs and professors, others felt the course should be an elective rather than a requirement, arguing it didn't meet graduate-level expectations and left them feeling underprepared for more advanced classes.",
-        'fall 2019':
-            'The course received mixed reviews, with many students finding it easy and straightforward, largely due to open-book exams, unlimited attempts on self-assessments, and minimal workload. Most content was seen as repetitive, often mirroring previous classes, and lacked depth, leaving students feeling they learned little. While the lectures were appreciated for their clarity, especially in accounting and finance, other modules like marketing and business strategy suffered from disorganization and disconnect from practical applications. Inconsistencies with assignment deadlines added to frustrations. Overall, the course is regarded as a GPA booster, best suited for those looking to lighten their semester load, despite concerns about the instructional quality and course coherence.',
-        'fall 2018':
-            'The course received mixed reviews, highlighting both strengths and significant weaknesses. Positive aspects included excellent required textbooks and useful topics, alongside minimal workload and straightforward homework assignments that generally aligned with course content. However, negative feedback centered around poorly constructed exams and homework, with many questions lacking clarity and not adequately preparing students for assessments. Students expressed frustration over unresponsive TAs and the lack of meaningful interaction with the professor, which contributed to a feeling of disconnection. Many felt the course content overlapped with other classes, diminishing its value, while some criticized the heavy reliance on memorization for exams. Overall, despite potential, the course suffers from quality control issues and insufficient support, leading to disappointment among students.',
-        'summer 2018':
-            "The reviews of the course highlight a mix of perceptions regarding workload, content depth, and exam structure. Many students noted the course's light workload and simplicity, with easy homework assignments that do not adequately prepare them for the challenging final exam, which comprises two poorly constructed parts—multiple choice and coding. While some appreciated the introductory materials and saw improvements in their R skills, the overarching sentiment expressed frustration with the course's redundancy with ISYE6501 and a lack of depth in business applications. The final exams were critiqued for being excessively tricky and poorly worded, leading to a disconnect between the coursework and practical analytics. Overall, several reviewers recommended significant course revamps to enhance engagement and relevancy.",
-        'spring 2019':
-            'Overall, the reviews for the course indicate significant dissatisfaction among students, highlighting critical issues with course structure, alignment, and support. Many found lectures simplistic and poorly related to homework and exams, which were riddled with errors and inconsistencies. Students felt the quizzes and assignments often required them to teach themselves using external sources rather than the course materials. Additionally, the lack of collaboration and support from TAs frustrated many, with concerns about the professor’s minimal involvement. However, a few students acknowledged the useful textbooks and appreciated the organized presentation of some materials. While plans for revamping the course have generated hope for improvement, the current experience has left many feeling disappointed and dissatisfied.',
-        'summer 2014':
-            'The course started off smoothly, with manageable homework assignments that were helpful. However, the most significant issue reported was the poorly planned exam, which many felt did not align with the material covered in class, leading to frustration among students. There is a strong desire for the professor to revise the exam structure for future iterations of the course. Until these changes are made, reviewers expressed reluctance to recommend the course, highlighting the need for improvement in the assessment methods to better reflect the course content.',
-        'summer 2015':
-            'The course has received mixed feedback, with many students finding it underwhelming due to its limited video content, only 30-40 minutes every 20 weeks. The grading system, which heavily relies on five guided homework assignments for 50% of the grade and a final exam for the remaining half, has frustrated learners. Critiques focus on poorly worded exam questions and an excessive emphasis on memorization of trivial details, which detracts from the overall learning experience. While some aspects may appeal to a certain learning style, many feel it lacks depth and rigor, particularly compared to other business courses.',
-        'spring 2018':
-            'The course is generally straightforward, appealing to those without coding experience, as it primarily focuses on using Radiant, a GUI tool for R. However, many students found the recorded lectures from in-person sessions difficult to comprehend and felt the course material lacked engagement, with uninteresting cases and examples. There are hopes for improvement, as the class is set to be restructured for an online format, which could enhance the learning experience. Overall, while the course provides a basic introduction to the subject, it may benefit from more accessible content and clearer presentations.',
+        'spring 2024': {
+            pro: 'The course is described as easy and light, allowing students to focus on other subjects. Some found the finance and supply chain material interesting and well-taught.',
+            con: 'The course materials are seen as repetitive and superficial, lacking depth and engagement. The project was poorly received, with complaints about team dynamics and the quality of work. Grading is considered lenient, leading to a lack of true learning.',
+        },
+        'summer 2024': {
+            pro: 'The marketing section by Professor Frederic Bien is highly appreciated for its effectiveness in engaging and helping students concentrate.',
+            con: 'The overall experience of the course is described as chaotic and difficult to manage.',
+        },
+        'summer 2023': {
+            pro: 'The course provides valuable skills in using R for analysis and includes a deeper treatment of linear regression, as well as a beneficial group project that allows for practical application of various analytics techniques.',
+            con: 'The course has low-quality content, particularly in the Digital Marketing unit, outdated materials, and some instructors are considered ineffective, leading to a negative overall experience.',
+        },
+        'fall 2023': {
+            pro: 'The group project allows for real-world application of models and consolidating knowledge, with light workload during non-intensive weeks.',
+            con: 'Midterms and assignments have significant errors, lectures are often unengaging and verbatim, and the timing of the group project is inadequately supported by the coursework.',
+        },
+        'summer 2022': {
+            pro: 'Some helpful TA office hours for homework and exams; project is straightforward if paced well.',
+            con: "Course is disorganized, with poorly thought-out assignments, irrelevant content, and a frustrating project that lacks proper guidance; overall dissatisfaction with the instructor's effectiveness.",
+        },
+        'spring 2023': {
+            pro: 'The finance section of the course was found interesting by some students.',
+            con: 'The course is poorly organized, with a messy group project, late materials, low-quality content, and unhelpful support.',
+        },
+        'fall 2022': {
+            pro: 'N/A',
+            con: 'The course is poorly executed, disorganized, with inconsistent grading and unclear assignment guidelines. Many students found it too introductory and felt frustrations with group work dynamics.',
+        },
+        'spring 2022': {
+            pro: 'Instructors are responsive and helpful through Piazza, and group work can provide a positive experience despite course challenges.',
+            con: 'The course is poorly organized with vague and conflicting instructions, especially regarding assignments and group projects, leading to high stress and frustration among students. The content quality is criticized, particularly in marketing, and many found the lectures unengaging.',
+        },
+        'fall 2021': {
+            pro: 'The course provides a solid introduction to R, with helpful resources and a structured format that supports practice and testing of knowledge. Some modules, such as Regression and Finance, were found to be useful and interesting by certain students.',
+            con: "Several reviews highlighted the course's lack of depth, relevance, and effort in its materials, with some modules described as outdated or filled with unnecessary content. The computational parts were seen as time-consuming, and overall the course felt unengaging to some students.",
+        },
+        'summer 2021': {
+            pro: 'Many students found the course easy and enjoyable, with good lecture quality and supportive professors. It successfully introduces analytics concepts, particularly for those without a business background.',
+            con: 'Several students criticized the course for being too basic and lacking depth, leading to minimal learning and wasted time. Issues with errors in lecture materials, inconsistent grading, and poor-quality TA support were also noted.',
+        },
+        'fall 2020': {
+            pro: 'The course includes a finance section that many found valuable, and some appreciated the operations management lectures for their engagement and relevance.',
+            con: 'The course suffers from poor organization, an over-reliance on memorization, lack of practical application, and unenthusiastic teaching styles. There are numerous errors in lecture materials, quizzes, and exams, making the overall experience frustrating for students.',
+        },
+        'spring 2021': {
+            pro: 'The course provides broad exposure to various topics, allows for interaction with TAs and professors, and has structured activities such as self-assessments and coding exams. Some students find the material informative, especially in finance and operations.',
+            con: 'Many students feel the course lacks depth, with surface-level content leading to vague or poorly worded exam questions. The workload is perceived as minimal, making it potentially easier than other courses, which some view negatively.',
+        },
+        'spring 2020': {
+            pro: 'The finance and operations modules were praised for being interesting and well delivered. Many students found the course easy and appreciated the practical analytics applications, particularly in finance. Self-assessment opportunities were noted as beneficial for learning.',
+            con: 'The course is characterized by disorganization, with significant issues in syllabus clarity, assignment expectations, and course structure. Many found the regression and marketing sections poorly presented, overly long, and not insightful. TAs often provided unclear guidance, and there were complaints about the lack of depth in analytics content.',
+        },
+        'summer 2020': {
+            pro: "Some students enjoyed the course's structure as an introduction to various topics and appreciated the support from TAs and professors, noting it was manageable and provided a light workload.",
+            con: 'Many reviews pointed out poor execution, disorganization, minimal value, repetitive errors, and a lack of depth and relevance in the course material, leading to frustration among students.',
+        },
+        'fall 2019': {
+            pro: 'The course is generally considered easy, with open-book exams, unlimited self-assessments, and assignments closely following lecture content. Many students found it to be manageable and a good option to pair with more challenging courses.',
+            con: 'The course lacks depth, with many students feeling that the material was too simplistic or incoherent. Issues included poorly designed questions, unrelated course materials, and a lack of engaging instruction from some professors.',
+        },
+        'fall 2018': {
+            pro: 'The course includes useful topics and materials, with textbooks receiving positive feedback. Some students appreciated the minimal workload and the potential for learning new concepts.',
+            con: 'Major issues with poorly worded exam questions, lack of effective support from TAs and the professor, and assignments that did not prepare students adequately for exams were noted. Many students expressed disappointment with the overall structure and teaching quality.',
+        },
+        'summer 2018': {
+            pro: 'The course has a light workload, making it easy to complete and good for those looking for a low-stress experience. Some students appreciated the interesting material and the improvement of their R skills.',
+            con: 'The course content is too shallow, repetitive, and does not adequately prepare students for the exams. Many found the homework easy and poorly structured, and the exams, particularly the final, were criticized for being poorly worded and stressful.',
+        },
+        'spring 2019': {
+            pro: 'Some students appreciated the textbook and the organization of the PowerPoint slides. Reading materials like ISLR were deemed helpful.',
+            con: 'Numerous complaints about misalignment between homework/exams and lectures, significant errors in assignments, lack of engagement from faculty, ineffective TA support, and insufficient practical content.',
+        },
+        'summer 2014': {
+            pro: 'The course was easy to manage in the beginning with the homework assignments.',
+            con: 'The exam was poorly planned and did not fairly represent the course material.',
+        },
+        'summer 2015': {
+            pro: 'N/A',
+            con: 'The course is underwhelming with minimal video content, excessive emphasis on memorization, and poorly worded questions.',
+        },
+        'spring 2018': {
+            pro: 'No real coding experience needed, suitable for beginners.',
+            con: 'Lectures were difficult to understand, and material was not very engaging.',
+        },
     },
 };

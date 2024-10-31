@@ -125,15 +125,25 @@ export default {
         },
     ],
     reviewSummaries: {
-        'spring 2024':
-            "The course received mixed reviews, with students appreciating the hands-on experience and valuable skills gained from the extensive group project format. Many acknowledged that the content may not directly align with their major, yet highlighted the practical applications like coding, teamwork, and integration of computer science with research and presentation. Professor Borowitz was lauded for her brilliance and engagement, fostering a supportive environment by personally addressing student inquiries. The class's unique focus on space weaponry and the opportunity to participate in a simulated war game added relevance and excitement to the learning experience. However, the collaborative nature may not appeal to everyone, especially those seeking more traditional instruction.",
-        'spring 2022':
-            'The course received mixed reviews from students, especially those with a background in engineering and software. Positively, many found it easy to achieve a high grade, noting that grading was generous. However, significant drawbacks overshadowed the positives. The course heavily relied on a single, cumbersome group project focused on a simulation tool called NetLogo, which many found unmanageable and not user-friendly. Lectures were deemed irrelevant, leading to disengagement, and the workload was poorly structured with erratic deadlines, forcing intense last-minute work. Overall, the lack of valuable content and skills resulted in strong regret among students, with many advising against taking the course altogether for those seeking meaningful learning experiences in the OMSCS program.',
-        'fall 2021':
-            "The course is perceived as an easy way to earn an A, making it appealing for students seeking a light workload. However, it has been criticized for its lack of relevance to cybersecurity, leading to disappointment for those expecting valuable insights related to their field of study. While the course itself is described as acceptable, it highlights a broader issue with the program's elective offerings, suggesting that students may not find suitable courses aligned with their degree goals. Overall, it's a mixed review emphasizing ease of grading but inadequate subject matter for relevant learning.",
-        'spring 2021':
-            'The course provides an easy way to earn credits, focusing heavily on a final group project that accounts for 80% of the grade. While the structure encourages collaboration and presents multiple opportunities for feedback through interim presentations, some students felt it lacked challenge and depth. Although the coding aspect in NetLogo is manageable, the limited time for project development can lead to stress. Positive feedback highlights engaging content and the benefits of learning presentation skills, but the grading system, which often caps at 95%, raised concerns about fairness. Group dynamics play a significant role in the experience, with positive collaborations enhancing enjoyment, while poor teamwork could detract from the learning experience. Overall, the course is recommended for those interested in Agent Based Modeling in a military context.',
-        'fall 2020':
-            'Overall, the course received positive feedback for its engaging content and supportive instructors, particularly Dr. Borowitz and TA Chandler Thornhill, both praised for their knowledge and helpfulness. Students enjoyed the group project and found the assignments manageable, with some easy tutorials and a few weeks of reading involved. However, the group dynamics can significantly affect the experience, meaning that those with less cooperative peers might not enjoy it as much. Despite the occasional workload, many felt this class was an excellent choice for fulfilling the Flexible Core requirement for various tracks in Information Security and Policy.',
+        'spring 2024': {
+            pro: 'Students valued the relevant skills learned, such as quickly picking up new coding languages and working in teams. The professor was described as brilliant, engaged, and responsive to student questions.',
+            con: 'The course is primarily a long group project and its content may not align directly with most majors.',
+        },
+        'spring 2022': {
+            pro: 'The course is relatively easy to achieve a good grade with generous grading.',
+            con: 'The assignments are centered around a challenging group project, lectures are not helpful, and overall, the course lacks value for career development.',
+        },
+        'fall 2021': {
+            pro: 'The course is easy and students can easily achieve an A grade.',
+            con: 'The subject matter is not related to cybersecurity, making it unsuitable for those looking to learn about that field.',
+        },
+        'spring 2021': {
+            pro: 'The course provides a good dive into Agent Based Modeling applied to military combat, with a strong focus on group work and improving presentation skills through iterative feedback. Students appreciate the structure and the absence of exams, favoring project-based learning.',
+            con: 'The course can feel like a filler due to a lack of challenging assignments and the heavy reliance on group dynamics, which can lead to difficulties if the group is not strong. Some students found the coding portion rushed and challenging due to time constraints.',
+        },
+        'fall 2020': {
+            pro: 'The class is fun and provides valuable learning about modeling and NetLogo. The instructor and TA are knowledgeable and helpful, and the group project fosters collaboration.',
+            con: 'The class may involve a lot of reading for a few weeks, which could be challenging for some students. N/A',
+        },
     },
 };

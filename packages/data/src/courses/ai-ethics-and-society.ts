@@ -1035,33 +1035,61 @@ export default {
         },
     ],
     reviewSummaries: {
-        'summer 2024':
-            'The course is easy and beneficial for students seeking a lighter workload amidst a busy schedule. It emphasizes the crucial bias/variance tradeoff in machine learning, highlighting its potential real-world consequences, which is especially relevant for those in the ML specialty. The instruction focuses on the practical challenges of applying ML models, encouraging a deeper understanding of their nuanced implications. However, while the content is significant, some students feel the core message may only become apparent after repeated exposure, suggesting an initial lack of clarity. Overall, the course effectively combines accessibility with essential ethical considerations in data science and modeling.',
-        'spring 2024':
-            'The course on AI Ethics receives mixed reviews from students. Many initially enrolled for its perceived ease and interesting subject matter but found the assignments tedious and poorly structured. Critics highlight an excess of repetitive tasks that detract from deeper learning, suggesting a disconnect between the lectures and assignment relevance. However, some students appreciated the straightforward nature of the coursework, finding value in discussions about laws and ethical considerations in AI. Additionally, exposure to software tools for bias mitigation garnered positive feedback. Overall, while the class offers an easy option for those with basic statistics knowledge, significant improvements in assignment design and depth could enhance the learning experience.',
-        'summer 2023':
-            'The course is generally perceived as easy, especially for those with Python experience, as assignments are straightforward and grading is lenient, often resulting in high grades. However, many students find the assignment deliverables unclear, leading to confusion and excessive reliance on discussion forums for clarification. Some assignments come across as busy work, with suggestions for earlier releases to maintain engagement. While the lectures are informative, they might require updates, with case studies viewed by some as time-wasting. Although the professor is less involved, TAs are responsive. Overall, while students appreciated the low demands on their time, they reported minimal knowledge gain, primarily about ethical issues in AI and data management.',
-        'fall 2023':
-            'The course "AI, Ethics, and Society" receives mixed reviews from students. On the positive side, many appreciate its introduction to AI fairness, and find it beneficial for learning data analysis using Python, particularly for those new to the field. The assignments, while frequent, are seen as manageable and serve as a light introduction to essential topics. However, numerous complaints address the course\'s tedious and repetitive assignments, poor communication, and lack of depth in the subject matter, often labeling it as a waste of time. Critics feel that the content is overly simplistic for graduate-level study and lacks clear grading criteria. Overall, the course may be suitable for those seeking a low-stress option but frustrated by its execution.',
-        'spring 2023':
-            'The reviews for the Spring 2024 course highlight a stark divide in student experiences. On one hand, many found the class easy, benefitting from lenient grading and engaging lectures that provided insights into ethical data handling and AI fairness. However, many students expressed frustration with the poorly written assignments, vague instructions, and the overwhelming reliance on Ed Discussions for clarification. They criticized the course for busy work that felt repetitive and lacking in depth, claiming it did not foster genuine learning. Some appreciated the opportunity to pair the course with more challenging classes, viewing it as a way to maintain a balanced workload. Overall, the course seems suited for those seeking an easy grade without the expectation of substantial knowledge gain.',
-        'summer 2022':
-            'Overall, student reviews of the course reflect a significant divide in experiences. Many found the class to be excessively filled with busywork, equating it to tedious high school assignments that took up to 8 hours on basic concepts like mean, median, and mode, with minimal engagement in AI Ethics content. Frustration arose from unclear assignments and grading discrepancies, such as losing points for formatting issues despite following prompts correctly. Conversely, some students appreciated the course for its thought-provoking elements and the opportunity to view technology through a new lens, despite the workload being demanding, particularly in a summer semester. While the instructors were described as nice, a strong call for course redesign was noted to improve relevance and engagement.',
-        'fall 2022':
-            'The course on AI Ethics has garnered mixed reviews, primarily leaning towards negative feedback. Many students found it too easy, with simple assignments yielding high grades despite minimal learning outcomes. While some appreciated the accessibility and simplicity of the coursework, others criticized it as overly repetitive and lacking depth, describing assignments as busy work that failed to engage with the complexities of AI ethics. Some highlighted an absence of rigorous exploration into critical topics like bias and fairness, which left them feeling frustrated and disillusioned. On the positive side, a few students noted the course could serve as a light introduction for newcomers to the field. Nonetheless, the consensus is that if substantial learning is the goal, alternatives should be sought.',
-        'spring 2022':
-            "The reviews for this course reveal a sharp divide in student experiences. Many find the coursework excessively easy and repetitive, with assignments that seem pointless, making it ideal for those needing a high grade without investing much effort. However, several students with backgrounds in ethics or philosophy express disappointment, arguing the course lacks depth in ethical discussions and presents data science concepts without adequate instruction. Critics argue that the ethical components, though important, could be condensed into a shorter format. Conversely, supporters appreciate the focus on ethics in technology design, emphasizing its relevance to contemporary issues. Ultimately, the course's value seems to hinge on individual goals and prior knowledge in data science.",
-        'fall 2021':
-            'The reviews reflect a mixed experience with the course, highlighting both its accessibility and limitations. Many students found the course easy, benefiting from its straightforward assignments and responsive teaching assistants. It serves as a basic introduction to data analytics tools like Python, Jupyter, and pandas, which some found helpful. However, numerous reviewers criticized the repetitiveness of assignments focused heavily on "protected classes," noting a lack of depth in content and a failure to promote critical thinking. While some experienced students deemed it a suitable option for lighter semesters, others expressed disappointment in its failure to engage with pressing ethical issues more meaningfully. Overall, it is perceived as a "freebie" class that underdelivers on its potential educational value.',
-        'summer 2021':
-            'The course has garnered mixed reviews, highlighting both its ease and lack of depth. Many students appreciated that it required minimal effort and offered a straightforward path to an easy grade, making it ideal for those looking for a lighter course load. However, frequent complaints included the abundance of busy work, unengaging assignments, and a heavy workload initially concentrated in the final week. Critics argued that key concepts were oversimplified or inaccurately presented, and boring content left them unsatisfied and uneducated in machine learning and ethical practices. The class was deemed inadequate for those seeking a meaningful educational experience, with several suggesting improvements to deepen the curriculum and focus less on trivial tasks.',
-        'fall 2020':
-            'The course has received mixed reviews, highlighting both its strengths and weaknesses. On the positive side, students appreciate the pleasant organization, accessible pace, and strong professor, making it suitable for those pairing with tougher classes or new to AI/Python. However, many reviewers criticize the course for its lack of depth, calling it overly simplistic and more suited for undergraduates rather than graduate-level study. Assignments often feel tedious and unclear, leading to frustration over unclear expectations. While some students acknowledge minimal time investment and ease of completion, they express disappointment in the superficial treatment of critical topics like bias mitigation. Overall, the course has the potential to be rewarding, but many feel it fails to deliver substantial learning outcomes.',
-        'spring 2021':
-            'The course has received mixed reviews, highlighting both positive and negative aspects. On the positive side, some students appreciated the focus on ethical considerations in AI and found the projects on bias mitigation and measuring fairness engaging. The midterm was considered fair and easy, especially with the open notes policy. However, many reviewers criticized the class as lacking rigor and depth, deeming it more suitable for beginners or those struggling with Python and statistics. Assignments were described as tedious and ambiguous, with inadequate support from TAs. Overall, while it might cater to those seeking a basic understanding of AI ethics, many students found it unchallenging and uninformative, labeling it a waste of time.',
-        'summer 2020':
-            'The course received positive feedback for its engaging content and low workload, making it accessible for students with a background in Python and basic statistics. Reviewers appreciated the emphasis on understanding biases in data and algorithms, with interactive discussions replacing traditional readings. Assignments were deemed straightforward, and the final project offered an opportunity for practical application. However, some students noted a lack of depth in AI and ML concepts, indicating the course is not suited for those seeking intensive technical training. Additionally, unclear assignment instructions posed challenges, causing confusion among students not accustomed to subjective evaluations. Overall, it’s seen as a good elective for ethical considerations in machine learning.',
-        'spring 2020':
-            'The AI Ethics course, newly introduced this semester, received mixed reviews. Positively, students appreciated the relevant content and engaging lectures, with exposure to real-world ethical issues and examples of algorithmic bias. The course structure was seen as accessible, welcoming those without strong programming experience. However, many found the theoretical depth lacking, with basic assignments and a poorly received midterm exam riddled with trick questions. Participation assignments felt superficial in the online format, and project feedback was minimal. While the teaching team displayed commendable adaptability, students anticipated improvements to enhance rigor and depth. Overall, it serves as a light introduction but might benefit from more challenging content in future iterations.',
+        'summer 2024': {
+            pro: 'The course is easy to follow and suitable for those balancing other commitments; it effectively highlights the importance of the bias/variance tradeoff in machine learning.',
+            con: 'The course may seem too simplistic, and its deeper significance regarding real-world model implications might only be apparent after repeated exposure.',
+        },
+        'spring 2024': {
+            pro: 'The class is considered easy for those with basic stats knowledge, and some material, like ethical considerations and software tools for mitigating bias, is viewed as interesting and worth discussing.',
+            con: 'Many assignments are seen as poorly constructed, resulting in confusion and frustration, and the class is criticized for its low-quality lectures and repetitive, unengaging assignments.',
+        },
+        'summer 2023': {
+            pro: 'The course is considered easy, particularly for those familiar with Python, with relaxed grading and manageable assignments. The lectures are engaging, and TAs provide good support.',
+            con: 'Assignments are often vague and feel like busy work, causing confusion among students. The final exam is seen as unproductive and difficult to navigate.',
+        },
+        'fall 2023': {
+            pro: 'The course serves as a solid introduction to AI, stats, and data analysis, providing practical examples and valid discussions on AI fairness. Many students find it accessible and suitable for those with little programming experience.',
+            con: 'The course is criticized for its tedious and poorly designed assignments, lack of depth in content, and repetitive material. Many reviews note the frustration caused by unclear instructions and a perceived lack of meaningful learning.',
+        },
+        'spring 2023': {
+            pro: 'Many students found the course easy and a good way to pair with harder courses. Some appreciated the exposure to tools like Jupyter, Pandas, and NumPy, and felt the lectures were engaging.',
+            con: 'Assignments were criticized for being poorly written and confusing, leading to frustration and claims of busywork. Many felt they did not learn much and that the grading was inconsistent.',
+        },
+        'summer 2022': {
+            pro: 'Some students found the course had thought-provoking aspects and helped them view technology from a different perspective.',
+            con: 'Many students criticized the course for excessive busywork, unclear assignments, and a lack of substantial learning regarding AI Ethics.',
+        },
+        'fall 2022': {
+            pro: 'The course offers an easy way to get an A with minimal effort and provides some basic exposure to AI Ethics concepts.',
+            con: 'The course is criticized for its lack of depth, engaging content, and practical application, with many assignments considered busywork that does not enhance learning.',
+        },
+        'spring 2022': {
+            pro: 'The course introduces important topics related to AI ethics and the impact of technology on society, with a focus on ethical decision-making.',
+            con: 'Many students find the course overly easy, repetitive, and filled with pointless assignments that do not contribute to meaningful learning.',
+        },
+        'fall 2021': {
+            pro: 'The course is considered an easy introduction to data analytics with engaging content and supportive TAs, providing exposure to tools like Jupyter, Pandas, and Matplotlib. Many found it suitable for a lighter course load.',
+            con: 'The course is criticized for being repetitive and lacking depth, with ambiguous assignment instructions and tedious tasks. Some students expressed disappointment in the lack of critical thinking and variety in topics covered.',
+        },
+        'summer 2021': {
+            pro: 'Some students found the class easy and manageable, making it suitable for those looking for a lighter semester.',
+            con: 'Multiple reviewers criticized the course for its lack of depth, poor instruction, busy work, and incoherent assignments. Many expressed that it did not meet the expectations of a graduate-level course.',
+        },
+        'fall 2020': {
+            pro: 'The course is well-run with interesting material, a light pace suitable for pairing with other classes, and an accomplished professor. It is considered an easy course that may be a good introduction for new learners in AI and Python.',
+            con: 'The course is seen as too easy and lacks depth in its coverage of bias mitigation techniques. Assignments and projects are criticized for being time-consuming without delivering substantial learning. The overall quality of course materials and clarity of assignments is deemed poor.',
+        },
+        'spring 2021': {
+            pro: 'Some students found the course helpful for beginners in Python and statistics, and appreciated the focus on bias mitigation and fairness in AI.',
+            con: 'Many reviews criticized the course for being boring, lacking in depth, and not providing valuable learning, with ambiguous assignments and low-quality teaching.',
+        },
+        'summer 2020': {
+            pro: 'The course is engaging and encourages critical thinking about bias in software engineering and machine learning. It has a low workload, simple coding assignments, and effective teaching methods with helpful interactions from the instructor and TA.',
+            con: 'The course lacks depth in understanding AI and ML concepts and the clarity of assignment directions can be confusing due to their abstract nature.',
+        },
+        'spring 2020': {
+            pro: 'The course content is relevant and well-curated, providing exposure to real-world ethical issues in AI. The teaching staff is responsive and adaptable, and assignments, while demanding, are engaging. Initial assignments prepare students well, and the lectures are engaging.',
+            con: 'Theoretical depth is lacking, with an emphasis on basic concepts and underexplored libraries. The midterm exam had misleading questions and grading criteria are inconsistent, with minimal feedback on assignments.',
+        },
     },
 };

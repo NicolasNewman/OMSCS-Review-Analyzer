@@ -42,7 +42,7 @@ const processData = ({ course, filter }: IProps) => {
                     rating: number[];
                     workload: number[];
                     n: number;
-                    summary: string | null;
+                    summary: { pro: string; con: string } | null;
                     reviews: Review[];
                 }
             >,
@@ -81,7 +81,6 @@ function Timeline({ course, filter }: IProps) {
     }>({ reviews: [], semester: '' });
 
     const { data, semesterStats } = processData({ course, filter });
-
     return (
         <div>
             <div className="text-2xl mb-2">Review summary by semester</div>
@@ -118,13 +117,20 @@ function Timeline({ course, filter }: IProps) {
                                 });
                             }}
                         >
-                            <div className="flex gap-4 justify-center mb-4">
+                            <div className="flex gap-4 justify-center mb-6">
                                 <div className="">Reviews: {n}</div>
                                 <div className="">Workload: {workload}</div>
                                 <div className="">Rating: {rating}</div>
                                 <div className="">Difficulty: {difficulty}</div>
                             </div>
-                            <div>{summary}</div>
+                            <div className="flex flex-col gap-y-4">
+                                <span>
+                                    <strong>Positive</strong>: {summary?.pro}
+                                </span>
+                                <span>
+                                    <strong>Negative</strong>: {summary?.con}
+                                </span>
+                            </div>
                         </Card>
                     ),
                 )}

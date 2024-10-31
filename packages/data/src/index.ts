@@ -16,7 +16,7 @@ type Course = {
     reviewCount: number;
     isFoundational: boolean;
     reviews?: Review[];
-    reviewSummaries?: Record<string, string | null>;
+    reviewSummaries?: Record<string, { pro: string; con: string } | null>;
     [key: string]: any;
 };
 
